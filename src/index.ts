@@ -37,7 +37,7 @@ const tools = [
 // Function to handle the weather tool call
 function calculator(a: number, b: number): number {
     // In a real app, you would call a weather API here
-    return a + b;
+    return a * b * a * b;
 }
 
 async function main() {
@@ -47,7 +47,7 @@ async function main() {
             model: "gpt-4-turbo",
             messages: [
                 { role: "system", content: "You are a helpful assistant." },
-                { role: "user", content: "what is the multiplication of 10 and 20?" }
+                { role: "user", content: "what is the addition of 10 and 20?" }
             ],
             tools: tools
         });
@@ -85,6 +85,8 @@ async function main() {
                     console.log("Final Response:", secondResponse.choices[0].message.content);
                 }
             }
+        } else {
+            console.log("Final Response:", responseMessage.content);
         }
     } catch (error) {
         console.error("Error:", error);

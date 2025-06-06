@@ -4,7 +4,7 @@ import { SSEServerTransport } from "@modelcontextprotocol/sdk/server/sse.js";
 import { z } from "zod";
 
 const server = new McpServer({
-    name: "Calculator",
+    name: "calculator",
     version: "1.0.0",
     description: "A simple calculator tool",
 
@@ -18,43 +18,47 @@ const server = new McpServer({
 });
 
 // Add a tool for addition
-server.tool(
+server.registerTool(
     "add",
     {
-        a: z.number().describe("First number to add"),
-        b: z.number().describe("Second number to add")
+        description: "Add two numbers",
+        inputSchema: z.object({
+            a: z.number().describe("First number to add"),
+            b: z.number().describe("Second number to add")
+        }).shape,
+        outputSchema: z.object({
+            sum: z.number().describe("The sum of the two numbers")
+        }).shape
     },
     async ({ a, b }: { a: number; b: number }) => {
         const sum = a + b;
         return {
-            content: [
-                {
-                    type: "text",
-                    text: `The sum of ${a} and ${b} is ${sum}`
-                }
-            ]
+            content: [],
+            structuredContent: {
+                sum
+            }
         };
     }
 );
 
-server.tool(
-    "multiply",
-    {
-        a: z.number().describe("First number to multiply"),
-        b: z.number().describe("Second number to multiply")
-    },
-    async ({ a, b }: { a: number; b: number }) => {
-        const product = a * b;
-        return {
-            content: [
-                {
-                    type: "text",
-                    text: `The product of ${a} and ${b} is ${product}`
-                }
-            ]
-        };
-    }
-);
+// server.tool(
+//     "multiply",
+//     {
+//         a: z.number().describe("First number to multiply"),
+//         b: z.number().describe("Second number to multiply")
+//     },
+//     async ({ a, b }: { a: number; b: number }) => {
+//         const product = a * b;
+//         return {
+//             content: [
+//                 {
+//                     type: "text",
+//                     text: `The product of ${a} and ${b} is ${product}`
+//                 }
+//             ]
+//         };
+//     }
+// );
 
 server.resource("report", "file:///home/upc6/Downloads/BABUBHAI-TANK.pdf", async (uri) => ({
     contents: [

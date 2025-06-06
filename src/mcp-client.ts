@@ -64,7 +64,7 @@ async function callAddTool() {
     });
 
     // Print the result from the tool
-    console.log("\nTool result:", JSON.stringify(result, null, 2));
+    console.log("\nTool result:", JSON.stringify(result.structuredContent, null, 2));
 }
 
 // async function callResource() {
