@@ -130,10 +130,11 @@ Generate 50 example user queries for this tool, including:
  - valid queries that conform to the parameter requirements,
  - invalid queries with missing or malformed parameters,
  - incomplete queries lacking required identifiers or unclear expressions.
-Return the output as a JSON array of strings.
+Return only a JSON array of strings (no markdown, no code fences, and no comments).
 
 Available student IDs (first 5, and last 5): ${studentIds.join(", ")}
 Available school IDs (first 5, and last 5): ${schoolIds.join(", ")}
+In general, assume 9999 schools, with each 10 students minimum. 
 Available exam IDs: A value 1, 2, 3, ..., 8
 Available domains (case-insensitive): a, b, c
 `;
@@ -143,14 +144,20 @@ Available domains (case-insensitive): a, b, c
   });
   const msg = response.choices[0].message;
   const content = msg && msg.content ? msg.content.trim() : "";
+  // Strip Markdown code fences to ensure pure JSON output
+  const cleaned = content.replace(/```(?:json)?/g, "").trim();
   try {
-    return JSON.parse(content);
+    return JSON.parse(cleaned);
   } catch {
-    // Fallback: parse line-by-line, stripping leading indexes
-    return content
+    // Fallback: parse line-by-line, removing comments, array brackets, and quotes
+    return cleaned
       .split(/\r?\n/)
-      .map((l) => l.replace(/^[\d.\-)]*\s*/, "").trim())
-      .filter(Boolean);
+      .map((line) => line.replace(/\/\/.*$/, "").trim())
+      .filter((line) => line && line !== "[" && line !== "]")
+      .map((line) => {
+        const m = line.match(/^"(.+?)",?$/);
+        return m ? m[1] : line;
+      });
   }
 }
 
@@ -199,6 +206,7 @@ When users ask questions about students, schools, or future performance predicti
 
 Available student IDs (first 5, and last 5): ${studentIds.join(", ")}
 Available school IDs (first 5, and last 5): ${schoolIds.join(", ")}
+In general, assume 9999 schools, with each 10 students minimum. 
 Available exam IDs: A value 1, 2, 3, ..., 8
 Available domains (case-insensitive): a, b, c
 
