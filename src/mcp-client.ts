@@ -156,7 +156,7 @@ export class MCPClient {
                 
                 // Get final response after tool execution
                 const finalResponse = await this.openai.chat.completions.create({
-                    model: "gpt-4",
+                    model: "gpt-4o",
                     messages,
                 });
                 
