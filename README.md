@@ -25,7 +25,7 @@ A TypeScript project demonstrating how to build an interactive educational analy
 This will automatically start the MCP server and launch an interactive prompt:
 
 ```bash
-npm run dev:client
+npm run client
 ```
 
 Ask questions about student and school performance (type `quit` to exit).
@@ -40,14 +40,6 @@ npm run client-demo
 
 ### Advanced Usage
 
-- **Run MCP server only (development mode):**
-  ```bash
-  npm run dev:server
-  ```
-- **Build the project:**
-  ```bash
-  npm run build
-  ```
 - **Run built client/server:**
   ```bash
   npm run server      # Build and run MCP server
