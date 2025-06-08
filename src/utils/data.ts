@@ -92,3 +92,11 @@ export const examStats: Record<string, { mean: number; stdDev: number }> = (() =
   }
   return stats;
 })();
+
+
+export function abbreviateIds(ids: string[], count: number = 5): string[] {
+  if (ids.length <= count * 2) {
+    return ids;
+  }
+  return [...ids.slice(0, count), "...", ...ids.slice(-count)];
+}

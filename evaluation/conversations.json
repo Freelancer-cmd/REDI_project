@@ -1,0 +1,3252 @@
+[
+  {
+    "conversation_id": "analyze-student-performance_1",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Analyze the performance of student_st290xq across all domains"
+      },
+      {
+        "role": "assistant",
+        "content": "It seems there is an issue with the student ID provided. Please ensure you are using a correct student ID from the available list, such as `student_s1p1` or `student_s9999p99`, and try again."
+      }
+    ]
+  },
+  {
+    "conversation_id": "analyze-student-performance_2",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Analyze the performance of student_s1p1 across all domains"
+      },
+      {
+        "role": "assistant",
+        "content": "Here is the performance analysis for student_s1p1 across all domains:\n\n- **Average Exam Score:** 204.0\n- **Overall Questions Correct:** 22.1/30 (73.8%)\n\n**Domain Performance:**\n- **Domain A:** 8.1/10 (81.3%)\n- **Domain B:** 6.9/10 (68.8%)\n- **Domain C:** 7.1/10 (71.3%)\n\n**Insights:**\n- The student performs strongest in **Domain A**.\n- The weakest performance is in **Domain B**, suggesting a need for additional practice.\n- Overall, this student could benefit from extra practice to improve the score (currently at 73.8%).\n\nIf you need more detailed insights or recommendations, feel free to ask!"
+      }
+    ]
+  },
+  {
+    "conversation_id": "analyze-student-performance_3",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Analyze the performance of student_s9999p99 in all domains"
+      },
+      {
+        "role": "assistant",
+        "content": "Here is the performance analysis for student_s9999p99:\n\n- **Average Exam Score:** 223.4\n- **Overall Questions Correct:** 22.3/30 (74.2%)\n\n### Domain Performance:\n- **Domain A:** 8.4/10 (83.8%)\n- **Domain B:** 7.3/10 (72.5%)\n- **Domain C:** 6.6/10 (66.3%)\n\n### Insights:\n- **Strongest Domain:** A\n- **Weakest Domain:** C\n- The student could benefit from additional practice since the overall performance is 74.2%."
+      }
+    ]
+  },
+  {
+    "conversation_id": "analyze-student-performance_4",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Calculate student_s1p10's performance in all domains"
+      },
+      {
+        "role": "assistant",
+        "content": "### Student student_s1p10 (School: school_1) Performance Analysis:\n\n- **Average Exam Score:** 228.5\n- **Overall Questions Correct:** 22.5/30 (75.0%)\n\n#### Domain Performance (avg items correct & percentage):\n- **Domain A:** 8.0/10 (80.0%)\n- **Domain B:** 7.3/10 (72.5%)\n- **Domain C:** 7.3/10 (72.5%)\n\n### Insights:\n- **Strongest domain:** Domain A\n- **Weakest domain:** Domain C\n- **Overall Performance:** Performing well, with an overall score of 75.0%. \n\nStudent student_s1p10 shows consistent performance across all domains, with strengths in Domain A."
+      }
+    ]
+  },
+  {
+    "conversation_id": "analyze-student-performance_5",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Assess the performance of student_s1p11 in every domain"
+      },
+      {
+        "role": "assistant",
+        "content": "Here is the performance analysis for student_s1p11 across all domains:\n\n- **Overall Performance:**\n  - Average Exam Score: 226.9\n  - Overall Questions Correct: 21.5/30 (71.7%)\n\n- **Domain Performance:**\n  - **Domain A:** 8.4/10 (83.8%)\n  - **Domain B:** 6.6/10 (66.3%)\n  - **Domain C:** 6.5/10 (65.0%)\n\n**Insights:**\n- The student performs strongest in Domain A with an 83.8% success rate.\n- The weakest area is Domain C where the success rate is 65.0%.\n- Overall, the student could benefit from additional practice, particularly in Domains B and C, as the overall correctness is 71.7%."
+      }
+    ]
+  },
+  {
+    "conversation_id": "analyze-student-performance_6",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Examine the performance of student_s1p12 in all areas"
+      },
+      {
+        "role": "assistant",
+        "content": "Student student_s1p12 (School: school_1) Performance Analysis:\n- **Average Exam Score:** 228.4\n- **Overall Questions Correct:** 24.4/30 (81.3%)\n\n**Domain Performance (average items correct & percentage):**\n- **Domain A:** 8.4/10 (83.8%)\n- **Domain B:** 8.0/10 (80.0%)\n- **Domain C:** 8.0/10 (80.0%)\n\n**Insights:**\n- Strongest domain: A\n- Weakest domain: C\n- Performing well overall (81.3%)"
+      }
+    ]
+  },
+  {
+    "conversation_id": "analyze-student-performance_7",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Evaluate the performance of student_s1p13 in all fields"
+      },
+      {
+        "role": "assistant",
+        "content": "Student **student_s1p13** (School: school_1) Performance Analysis:\n\n- **Average Exam Score:** 204.8\n- **Overall Questions Correct:** 21.1/30 (70.4%)\n\n**Domain Performance (Average Items Correct & Percentage):**\n- **Domain A:** 7.6/10 (76.3%)\n- **Domain B:** 7.1/10 (71.3%)\n- **Domain C:** 6.4/10 (63.7%)\n\n**Insights:**\n- **Strongest Domain:** A\n- **Weakest Domain:** C\n- Could benefit from additional practice, with an overall performance of 70.4%."
+      }
+    ]
+  },
+  {
+    "conversation_id": "analyze-student-performance_8",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Reviewing student_s1p10 domains performance"
+      },
+      {
+        "role": "assistant",
+        "content": "Here is the performance analysis for student_s1p10:\n\n- **Overall Average Exam Score**: 228.5\n- **Questions Correct Overall**: 22.5 out of 30 (75.0%)\n\n**Domain Performance:**\n- **Domain A**: 8.0 out of 10 (80.0%)\n- **Domain B**: 7.3 out of 10 (72.5%)\n- **Domain C**: 7.3 out of 10 (72.5%)\n\n**Insights**:\n- **Strongest Domain**: A\n- **Weakest Domain**: C\n- Student is performing well overall with a score of 75.0% across all domains.\n\nIf you have further questions or need a more detailed analysis, feel free to ask!"
+      }
+    ]
+  },
+  {
+    "conversation_id": "analyze-student-performance_9",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Lookup the performance of student_s1p11 across all domains"
+      },
+      {
+        "role": "assistant",
+        "content": "Student **student_s1p11** performance analysis shows:\n\n- **Average Exam Score:** 226.9\n- **Overall Questions Correct:** 21.5/30 (71.7%)\n\n**Domain Performance:**\n\n- **Domain A:** 8.4/10 (83.8%)\n- **Domain B:** 6.6/10 (66.3%)\n- **Domain C:** 6.5/10 (65.0%)\n\n**Insights:**\n\n- **Strongest domain:** A\n- **Weakest domain:** C\n- **Recommendation:** The student could benefit from additional practice to improve the overall performance, with a focus on Domains B and C, given the overall percentage of 71.7%."
+      }
+    ]
+  },
+  {
+    "conversation_id": "analyze-student-performance_10",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Inspect the performance of student_s1p12 in all domains"
+      },
+      {
+        "role": "assistant",
+        "content": "Here is the performance analysis for student_s1p12:\n\n- **Average Exam Score**: 228.4\n- **Overall Questions Correct**: 24.4/30 (81.3%)\n\n**Domain Performance (average items correct & percentage):**\n\n1. **Domain A**: 8.4/10 (83.8%)\n2. **Domain B**: 8.0/10 (80.0%)\n3. **Domain C**: 8.0/10 (80.0%)\n\n**Insights:**\n\n- The student has the strongest performance in Domain A.\n- Domain C is the weakest, although the performance there is still strong.\n- Overall, the student is performing well with an 81.3% correctness rate."
+      }
+    ]
+  },
+  {
+    "conversation_id": "analyze-student-performance_11",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Conduct analysis for the performance of student_s1p1 in all domains"
+      },
+      {
+        "role": "assistant",
+        "content": "Here is the performance analysis for student_s1p1:\n\n- **Average Exam Score:** 204.0\n- **Overall Questions Correct:** 22.1/30 (73.8%)\n\n**Domain Performance (average items correct & percentage):**\n- **Domain A:** 8.1/10 (81.3%)\n- **Domain B:** 6.9/10 (68.8%)\n- **Domain C:** 7.1/10 (71.3%)\n\n**Insights:**\n- **Strongest Domain:** A\n- **Weakest Domain:** B\n- The student could benefit from additional practice as their overall score is 73.8%."
+      }
+    ]
+  },
+  {
+    "conversation_id": "analyze-student-performance_12",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Perform student_s9999p96's performance analysis in all domains"
+      },
+      {
+        "role": "assistant",
+        "content": "Here is the performance analysis for student_s9999p96 across all domains:\n\n- **Average Exam Score:** 227.9\n- **Overall Questions Correct:** 23.5/30 (78.3%)\n\n**Domain Performance:**\n- **Domain A:** 7.9/10 (78.8%)\n- **Domain B:** 8.1/10 (81.3%) - Strongest domain\n- **Domain C:** 7.5/10 (75.0%) - Weakest domain\n\n**Insights:**\n- The student is performing well overall, with a 78.3% success rate in questions.\n- Domain B is the strongest area, suggesting a focus or interest in this domain.\n- Domain C is the weakest area, which could benefit from additional support or resources."
+      }
+    ]
+  },
+  {
+    "conversation_id": "analyze-student-performance_13",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Analyze the performance of student_s9999p97 in a, b, c domains"
+      },
+      {
+        "role": "assistant",
+        "content": "**Student student_s9999p97 Performance Analysis:**\n\n- **School:** school_9999\n- **Average Exam Score:** 215.5\n- **Overall Questions Correct:** 21.6/30 (72.1%)\n\n**Domain Performance:**\n\n- **Domain A:** 7.6/10 (76.3%)\n- **Domain B:** 7.5/10 (75.0%)\n- **Domain C:** 6.5/10 (65.0%)\n\n**Insights:**\n- **Strongest Domain:** A\n- **Weakest Domain:** C\n- **Recommendations:** Student_s9999p97 could benefit from additional practice to improve overall performance, particularly focusing on Domain C."
+      }
+    ]
+  },
+  {
+    "conversation_id": "analyze-student-performance_14",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Assess performance of student_s9999p98 across domains"
+      },
+      {
+        "role": "assistant",
+        "content": "Here's the performance analysis for student_s9999p98 across domains:\n\n- **Average Exam Score:** 219.4\n- **Overall Questions Correct:** 23.0 out of 30 (76.7%)\n\n**Domain Performance:**\n- **Domain A:** 7.6 out of 10 (76.3%)\n- **Domain B:** 7.9 out of 10 (78.8%)\n- **Domain C:** 7.5 out of 10 (75.0%)\n\n**Insights:**\n- **Strongest Domain:** B\n- **Weakest Domain:** C\n- The student is performing well overall with a completion rate of 76.7%."
+      }
+    ]
+  },
+  {
+    "conversation_id": "analyze-student-performance_15",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Check performance of student_s9999p99 in all sectors"
+      },
+      {
+        "role": "assistant",
+        "content": "Here's the performance analysis for student_s9999p99:\n\n- **Average Exam Score:** 223.4\n- **Overall Questions Correct:** 22.3 out of 30 (74.2%)\n\n**Domain Performance (average items correct & percentage):**\n- **Domain A:** 8.4 out of 10 (83.8%)\n- **Domain B:** 7.3 out of 10 (72.5%)\n- **Domain C:** 6.6 out of 10 (66.3%)\n\n**Insights:**\n- The student's strongest domain is A.\n- The weakest domain is C.\n- Overall, the student might benefit from additional practice to improve performance, with a current accuracy at 74.2%."
+      }
+    ]
+  },
+  {
+    "conversation_id": "analyze-student-performance_16",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Investigate the performance of student_s1p1"
+      },
+      {
+        "role": "assistant",
+        "content": "**Student student_s1p1 Performance Analysis:**\n\n- **Average Exam Score:** 204.0\n- **Overall Questions Correct:** 22.1/30 (73.8%)\n\n**Domain Performance (average items correct & percentage):**\n- **Domain A:** 8.1/10 (81.3%)\n- **Domain B:** 6.9/10 (68.8%)\n- **Domain C:** 7.1/10 (71.3%)\n\n**Insights:**\n- **Strongest Domain:** A\n- **Weakest Domain:** B\n- Student could benefit from additional practice to improve their overall performance (73.8% correct)."
+      }
+    ]
+  },
+  {
+    "conversation_id": "analyze-student-performance_17",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Analyze student"
+      },
+      {
+        "role": "assistant",
+        "content": "To analyze a student's performance, I need the specific student ID. Here are some example student IDs: \n\nstudent_s1p1, student_s1p10, student_s1p11, student_s1p12, student_s1p13, ..., student_s9999p95, student_s9999p96, student_s9999p97, student_s9999p98, student_s9999p99.\n\nPlease specify which student data you would like to analyze."
+      }
+    ]
+  },
+  {
+    "conversation_id": "analyze-student-performance_18",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Analyze the performance of student_s1p1 across"
+      },
+      {
+        "role": "assistant",
+        "content": "**Student student_s1p1 (School: school_1) Performance Analysis:**\n\n- **Average Exam Score:** 204.0\n- **Overall Questions Correct:** 22.1/30 (73.8%)\n\n**Domain Performance (average items correct & percentage):**\n- **Domain A:** 8.1/10 (81.3%)\n- **Domain B:** 6.9/10 (68.8%)\n- **Domain C:** 7.1/10 (71.3%)\n\n**Insights:**\n- Strongest domain: A\n- Weakest domain: B\n- Could benefit from additional practice particularly in domains B and C to improve overall scores."
+      }
+    ]
+  },
+  {
+    "conversation_id": "analyze-student-performance_19",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Analyze the performance of student_s1p11 in domain a"
+      },
+      {
+        "role": "assistant",
+        "content": "The performance analysis for student_s1p11 in domain A is as follows:\n\n- **Domain A Performance:** The student scored 8.4 out of 10, which is 83.8%.\n\n**Overall Performance Highlights:**\n\n- **Average Exam Score:** 226.9\n- **Overall Questions Correct:** 21.5 out of 30 (71.7%)\n\n**Performance by Domain:**\n- **Domain A:** 8.4/10 (83.8%)\n- **Domain B:** 6.6/10 (66.3%)\n- **Domain C:** 6.5/10 (65.0%)\n\n**Insights:**\n- The strongest performance for this student is in Domain A.\n- The weakest performance is in Domain C.\n- The student could benefit from additional practice, as the overall percentage is 71.7%.\n\nPlease let me know if you need further analysis or insights!"
+      }
+    ]
+  },
+  {
+    "conversation_id": "analyze-student-performance_20",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Review student_s1p12's performance in domain b"
+      },
+      {
+        "role": "assistant",
+        "content": "Student student_s1p12's performance in domain B is as follows:\n\n- **Domain B Average Items Correct**: 8.0 out of 10\n- **Domain B Percentage**: 80.0%\n\nOverall, student_s1p12 is performing well, with a total score average of 81.3%. Domain B's performance is slightly below their strongest domain, which is Domain A at 83.8%. However, it matches their performance in Domain C. The student is generally performing consistently across different domains."
+      }
+    ]
+  },
+  {
+    "conversation_id": "analyze-student-performance_21",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Measure student_s1p13's performance in c domain"
+      },
+      {
+        "role": "assistant",
+        "content": "Here is the performance analysis for student_s1p13 in the C domain:\n\n- **Average Exam Score in C Domain:** 6.4 out of 10, which is 63.7%.\n\nOverall, the student's performance in Domain C is the weakest compared to other domains, with scores as follows:\n- Domain A: 76.3%\n- Domain B: 71.3%\n- Domain C: 63.7%\n\nThe student could benefit from additional practice in the C domain to improve their performance."
+      }
+    ]
+  },
+  {
+    "conversation_id": "analyze-student-performance_22",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Analyze the performance of student_s9999p96 across all the domains"
+      },
+      {
+        "role": "assistant",
+        "content": "Here is the performance analysis for student_s9999p96 across all domains:\n\n- **Average Exam Score**: 227.9\n- **Overall Questions Correct**: 23.5 out of 30, which is 78.3%\n\n**Domain Performance (average items correct & percentage):**\n- **Domain A**: 7.9 out of 10 (78.8%)\n- **Domain B**: 8.1 out of 10 (81.3%)\n- **Domain C**: 7.5 out of 10 (75.0%)\n\n**Insights:**\n- The strongest domain for this student is **B**, with the highest percentage of correct answers.\n- The weakest domain is **C**.\n- Overall, the student is performing well, with an accuracy of 78.3%."
+      }
+    ]
+  },
+  {
+    "conversation_id": "analyze-student-performance_23",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Performance analyze of student_s9999p97 across all the areas"
+      },
+      {
+        "role": "assistant",
+        "content": "Here is the performance analysis of student_s9999p97 from school_9999 across all domains:\n\n- **Average Exam Score:** 215.5\n- **Overall Questions Correct:** 21.6/30 (72.1%)\n\n**Domain Performance:**\n- **Domain A:** 7.6/10 (76.3%)\n- **Domain B:** 7.5/10 (75.0%)\n- **Domain C:** 6.5/10 (65.0%)\n\n**Insights:**\n- The student's strongest domain is **Domain A**.\n- The weakest domain is **Domain C**, indicating an area for improvement.\n- Overall performance indicates the student could benefit from additional practice as the total score is 72.1%."
+      }
+    ]
+  },
+  {
+    "conversation_id": "analyze-student-performance_24",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Study the student_s9999p98's performance in all domains"
+      },
+      {
+        "role": "assistant",
+        "content": "### Performance Analysis for student_s9999p98 (School: school_9999)\n\n- **Average Exam Score:** 219.4\n- **Overall Questions Correct:** 23.0/30 (76.7%)\n\n#### Domain Performance:\n\n- **Domain A:** 7.6/10 (76.3%)\n- **Domain B:** 7.9/10 (78.8%)\n- **Domain C:** 7.5/10 (75.0%)\n\n#### Insights:\n\n- **Strongest Domain:** B\n- **Weakest Domain:** C\n- **Overall Performance:** Performing well with a 76.7% accuracy across all domains\n\nIf needed, focus on improving Domain C for more balanced performance."
+      }
+    ]
+  },
+  {
+    "conversation_id": "analyze-student-performance_25",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Checking the performance of student_s9999p99 in all domains"
+      },
+      {
+        "role": "assistant",
+        "content": "Here's the performance analysis for student_s9999p99:\n\n- **Average Exam Score**: 223.4\n- **Overall Questions Correct**: 22.3 out of 30 (74.2%)\n\n**Domain Performance:**\n- **Domain A**: 8.4 out of 10 (83.8%)\n- **Domain B**: 7.3 out of 10 (72.5%)\n- **Domain C**: 6.6 out of 10 (66.3%)\n\n**Insights:**\n- The student is strongest in Domain A.\n- Domain C is the weakest area, suggesting a need for more practice and focus.\n- Overall performance at 74.2% indicates that while the student is doing well, there is room for improvement, particularly in Domain C. Additional targeted practice could enhance performance."
+      }
+    ]
+  },
+  {
+    "conversation_id": "analyze-student-performance_26",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Task - Analyze the performance of student_s1p1 through all domains"
+      },
+      {
+        "role": "assistant",
+        "content": "Here is the performance analysis for student_s1p1 across all domains:\n\n- **Average Exam Score**: 204.0\n- **Overall Questions Correct**: 22.1 out of 30 (73.8%)\n\n**Domain Performance (average items correct & percentage):**\n- **Domain A**: 8.1/10 (81.3%)\n- **Domain B**: 6.9/10 (68.8%)\n- **Domain C**: 7.1/10 (71.3%)\n\n**Insights:**\n- The student performs strongest in Domain A.\n- The weakest domain is B, with room for improvement.\n- Overall, the student could benefit from additional practice, especially in Domains B and C, to enhance their performance further."
+      }
+    ]
+  },
+  {
+    "conversation_id": "analyze-student-performance_27",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Analyze the performance of student_s1p10 in all fields"
+      },
+      {
+        "role": "assistant",
+        "content": "Here is the performance analysis for student_s1p10:\n\n- **Average Exam Score**: 228.5\n- **Overall Questions Correct**: 22.5 out of 30 (75.0%)\n\n**Domain Performance** (average items correct & percentage):\n- **Domain A**: 8.0 out of 10 (80.0%)\n- **Domain B**: 7.3 out of 10 (72.5%)\n- **Domain C**: 7.3 out of 10 (72.5%)\n\n**Insights**:\n- The student performs best in **Domain A**.\n- **Domain C** is the weakest, but only slightly.\n- The student is performing well overall with a score of 75.0%.\n\nIf you need further analysis or comparisons, feel free to ask!"
+      }
+    ]
+  },
+  {
+    "conversation_id": "analyze-student-performance_28",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Please analyze the performance of student_s1p11 across all sectors"
+      },
+      {
+        "role": "assistant",
+        "content": "Here is the performance analysis for student_s1p11:\n\n- **Average Exam Score**: 226.9\n- **Overall Questions Correct**: 21.5 out of 30 (71.7%)\n\n**Domain Performance**:\n- **Domain A**: 8.4 out of 10 (83.8%)\n- **Domain B**: 6.6 out of 10 (66.3%)\n- **Domain C**: 6.5 out of 10 (65.0%)\n\n**Insights**:\n- The student demonstrates the strongest performance in Domain A.\n- Domain C seems to be the weakest, where additional practice could be beneficial.\n- The overall correct percentage suggests there is room for improving their understanding and performance across the board (71.7%)."
+      }
+    ]
+  },
+  {
+    "conversation_id": "analyze-student-performance_29",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Analyze the performance of student_s1p12 in all domains but b"
+      },
+      {
+        "role": "assistant",
+        "content": "Here is the analysis of student_s1p12's performance in domains A and C:\n\n- **Average Exam Score:** 228.4\n- **Overall Questions Correct (out of all items):** 24.4 out of 30 (81.3%)\n\n**Domain Performance:**\n- **Domain A:** 8.4 out of 10 (83.8%)\n- **Domain C:** 8.0 out of 10 (80.0%)\n\n**Insights:**\n- The student performs strongest in Domain A (83.8%).\n- Domain C is slightly weaker in comparison but still strong (80.0%).\n- The student is performing well overall with an average correctness of 81.3%.\n\nIf you want to explore more specific exams or need further insights, let me know!"
+      }
+    ]
+  },
+  {
+    "conversation_id": "analyze-student-performance_30",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Examine performance of student_s1p13 in all domains except for a"
+      },
+      {
+        "role": "assistant",
+        "content": "Here's a performance analysis of student_s1p13, focusing on domains B and C:\n\n- **Domain B:** Correct answers: 7.1/10 (71.3%)\n- **Domain C:** Correct answers: 6.4/10 (63.7%)\n\nOverall, student_s1p13 has a stronger performance in Domain B compared to Domain C. Additional practice in Domain C could be beneficial to improve overall performance."
+      }
+    ]
+  },
+  {
+    "conversation_id": "analyze-student-performance_31",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Assess the performance of student_s9999p95 without c domain"
+      },
+      {
+        "role": "assistant",
+        "content": "Here's the performance analysis for student_s9999p95, excluding Domain C:\n\nOverall Performance:\n- School: school_9999\n- Average Exam Score: 224.0\n- Overall Questions Correct: 22.0/30 (73.3%)\n\nDomain Performance (without Domain C):\n- Domain A: 8.0/10 (80.0%)\n- Domain B: 7.1/10 (71.3%)\n\nInsights:\n- The student's strongest area is Domain A.\n- Domain B performance shows a slightly lower strength, suggesting room for improvement.\n- Overall, the student could benefit from additional practice to raise the overall accuracy from 73.3%.\n\nFor more precise insights, focusing on improving Domain C or further drilling down on specific areas within Domain B could be useful."
+      }
+    ]
+  },
+  {
+    "conversation_id": "analyze-student-performance_32",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Evaluate the performance of student_s9999p96 for only a and b domains"
+      },
+      {
+        "role": "assistant",
+        "content": "Here's the performance analysis for student_s9999p96 specifically focusing on domains A and B:\n\n- **Overall Performance:** \n  - Average Exam Score: 227.9\n  - Overall Questions Correct: 23.5 out of 30 (78.3%)\n\n- **Domain A Performance:**\n  - Average Items Correct: 7.9 out of 10\n  - Percentage: 78.8%\n\n- **Domain B Performance:**\n  - Average Items Correct: 8.1 out of 10\n  - Percentage: 81.3%\n\n**Insights:**\n- The student shows strong performance in both domains A and B, particularly excelling in Domain B with 81.3%. \n- Overall, the student's performance is commendable with an overall accuracy of 78.3%."
+      }
+    ]
+  },
+  {
+    "conversation_id": "analyze-student-performance_33",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Reviewing student_s9999p97's performance for only c domain"
+      },
+      {
+        "role": "assistant",
+        "content": "Student student_s9999p97's performance in Domain C indicates potential areas for improvement:\n\n- **Domain C Performance**: 6.5/10 (65.0%)\n\n### Insights:\n- **Weakest Domain**: C, compared to other domains.\n- Overall, the student scored 72.1% across all domains, showing a need for more targeted practice, especially in Domain C, to improve proficiency."
+      }
+    ]
+  },
+  {
+    "conversation_id": "analyze-student-performance_34",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Scrutinize the performance of student_s9999p98 for a and c domains"
+      },
+      {
+        "role": "assistant",
+        "content": "Here's the performance analysis for student `student_s9999p98` focusing on domains A and C:\n\n- **Domain A:** \n  - Average Items Correct: 7.6/10 \n  - Percentage Correct: 76.3%\n\n- **Domain C:** \n  - Average Items Correct: 7.5/10 \n  - Percentage Correct: 75.0%\n\n**Overall Performance:**\n- Average Exam Score: 219.4\n- Overall Questions Correct: 23.0/30 (76.7%)\n\n**Insights:**\n- The student is performing consistently around the mid-70s percentile across domains A and C.\n- Domain A is slightly stronger than Domain C.\n- The student's strongest domain is Domain B, and their weakest is Domain C, though still performing well overall."
+      }
+    ]
+  },
+  {
+    "conversation_id": "analyze-student-performance_35",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Analyze the performance for student_s9999p99. Exclude domain b"
+      },
+      {
+        "role": "assistant",
+        "content": "Here is the performance analysis for student_s9999p99 (excluding Domain B):\n\n- **Average Exam Score:** 223.4\n- **Overall Questions Correct:** 22.3 out of 30 (74.2%)\n\n**Domain Performance (average items correct & percentage):**\n- **Domain A:** 8.4 out of 10 (83.8%)\n- **Domain C:** 6.6 out of 10 (66.3%)\n\n**Insights:**\n- The strongest performance was in **Domain A** with an 83.8% success rate.\n- The weakest performance was in **Domain C**, indicating a potential area for improvement.\n- Overall performance suggests the student could benefit from additional practice to improve the overall percentage of correct answers."
+      }
+    ]
+  },
+  {
+    "conversation_id": "analyze-student-performance_36",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Check if student_s1p1 passed all domains"
+      },
+      {
+        "role": "assistant",
+        "content": "Student **student_s1p1** from **school_1** has the following performance analysis:\n\n- **Average Exam Score:** 204.0\n- **Overall Questions Correct:** 22.1 out of 30 (73.8%)\n\n**Domain Performance:**\n- **Domain A:** 8.1 out of 10 (81.3%)\n- **Domain B:** 6.9 out of 10 (68.8%)\n- **Domain C:** 7.1 out of 10 (71.3%)\n\nBased on this analysis:\n\n- The student performed strongest in **Domain A**.\n- The student performed weakest in **Domain B**.\n- While their average performance across all domains is generally acceptable, at 73.8%, the student could benefit from additional practice, particularly in domains where their performance is lower like Domain B."
+      }
+    ]
+  },
+  {
+    "conversation_id": "analyze-student-performance_37",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Examine if student_s1p10 failed in all domains"
+      },
+      {
+        "role": "assistant",
+        "content": "Student `student_s1p10` did not fail in all domains. Here is the performance analysis:\n\n- **Overall Performance:** \n  - Average Exam Score: 228.5\n  - Overall Questions Correct: 22.5/30 (75.0%)\n\n- **Domain Performance:**\n  - **Domain A:** 8.0/10 (80.0%)\n  - **Domain B:** 7.3/10 (72.5%)\n  - **Domain C:** 7.3/10 (72.5%)\n\n**Insights:**\n- Strongest domain: A\n- Weakest domain: C\n- The student is performing well overall with a 75.0% success rate."
+      }
+    ]
+  },
+  {
+    "conversation_id": "analyze-student-performance_38",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Assess the competitive level of student_s1p11 in domains a, b and c"
+      },
+      {
+        "role": "assistant",
+        "content": "Student **student_s1p11** from **school_1** has an average exam score of **226.9**. Here's a breakdown of their performance across different domains:\n\n- **Domain A**: \n  - Average Items Correct: 8.4/10\n  - Percentage: **83.8%**\n\n- **Domain B**: \n  - Average Items Correct: 6.6/10\n  - Percentage: **66.3%**\n\n- **Domain C**: \n  - Average Items Correct: 6.5/10\n  - Percentage: **65.0%**\n\n**Overall**: The student got 21.5 out of 30 questions correct, equating to **71.7%** correct answers.\n\n**Insights**:\n- The student's strongest area is **Domain A** with the highest percentage score.\n- **Domain C** is the area with room for the most improvement.\n- While the overall percentage suggests a solid performance, additional targeted practice, especially in Domain C, could further enhance their competence."
+      }
+    ]
+  },
+  {
+    "conversation_id": "analyze-student-performance_39",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Review student_s1p12's score across all domains"
+      },
+      {
+        "role": "assistant",
+        "content": "Here is the performance analysis for student_s1p12:\n\n**Overall Performance:**\n- Average Exam Score: 228.4\n- Overall Questions Correct: 24.4 out of 30 (81.3%)\n\n**Domain Performance:**\n- **Domain A:** 8.4 out of 10 (83.8%)\n- **Domain B:** 8.0 out of 10 (80.0%)\n- **Domain C:** 8.0 out of 10 (80.0%)\n\n**Insights:**\n- The strongest domain for the student is **Domain A**.\n- The weakest domain is **Domain C**, although the performance is still relatively strong.\n- The student is performing well overall with an average of 81.3% across all domains."
+      }
+    ]
+  },
+  {
+    "conversation_id": "analyze-student-performance_40",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Measure student_s1p13's performance for exam_id 1 in all domains"
+      },
+      {
+        "role": "assistant",
+        "content": "Student student_s1p13 scored 163 on exam 1. Compared to a global average score of 168.8 with a standard deviation of 28.4, this places the student approximately at the 41.9th percentile. This means the student scored higher than about 41.9% of their peers."
+      }
+    ]
+  },
+  {
+    "conversation_id": "analyze-student-performance_41",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Study if student_s9999p95 is on the borderline pass in any domain"
+      },
+      {
+        "role": "assistant",
+        "content": "The performance analysis for the student `student_s9999p95` from `school_9999` shows the following:\n\n- **Average Exam Score:** 224.0\n- **Overall Questions Correct:** 22.0/30 (73.3%)\n\n**Domain Performance:**\n- **Domain A:** 8.0/10 (80.0%)\n- **Domain B:** 7.1/10 (71.3%)\n- **Domain C:** 6.9/10 (68.8%)\n\nAs for the borderline pass in any domain, the student is nearest to the threshold in **Domain C** with 68.8%. This suggests the student is relatively weaker in Domain C compared to A and B and could benefit from additional practice to ensure they stay above the passing mark."
+      }
+    ]
+  },
+  {
+    "conversation_id": "analyze-student-performance_42",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Analyze the performance of across all domains"
+      },
+      {
+        "role": "assistant",
+        "content": "To analyze the performance, you would need to provide more specific identifiers such as a student's ID, a school's ID, or a specific domain. Please provide these identifiers to get the most targeted results. Here are some ways you could ask:\n\n- \"Analyze the performance of student_s1p13 across all domains.\"\n- \"Compare performance across domains for school_1651.\"\n- \"Identify students who are struggling in domain B within school_5.\""
+      }
+    ]
+  },
+  {
+    "conversation_id": "analyze-student-performance_43",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Check performance of student_s9999p97 in domain d"
+      },
+      {
+        "role": "assistant",
+        "content": "I'm sorry, but we currently only have available domains \"a\", \"b\", and \"c\" for analysis. Could you please specify one of these three domains for student_s9999p97's performance?"
+      }
+    ]
+  },
+  {
+    "conversation_id": "analyze-student-performance_44",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Examine student_s9999p98's strength in domain x"
+      },
+      {
+        "role": "assistant",
+        "content": "I'm sorry, but it seems there's an error in the domain specified. Our system only has data for domains a, b, and c. Please resubmit your request with a valid domain."
+      }
+    ]
+  },
+  {
+    "conversation_id": "analyze-student-performance_45",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Review the performance of student_s9999p99 in unidentified domain"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure, to provide a detailed analysis, could you please specify which domain (a, b, or c) we should analyze for the student's performance?"
+      }
+    ]
+  },
+  {
+    "conversation_id": "analyze-student-performance_46",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Analyze data for student_s1p1 across all domains"
+      },
+      {
+        "role": "assistant",
+        "content": "Here is the performance analysis for student_s1p1 across all domains:\n\n- **Average Exam Score**: 204.0\n- **Overall Questions Correct**: 22.1 out of 30 (73.8%)\n\n**Domain Performance**:\n- **Domain A**: 8.1 out of 10 correct (81.3%)\n- **Domain B**: 6.9 out of 10 correct (68.8%)\n- **Domain C**: 7.1 out of 10 correct (71.3%)\n\n**Insights**:\n- The student performs strongest in **Domain A**.\n- Their weakest performance is in **Domain B**.\n- Overall, the student could benefit from additional practice, particularly in Domain B, as their overall correct answer rate is 73.8%."
+      }
+    ]
+  },
+  {
+    "conversation_id": "analyze-student-performance_47",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Measure the scope of improvement for student_s1p10 in all domains"
+      },
+      {
+        "role": "assistant",
+        "content": "Here's the performance analysis of student_s1p10 across all domains:\n\n- **Overall Performance:**\n  - Average Exam Score: 228.5\n  - Overall Questions Correct: 22.5/30 (75.0%)\n\n- **Domain-specific Performance:**\n  - **Domain A:** 8.0/10 (80.0%)\n  - **Domain B:** 7.3/10 (72.5%)\n  - **Domain C:** 7.3/10 (72.5%)\n\n**Insights:**\n- The student is strongest in Domain A with an 80.0% success rate.\n- The student has similar performance in Domains B and C, both at 72.5%, but Domain C could be considered the weakest if it historically presents greater challenges.\n- Overall, the student is performing well, scoring 75.0%.\n\n**Scope for Improvement:**\n- Focus more on Domains B and C to enhance their understanding and technique, aiming to get closer to the performance in Domain A.\n- Consider additional practice or resources specifically targeting the weaknesses observed in B and C to close the gap."
+      }
+    ]
+  },
+  {
+    "conversation_id": "analyze-student-performance_48",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Investigate the score pattern of student_s1p11 in all domains"
+      },
+      {
+        "role": "assistant",
+        "content": "The performance analysis for student_s1p11 at school_1 shows the following:\n\n- **Average Exam Score**: 226.9\n- **Overall Questions Correct**: 21.5 out of 30 (71.7%)\n\n### Domain Performance\n- **Domain A**: \n  - Average Items Correct: 8.4 out of 10\n  - Percentage: 83.8%\n- **Domain B**: \n  - Average Items Correct: 6.6 out of 10\n  - Percentage: 66.3%\n- **Domain C**: \n  - Average Items Correct: 6.5 out of 10\n  - Percentage: 65.0%\n\n### Insights\n- The student performs strongest in **Domain A** with an 83.8% accuracy.\n- Their weakest area is **Domain C** with a 65.0% accuracy.\n- Overall, with a 71.7% success rate, the student could benefit from additional practice, particularly in Domains B and C."
+      }
+    ]
+  },
+  {
+    "conversation_id": "analyze-student-performance_49",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Review grades of student_s1p12 across domains a, b and c"
+      },
+      {
+        "role": "assistant",
+        "content": "Here is the performance analysis for student_s1p12 across domains A, B, and C:\n\n- **Average Exam Score**: 228.4\n- **Overall Questions Correct**: 24.4 out of 30 (81.3%)\n\n**Domain Performance:**\n- **Domain A**: 8.4 out of 10 (83.8%)\n- **Domain B**: 8.0 out of 10 (80.0%)\n- **Domain C**: 8.0 out of 10 (80.0%)\n\n**Insights:**\n- The student shows their strongest performance in Domain A.\n- Domains B and C are equally the weakest, but still have a strong score of 80%.\n- Overall, the student is performing well with an 81.3% across all domains."
+      }
+    ]
+  },
+  {
+    "conversation_id": "analyze-student-performance_50",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Analyze the performance scores without specifying a student"
+      },
+      {
+        "role": "assistant",
+        "content": "To provide a detailed and targeted analysis, I need the specific ID of the student whose performance you'd like to analyze. For example, some example student IDs include: student_s1p1, student_s1p10, student_s1p11, etc. Could you please provide the student ID?"
+      }
+    ]
+  },
+  {
+    "conversation_id": "analyze-student-performance_51",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Assess the performance of student without specifying the domains"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure, for a more targeted analysis, please provide the ID of the student you want to analyze.\n\nThe ID should look something like this: student_s1p1, student_s9999p99."
+      }
+    ]
+  },
+  {
+    "conversation_id": "compare-domain-performance_1",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Compare domain performance for school_1"
+      },
+      {
+        "role": "assistant",
+        "content": "### Domain Performance Analysis for School school_1:\n\n**Total exams analyzed:** 112\n\n**Average performance per domain (out of 10 questions):**\n- **Domain A:** 8.00 correct (80.0%)\n- **Domain B:** 7.46 correct (74.6%)\n- **Domain C:** 7.36 correct (73.6%)\n\n**Summary:**\n- **Strongest domain:** A\n- **Weakest domain:** C\n\nThis analysis indicates that students at School_1 perform best in Domain A, with slightly lower performance in Domains B and C. Efforts to improve in Domain C could help raise overall student achievement."
+      }
+    ]
+  },
+  {
+    "conversation_id": "compare-domain-performance_2",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Compare domain performance for school_2"
+      },
+      {
+        "role": "assistant",
+        "content": "Here is the domain performance analysis for School 2:\n\n- **Domain A**: Average correct answers are 8.08 out of 10, which translates to a performance of 80.8%.\n- **Domain B**: Average correct answers are 7.49 out of 10, leading to a 74.9% performance.\n- **Domain C**: Average correct answers are 7.27 out of 10, resulting in a 72.7% performance.\n\n**Strongest Domain**: Domain A  \n**Weakest Domain**: Domain C\n\nA total of 112 exams were analyzed for this assessment."
+      }
+    ]
+  },
+  {
+    "conversation_id": "compare-domain-performance_3",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Compare domain performance for school_1650"
+      },
+      {
+        "role": "assistant",
+        "content": "**Domain Performance Analysis for School 1650:**\n\n- **Total exams analyzed:** 176\n- **Average performance per domain (out of 10 questions):**\n  - **Domain A:** 7.81 correct (78.1%)\n  - **Domain B:** 7.26 correct (72.6%)\n  - **Domain C:** 6.70 correct (67.0%)\n\n- **Strongest domain:** A\n- **Weakest domain:** C\n\nThis analysis suggests that students at School 1650 perform best in Domain A and face challenges in Domain C. Consider focusing additional resources or interventions on improving Domain C performance."
+      }
+    ]
+  },
+  {
+    "conversation_id": "compare-domain-performance_4",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Compare domain performance for school_9999"
+      },
+      {
+        "role": "assistant",
+        "content": "Here is the domain performance analysis for school_9999:\n\n- **Total exams analyzed**: 2,448\n\n**Average performance per domain** (out of 10 questions):\n- **Domain A**: 7.99 correct (79.9%)\n- **Domain B**: 7.47 correct (74.7%)\n- **Domain C**: 7.11 correct (71.1%)\n\n- **Strongest domain**: A\n- **Weakest domain**: C\n\nSchool_9999 performs best in Domain A and has room for improvement in Domain C."
+      }
+    ]
+  },
+  {
+    "conversation_id": "compare-domain-performance_5",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Compare domain performance for school"
+      },
+      {
+        "role": "assistant",
+        "content": "To provide a more targeted response, could you please provide the ID of the school you would like data on? For example, school IDs in our database range from \"school_1\" to \"school_9999\", and intermediate IDs such as \"school_1648\", \"school_1649\", \"school_1650\", \"school_1651\" are also available."
+      }
+    ]
+  },
+  {
+    "conversation_id": "compare-domain-performance_6",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Compare domain performance for "
+      },
+      {
+        "role": "assistant",
+        "content": "Sure, for which school would you like to compare domain performance? Please provide a specific school ID. For example, you can provide school IDs like 'school_1', 'school_2', 'school_1651', etc."
+      }
+    ]
+  },
+  {
+    "conversation_id": "compare-domain-performance_7",
+    "messages": [
+      {
+        "role": "user",
+        "content": "I want to compare domain performance for school_1"
+      },
+      {
+        "role": "assistant",
+        "content": "Here's a detailed performance analysis for School 1 across different domains:\n\n- **Total Exams Analyzed:** 112\n\n**Average Performance per Domain (out of 10 questions):**\n- **Domain A:** 8.00 correct (80.0%)\n- **Domain B:** 7.46 correct (74.6%)\n- **Domain C:** 7.36 correct (73.6%)\n\n- **Strongest Domain:** A\n- **Weakest Domain:** C\n\nSchool 1 performs best in Domain A and has some room for improvement in Domain C."
+      }
+    ]
+  },
+  {
+    "conversation_id": "compare-domain-performance_8",
+    "messages": [
+      {
+        "role": "user",
+        "content": "How is the domain performance for school_1?"
+      },
+      {
+        "role": "assistant",
+        "content": "Domain Performance Analysis for School school_1, based on 112 exams analyzed, shows the following average performance per domain (out of 10 questions):\n\n- Domain A: 8.00 correct (80.0%)\n- Domain B: 7.46 correct (74.6%)\n- Domain C: 7.36 correct (73.6%)\n\nThe strongest domain is A, while the weakest domain is C."
+      }
+    ]
+  },
+  {
+    "conversation_id": "compare-domain-performance_9",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Compare domain performance for school_6"
+      },
+      {
+        "role": "assistant",
+        "content": "Here is the domain performance analysis for **School 6**:\n\n- **Total exams analyzed:** 144\n\n**Average performance per domain (out of 10 questions):**\n- **Domain A:** 8.09 correct answers (80.9%)\n- **Domain B:** 7.53 correct answers (75.3%)\n- **Domain C:** 6.95 correct answers (69.5%)\n\n- **Strongest Domain:** A\n- **Weakest Domain:** C\n\nThese insights highlight that students at School 6 perform best in Domain A and face more challenges in Domain C. They may benefit from additional support or resources in the latter area."
+      }
+    ]
+  },
+  {
+    "conversation_id": "compare-domain-performance_10",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Compare the performance of domain a for school_1"
+      },
+      {
+        "role": "assistant",
+        "content": "Here's the performance analysis for School 1 in Domain A:\n\n- **Domain A**: The average score is 8.00 correct out of 10 questions, which corresponds to an 80.0% success rate.\n  \n**Overall Insights:**\n\n- The total number of exams analyzed for School 1 is 112.\n- Domain A is identified as the strongest domain for School 1, compared to Domain B (74.6%) and Domain C (73.6%).\n\nThis indicates that students in School 1 perform best in Domain A, suggesting a potential strength in this area. Further focus on maintaining or improving this performance could be beneficial."
+      }
+    ]
+  },
+  {
+    "conversation_id": "compare-domain-performance_11",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Compare domain b performance for school_2"
+      },
+      {
+        "role": "assistant",
+        "content": "Here's the performance analysis for School ID **school_2** in Domain B:\n\n- Average Score in Domain B: **7.49 correct answers** out of 10 questions, which translates to **74.9%**.\n\nFor comparison:\n\n- Average performance in Domain A: **8.08 correct (80.8%)**.\n- Average performance in Domain C: **7.27 correct (72.7%)**.\n\nThe strongest domain for school_2 is Domain A, while the weakest is Domain C. Domain B is performing in the middle tier, showing room for improvement in comparison to Domain A."
+      }
+    ]
+  },
+  {
+    "conversation_id": "compare-domain-performance_12",
+    "messages": [
+      {
+        "role": "user",
+        "content": "I would like to compare domain performance for school_1648"
+      },
+      {
+        "role": "assistant",
+        "content": "Here is the Domain Performance Analysis for School 1648:\n\n- **Total exams analyzed**: 64\n\n**Average performance per domain (out of 10 questions):**\n- **Domain A**: 8.27 correct (82.7%)\n- **Domain B**: 7.83 correct (78.3%)\n- **Domain C**: 7.05 correct (70.5%)\n\n- **Strongest domain**: Domain A\n- **Weakest domain**: Domain C\n\nThis suggests that students at School 1648 perform best in Domain A and have the most room for improvement in Domain C."
+      }
+    ]
+  },
+  {
+    "conversation_id": "compare-domain-performance_13",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Please compare domain performance for school_5"
+      },
+      {
+        "role": "assistant",
+        "content": "Here's the domain performance analysis for School 5:\n\n- Total exams analyzed: 144\n\nAverage performance per domain (out of 10 questions):\n- **Domain A**: 7.80 correct (78.0%)\n- **Domain B**: 7.36 correct (73.6%)\n- **Domain C**: 7.22 correct (72.2%)\n\n- **Strongest Domain**: A\n- **Weakest Domain**: C\n\nThis suggests that students in School 5 perform best in Domain A, while Domain C is an area that may benefit from additional focus."
+      }
+    ]
+  },
+  {
+    "conversation_id": "compare-domain-performance_14",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Compare domain performance for school_1649"
+      },
+      {
+        "role": "assistant",
+        "content": "Here is the domain performance analysis for school_1649:\n\n- **Domain A:** Average of 8.15 correct out of 10 questions (81.5%).\n- **Domain B:** Average of 7.65 correct out of 10 questions (76.5%).\n- **Domain C:** Average of 7.32 correct out of 10 questions (73.2%).\n\n- **Strongest domain:** A\n- **Weakest domain:** C\n\nA total of 184 exams were analyzed for this performance overview."
+      }
+    ]
+  },
+  {
+    "conversation_id": "compare-domain-performance_15",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Can you compare domain performance for school_6?"
+      },
+      {
+        "role": "assistant",
+        "content": "Here's the domain performance analysis for School 6:\n\n- **Total exams analyzed:** 144\n\n**Average performance per domain (out of 10 questions):**\n- **Domain A:** 8.09 correct (80.9%)\n- **Domain B:** 7.53 correct (75.3%)\n- **Domain C:** 6.95 correct (69.5%)\n\n- **Strongest domain:** A\n- **Weakest domain:** C\n\nThis analysis suggests that students at School 6 perform best in Domain A and encounter more challenges in Domain C."
+      }
+    ]
+  },
+  {
+    "conversation_id": "compare-domain-performance_16",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Compare domain performance for school_1651"
+      },
+      {
+        "role": "assistant",
+        "content": "### Domain Performance Analysis for School school_1651:\n\n**Total exams analyzed:** 192\n\n**Average performance per domain (out of 10 questions):**\n- **Domain A:** 8.04 correct (80.4%)\n- **Domain B:** 7.58 correct (75.8%)\n- **Domain C:** 7.15 correct (71.5%)\n\n- **Strongest domain:** A\n- **Weakest domain:** C\n\nIf you need further insights or wish to explore strategies for improving performance in weaker domains, feel free to ask!"
+      }
+    ]
+  },
+  {
+    "conversation_id": "compare-domain-performance_17",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Domain performance comparison for school_1"
+      },
+      {
+        "role": "assistant",
+        "content": "Here is the domain performance analysis for School 1:\n\nTotal exams analyzed: 112\n\nAverage performance per domain (out of 10 questions):\n- Domain A: 8.00 correct (80.0%)\n- Domain B: 7.46 correct (74.6%)\n- Domain C: 7.36 correct (73.6%)\n\n- Strongest domain: A\n- Weakest domain: C\n\nThis suggests that students in School 1 perform best in Domain A and could focus on improving their performance in Domain C. Let me know if you need further insights or recommendations!"
+      }
+    ]
+  },
+  {
+    "conversation_id": "compare-domain-performance_18",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Compare domain performance for school_1650"
+      },
+      {
+        "role": "assistant",
+        "content": "Here's the domain performance analysis for School 1650:\n\n- **Total exams analyzed**: 176\n\n**Average performance per domain (out of 10 questions):**\n- **Domain A**: 7.81 correct (78.1%)\n- **Domain B**: 7.26 correct (72.6%)\n- **Domain C**: 6.70 correct (67.0%)\n\n- **Strongest domain**: A\n- **Weakest domain**: C\n\nThis indicates that students at School 1650 perform best in Domain A and have the most room for improvement in Domain C."
+      }
+    ]
+  },
+  {
+    "conversation_id": "compare-domain-performance_19",
+    "messages": [
+      {
+        "role": "user",
+        "content": "compare-domain-performance for school_5"
+      },
+      {
+        "role": "assistant",
+        "content": "Here is the domain performance analysis for School 5:\n\n- **Total exams analyzed:** 144\n\n**Average performance per domain (out of 10 questions):**\n- **Domain A:** 7.80 correct (78.0%)\n- **Domain B:** 7.36 correct (73.6%)\n- **Domain C:** 7.22 correct (72.2%)\n\n- **Strongest domain:** A\n- **Weakest domain:** C\n\nSchool 5 shows the strongest performance in Domain A and the weakest in Domain C. This suggests a potential focus area for improvement could be strategies tailored to Domain C."
+      }
+    ]
+  },
+  {
+    "conversation_id": "compare-domain-performance_20",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Compare domain performance for student_s1p1"
+      },
+      {
+        "role": "assistant",
+        "content": "Here's the domain performance comparison for student student_s1p1:\n\n- **Domain A:**\n  - Average Items Correct: 8.1/10\n  - Percentage: 81.3%\n\n- **Domain B:**\n  - Average Items Correct: 6.9/10\n  - Percentage: 68.8%\n\n- **Domain C:**\n  - Average Items Correct: 7.1/10\n  - Percentage: 71.3%\n\n**Overall Student Performance:**\n- School: school_1\n- Average Exam Score: 204.0\n- Overall Questions Correct: 22.1/30 (73.8%)\n\n**Insights:**\n- The student performs best in Domain A with an 81.3% correct response rate.\n- Domain B is the weakest, with 68.8% correct.\n- There is room for improvement, suggesting potential areas for additional practice.\n\nIf you have any more specific questions or need further insights, feel free to ask!"
+      }
+    ]
+  },
+  {
+    "conversation_id": "compare-domain-performance_21",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Compare domain performance without specifying school"
+      },
+      {
+        "role": "assistant",
+        "content": "To compare domain performance, I would need the ID of the specific school you're interested in. Once I have that, I can provide you with a detailed analysis of student performance in the specified school across the different domains. For instance, if you need data on school number 452, the command would be \"compare-domain-performance\" with \"school_id\" set to \"school_452\". Please provide the appropriate school ID."
+      }
+    ]
+  },
+  {
+    "conversation_id": "compare-domain-performance_22",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Compare domain performance for school_5000"
+      },
+      {
+        "role": "assistant",
+        "content": "It seems that school_5000 is not available in our dataset. Please check to ensure you have the correct school ID, or let me know if there is anything else I can assist you with. If you need analysis for a different school, please provide the appropriate school ID."
+      }
+    ]
+  },
+  {
+    "conversation_id": "compare-domain-performance_23",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Compare domain performance for school_ABC"
+      },
+      {
+        "role": "assistant",
+        "content": "It seems like the school ID \"school_ABC\" is not present in our records. Please provide a valid school ID from the following available IDs: school_1, school_2, school_4, school_5, school_6, ..., school_1648, school_1649, school_1650, school_1651, school_9999."
+      }
+    ]
+  },
+  {
+    "conversation_id": "compare-domain-performance_24",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Compare domain performance for school_1 in exam 3"
+      },
+      {
+        "role": "assistant",
+        "content": "The domain performance analysis for **School 1** in **Exam 3** indicates the following average performances:\n\n- **Domain A**: 80.0% correct (8.00 out of 10 questions)\n- **Domain B**: 74.6% correct (7.46 out of 10 questions)\n- **Domain C**: 73.6% correct (7.36 out of 10 questions)\n\nThe strongest domain for School 1 in this exam is **Domain A**, while the weakest is **Domain C**."
+      }
+    ]
+  },
+  {
+    "conversation_id": "compare-domain-performance_25",
+    "messages": [
+      {
+        "role": "user",
+        "content": "What is the performance of domain a in school_1?"
+      },
+      {
+        "role": "assistant",
+        "content": "The performance of Domain A in School 1 shows an average of 8.00 correct answers out of 10 questions, corresponding to 80.0%. This indicates that Domain A is the strongest domain in the school compared to the other domains, with Domain B and C having averages of 74.6% and 73.6% respectively."
+      }
+    ]
+  },
+  {
+    "conversation_id": "compare-domain-performance_26",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Compare domain performance for school_4"
+      },
+      {
+        "role": "assistant",
+        "content": "The domain performance analysis for School 4 based on recent exam data is as follows:\n\n- **Total exams analyzed:** 128\n\n**Average performance per domain (out of 10 questions):**\n- **Domain A:** 8.07 correct (80.7%)\n- **Domain B:** 7.54 correct (75.4%)\n- **Domain C:** 7.30 correct (73.0%)\n\n- **Strongest domain:** A\n- **Weakest domain:** C\n\nThis suggests that students at School 4 perform best in Domain A, while Domain C could benefit from additional focus and resources to improve student understanding and performance."
+      }
+    ]
+  },
+  {
+    "conversation_id": "compare-domain-performance_27",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Compare domain performance for school_1649"
+      },
+      {
+        "role": "assistant",
+        "content": "Here is the domain performance analysis for School 1649:\n\n- **Total exams analyzed**: 184\n\n**Average performance per domain (out of 10 questions)**:\n- **Domain A**: 8.15 correct answers (81.5%)\n- **Domain B**: 7.65 correct answers (76.5%)\n- **Domain C**: 7.32 correct answers (73.2%)\n\n- **Strongest domain**: A\n- **Weakest domain**: C\n\nThis suggests that students at School 1649 perform best in Domain A and have room for improvement in Domain C."
+      }
+    ]
+  },
+  {
+    "conversation_id": "compare-domain-performance_28",
+    "messages": [
+      {
+        "role": "user",
+        "content": "I wish to compare domain performance for school_1650"
+      },
+      {
+        "role": "assistant",
+        "content": "Here is the domain performance analysis for **School 1650**:\n\n- **Total exams analyzed**: 176\n\n**Average performance per domain (out of 10 questions):**\n\n- **Domain A**: 7.81 correct (78.1%)\n- **Domain B**: 7.26 correct (72.6%)\n- **Domain C**: 6.70 correct (67.0%)\n\n- **Strongest domain**: A\n- **Weakest domain**: C\n\nThese insights suggest that while Domain A is the strongest area, there may be opportunities to improve performance in Domain C."
+      }
+    ]
+  },
+  {
+    "conversation_id": "compare-domain-performance_29",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Compare performance across all domains for school_1"
+      },
+      {
+        "role": "assistant",
+        "content": "Here's the domain performance analysis for School `school_1`:\n\n- **Total exams analyzed**: 112\n\n**Average performance per domain** (out of 10 questions):\n- **Domain A**: 8.00 correct (80.0%)\n- **Domain B**: 7.46 correct (74.6%)\n- **Domain C**: 7.36 correct (73.6%)\n\n- **Strongest domain**: A (80.0%)\n- **Weakest domain**: C (73.6%)\n\nThis indicates that students in School `school_1` tend to perform best in Domain A and have some room for improvement in Domain C."
+      }
+    ]
+  },
+  {
+    "conversation_id": "compare-domain-performance_30",
+    "messages": [
+      {
+        "role": "user",
+        "content": "compare performance across domain a for school_1"
+      },
+      {
+        "role": "assistant",
+        "content": "The performance analysis for School 1 across different domains reveals the following:\n\n- **Domain A**: Average of 8.00 correct out of 10 questions, which equals 80.0%. This is the strongest domain.\n- **Domain B**: Average of 7.46 correct, equating to 74.6%.\n- **Domain C**: Average of 7.36 correct, or 73.6%. This is the weakest domain.\n\nIn summary, School 1 performs best in Domain A."
+      }
+    ]
+  },
+  {
+    "conversation_id": "compare-domain-performance_31",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Compare performance across domain b and c for school_2"
+      },
+      {
+        "role": "assistant",
+        "content": "The performance analysis for School 2 across domains B and C shows the following:\n\n- **Domain B**: The average performance is 7.49 out of 10, meaning students answered 74.9% of the questions correctly.\n- **Domain C**: The average performance is 7.27 out of 10, with a 72.7% correct response rate.\n\nIn comparison, Domain B slightly outperforms Domain C by 2.2%. Overall, both domains are performing well, but there is room for improvement in Domain C, the weakest domain."
+      }
+    ]
+  },
+  {
+    "conversation_id": "compare-domain-performance_32",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Can you compare performance across all domain for school_6?"
+      },
+      {
+        "role": "assistant",
+        "content": "Here's the performance analysis for School 6 across all domains:\n\n- **Number of Exams Analyzed:** 144\n\n**Average Performance per Domain:**\n- **Domain A:** 8.09 correct answers out of 10 (80.9%)\n- **Domain B:** 7.53 correct answers out of 10 (75.3%)\n- **Domain C:** 6.95 correct answers out of 10 (69.5%)\n\n- **Strongest Domain:** Domain A\n- **Weakest Domain:** Domain C\n\nThis suggests that students at School 6 perform best in Domain A and could benefit from additional support in Domain C."
+      }
+    ]
+  },
+  {
+    "conversation_id": "compare-domain-performance_33",
+    "messages": [
+      {
+        "role": "user",
+        "content": "compare the domain performance for school_1651"
+      },
+      {
+        "role": "assistant",
+        "content": "For School 1651, here's the domain performance analysis:\n\n- **Total exams analyzed:** 192\n\n**Average performance per domain (out of 10 questions):**\n- **Domain A:** 8.04 correct (80.4%)\n- **Domain B:** 7.58 correct (75.8%)\n- **Domain C:** 7.15 correct (71.5%)\n\n- **Strongest domain:** A\n- **Weakest domain:** C\n\nThis suggests that students in School 1651 perform best in Domain A and have the most room for improvement in Domain C."
+      }
+    ]
+  },
+  {
+    "conversation_id": "compare-domain-performance_34",
+    "messages": [
+      {
+        "role": "user",
+        "content": "compare-domain-performance for school_9999"
+      },
+      {
+        "role": "assistant",
+        "content": "Here's the domain performance analysis for school_9999:\n\n- Total exams analyzed: 2,448\n- **Average performance per domain (out of 10 questions):**\n  - **Domain A:** 7.99 correct (79.9%)\n  - **Domain B:** 7.47 correct (74.7%)\n  - **Domain C:** 7.11 correct (71.1%)\n\n- **Strongest domain:** A\n- **Weakest domain:** C\n\nThis analysis indicates that students at school_9999 perform best in Domain A and have room for improvement in Domain C."
+      }
+    ]
+  },
+  {
+    "conversation_id": "compare-domain-performance_35",
+    "messages": [
+      {
+        "role": "user",
+        "content": "I want to compare performance across domains a, b and c for school_4"
+      },
+      {
+        "role": "assistant",
+        "content": "Here's the performance analysis across domains for School 4:\n\n- **Total exams analyzed:** 128\n\n**Average performance per domain (out of 10 questions):**\n- **Domain A:** 8.07 correct (80.7%)\n- **Domain B:** 7.54 correct (75.4%)\n- **Domain C:** 7.30 correct (73.0%)\n\n- **Strongest domain:** A\n- **Weakest domain:** C\n\nThis analysis suggests that students at School 4 performed best in Domain A and might benefit from additional support in Domain C to boost their performance."
+      }
+    ]
+  },
+  {
+    "conversation_id": "compare-domain-performance_36",
+    "messages": [
+      {
+        "role": "user",
+        "content": "How do I compare domain performance for school_1?"
+      },
+      {
+        "role": "assistant",
+        "content": "The performance analysis for School_1 shows the following results across different domains:\n\n- **Total exams analyzed**: 112\n\n**Average performance per domain** (out of 10 questions):\n- **Domain A**: 8.00 correct answers (80.0%)\n- **Domain B**: 7.46 correct answers (74.6%)\n- **Domain C**: 7.36 correct answers (73.6%)\n\n- **Strongest domain**: Domain A\n- **Weakest domain**: Domain C\n\nThis data indicates that students at School_1 perform best in Domain A and struggle the most in Domain C. You may consider exploring specific interventions or resources tailored towards improving performance in Domain C."
+      }
+    ]
+  },
+  {
+    "conversation_id": "compare-domain-performance_37",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Please check domain performance of school_2"
+      },
+      {
+        "role": "assistant",
+        "content": "Here's the domain performance analysis for School ID `school_2`:\n\n- **Total exams analyzed:** 112\n\n**Average performance per domain (out of 10 questions):**\n- **Domain A:** 8.08 correct (80.8%)\n- **Domain B:** 7.49 correct (74.9%)\n- **Domain C:** 7.27 correct (72.7%)\n\n- **Strongest domain:** A\n- **Weakest domain:** C\n\nThis analysis suggests that students in school_2 perform best in Domain A and face challenges in Domain C. Focused strategies could be developed to improve Domain C outcomes."
+      }
+    ]
+  },
+  {
+    "conversation_id": "compare-domain-performance_38",
+    "messages": [
+      {
+        "role": "user",
+        "content": "I need to compare domain performance for school_6"
+      },
+      {
+        "role": "assistant",
+        "content": "Here is the domain performance analysis for School 6:\n\n- **Total exams analyzed:** 144\n\n**Average performance per domain (out of 10 questions):**\n- **Domain A:** 8.09 correct (80.9%)\n- **Domain B:** 7.53 correct (75.3%)\n- **Domain C:** 6.95 correct (69.5%)\n\n- **Strongest domain:** A\n- **Weakest domain:** C\n\nThis data can help identify areas for improvement, especially in Domain C which is the weakest for this school."
+      }
+    ]
+  },
+  {
+    "conversation_id": "compare-domain-performance_39",
+    "messages": [
+      {
+        "role": "user",
+        "content": "In school_1650, I want to compare domain performance"
+      },
+      {
+        "role": "assistant",
+        "content": "Here's the domain performance analysis for **School 1650**:\n\n- **Total exams analyzed**: 176\n\n**Average performance per domain (out of 10 questions)**:\n- **Domain A**: 7.81 correct (78.1%)\n- **Domain B**: 7.26 correct (72.6%)\n- **Domain C**: 6.70 correct (67.0%)\n\n- **Strongest domain**: A\n- **Weakest domain**: C\n\nThis suggests that students in School 1650 perform best in Domain A and need more support in Domain C."
+      }
+    ]
+  },
+  {
+    "conversation_id": "compare-domain-performance_40",
+    "messages": [
+      {
+        "role": "user",
+        "content": "check domain performance of domains a,b,c for school_1651"
+      },
+      {
+        "role": "assistant",
+        "content": "Here is the domain performance analysis for School 1651:\n\n- **Total exams analyzed**: 192\n\n**Average performance per domain (out of 10 questions)**:\n- **Domain A**: 8.04 correct (80.4%)\n- **Domain B**: 7.58 correct (75.8%)\n- **Domain C**: 7.15 correct (71.5%)\n\n- **Strongest domain**: A\n- **Weakest domain**: C\n\nThis analysis indicates that students at School 1651 perform best in Domain A and have the most room for improvement in Domain C."
+      }
+    ]
+  },
+  {
+    "conversation_id": "compare-domain-performance_41",
+    "messages": [
+      {
+        "role": "user",
+        "content": "compare domain performance for school_1648"
+      },
+      {
+        "role": "assistant",
+        "content": "Here's the domain performance analysis for School 1648:\n\n- **Domain A:** Averaged 8.27 correct answers out of 10 questions (82.7% accuracy).\n- **Domain B:** Averaged 7.83 correct answers out of 10 questions (78.3% accuracy).\n- **Domain C:** Averaged 7.05 correct answers out of 10 questions (70.5% accuracy).\n\n**Key Insights:**\n- The strongest domain for School 1648 is Domain A.\n- The weakest domain is Domain C."
+      }
+    ]
+  },
+  {
+    "conversation_id": "compare-domain-performance_42",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Provide domain performance comparison for school_9999"
+      },
+      {
+        "role": "assistant",
+        "content": "Here is the domain performance analysis for **School 9999**:\n\n- **Total exams analyzed:** 2,448\n\n**Average performance per domain (out of 10 questions):**\n- **Domain A:** 7.99 correct (79.9%)\n- **Domain B:** 7.47 correct (74.7%)\n- **Domain C:** 7.11 correct (71.1%)\n\n- **Strongest domain:** A\n- **Weakest domain:** C\n\nThese results suggest that students at School 9999 perform best in Domain A and may benefit from additional support or resources in Domain C."
+      }
+    ]
+  },
+  {
+    "conversation_id": "compare-domain-performance_43",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Could you compare domain performance for school_1?"
+      },
+      {
+        "role": "assistant",
+        "content": "Here is the domain performance analysis for **School 1**:\n\n- **Total exams analyzed**: 112\n\n**Average performance per domain (out of 10 questions):**\n- **Domain A**: 8.00 correct (80.0%)\n- **Domain B**: 7.46 correct (74.6%)\n- **Domain C**: 7.36 correct (73.6%)\n\n- **Strongest domain**: Domain A\n- **Weakest domain**: Domain C\n\nThis analysis shows that students at School 1 excel most in Domain A and face the greatest challenges in Domain C. To improve overall performance, focused strategies might be beneficial for boosting results in Domain C."
+      }
+    ]
+  },
+  {
+    "conversation_id": "compare-domain-performance_44",
+    "messages": [
+      {
+        "role": "user",
+        "content": "compare domain performance for school_2 using MCP tool"
+      },
+      {
+        "role": "assistant",
+        "content": "Here is the domain performance analysis for school_2:\n\n- **Total exams analyzed:** 112\n\n**Average performance per domain (out of 10 questions):**\n\n- **Domain A:** 8.08 correct (80.8%)\n- **Domain B:** 7.49 correct (74.9%)\n- **Domain C:** 7.27 correct (72.7%)\n\n**Strongest domain:** A\n\n**Weakest domain:** C\n\nThis suggests that students in school_2 perform best in Domain A and have the most room for improvement in Domain C. Let me know if you need data on specific students, exams, or further analysis!"
+      }
+    ]
+  },
+  {
+    "conversation_id": "compare-domain-performance_45",
+    "messages": [
+      {
+        "role": "user",
+        "content": "I want to know domain performance for school_6"
+      },
+      {
+        "role": "assistant",
+        "content": "Here is the domain performance analysis for School 6:\n\n- Total exams analyzed: 144\n\nAverage performance per domain (out of 10 questions):\n- Domain A: 8.09 correct (80.9%)\n- Domain B: 7.53 correct (75.3%)\n- Domain C: 6.95 correct (69.5%)\n\n- Strongest domain: A\n- Weakest domain: C"
+      }
+    ]
+  },
+  {
+    "conversation_id": "compare-domain-performance_46",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Help me compare domain performance for school_1649"
+      },
+      {
+        "role": "assistant",
+        "content": "**Domain Performance Analysis for School_1649:**\n\n- **Total Exams Analyzed:** 184\n\n**Average Performance per Domain (out of 10 questions):**\n- **Domain A:** 8.15 correct (81.5%)\n- **Domain B:** 7.65 correct (76.5%)\n- **Domain C:** 7.32 correct (73.2%)\n\n- **Strongest Domain:** A\n- **Weakest Domain:** C\n\nThis analysis shows that School_1649 excels in Domain A but has room for improvement in Domain C."
+      }
+    ]
+  },
+  {
+    "conversation_id": "compare-domain-performance_47",
+    "messages": [
+      {
+        "role": "user",
+        "content": "compare domain performance for school_4"
+      },
+      {
+        "role": "assistant",
+        "content": "Here is the domain performance analysis for School_4:\n\n- Total exams analyzed: 128\n\n**Average performance per domain (out of 10 questions):**\n- Domain A: 8.07 correct (80.7%)\n- Domain B: 7.54 correct (75.4%)\n- Domain C: 7.30 correct (73.0%)\n\n- **Strongest domain:** A\n- **Weakest domain:** C\n\nIf you have specific questions or need further insights, feel free to ask!"
+      }
+    ]
+  },
+  {
+    "conversation_id": "compare-domain-performance_48",
+    "messages": [
+      {
+        "role": "user",
+        "content": "In school_1650, run compare-domain-performance"
+      },
+      {
+        "role": "assistant",
+        "content": "Here is the domain performance analysis for School 1650:\n\n- **Total exams analyzed**: 176\n\n**Average performance per domain** (out of 10 questions):\n- **Domain A**: 7.81 correct (78.1%)\n- **Domain B**: 7.26 correct (72.6%)\n- **Domain C**: 6.70 correct (67.0%)\n\n- **Strongest domain**: A\n- **Weakest domain**: C"
+      }
+    ]
+  },
+  {
+    "conversation_id": "compare-domain-performance_49",
+    "messages": [
+      {
+        "role": "user",
+        "content": "compare domain performance for school_1651"
+      },
+      {
+        "role": "assistant",
+        "content": "Here's the domain performance analysis for School 1651:\n\n- **Total exams analyzed**: 192\n\n**Average performance per domain** (out of 10 questions):\n- **Domain A**: 8.04 correct answers (80.4%)\n- **Domain B**: 7.58 correct answers (75.8%)\n- **Domain C**: 7.15 correct answers (71.5%)\n\n- **Strongest domain**: Domain A\n- **Weakest domain**: Domain C\n\nThis analysis suggests a strong performance in Domain A, while there might be room for improvement in Domain C."
+      }
+    ]
+  },
+  {
+    "conversation_id": "compare-domain-performance_50",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Perform domain performance comparison for school_9999"
+      },
+      {
+        "role": "assistant",
+        "content": "The domain performance analysis for School 9999 is based on 2,448 analyzed exams. Here is the average performance per domain:\n\n- **Domain A**: 7.99 correct answers out of 10 questions, indicating a 79.9% success rate.\n- **Domain B**: 7.47 correct answers out of 10 questions, equating to a 74.7% success rate.\n- **Domain C**: 7.11 correct answers out of 10 questions, reflecting a 71.1% success rate.\n\nIn summary, the strongest domain for School 9999 is **Domain A**, while the weakest is **Domain C**."
+      }
+    ]
+  },
+  {
+    "conversation_id": "identify-struggling-students_1",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Identify struggling students in school_7 for domain a with minimum threshold of 6"
+      },
+      {
+        "role": "assistant",
+        "content": "Here are the students struggling in School 7 for domain A, scoring below the threshold of 6 out of 10:\n\n- **Student ID: student_s7p1**: Scored 5/10 (50.0%) in exam 6.\n- **Student ID: student_s7p5**: Scored 5/10 (50.0%) in exam 5.\n- **Student ID: student_s7p6**: Scored 5/10 (50.0%) in exam 4.\n\nThese students may benefit from targeted interventions to improve their understanding in this domain."
+      }
+    ]
+  },
+  {
+    "conversation_id": "identify-struggling-students_2",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Look for students who struggle in domain b in school_23 with a threshold of 5"
+      },
+      {
+        "role": "assistant",
+        "content": "Here are the students from school_23 who are struggling in domain B with scores below the threshold of 5 out of 10:\n\n1. **Student student_s23p14:** Scored 3 out of 10 (30.0%) in domain B on exam 3.\n2. **Student student_s23p4:** Scored 4 out of 10 (40.0%) in domain B on exam 5.\n3. **Student student_s23p8:** Scored 3 out of 10 (30.0%) in domain B on exam 1.\n4. **Student student_s23p9:** Scored 4 out of 10 (40.0%) in domain B on exam 1.\n5. **Student student_s23p9:** Scored 4 out of 10 (40.0%) in domain B on exam 8.\n\nThese students might benefit from additional support or resources to help improve their understanding and performance in domain B."
+      }
+    ]
+  },
+  {
+    "conversation_id": "identify-struggling-students_3",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Highlight students from school_1021 who are underperforming in domain b with a threshold of 3"
+      },
+      {
+        "role": "assistant",
+        "content": "Here are the students from school_1021 who are underperforming in domain B, with scores below the threshold of 3 out of 10:\n\n1. **Student ID: student_s1021p14**\n   - Domain B Score: 2/10 (20.0%) in exam 4\n\n2. **Student ID: student_s1021p16**\n   - Domain B Score: 2/10 (20.0%) in exam 6\n\n3. **Student ID: student_s1021p30**\n   - Domain B Score: 2/10 (20.0%) in exam 1\n\nConsider targeting these students for additional support or remediation to help improve their performance in domain B."
+      }
+    ]
+  },
+  {
+    "conversation_id": "identify-struggling-students_4",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Find students in school_9999 struggling in domain A with a threshold of 1"
+      },
+      {
+        "role": "assistant",
+        "content": "There are no students in School 9999 who are struggling in domain A with the specified threshold of 1/10 (10.0%). If you need further analysis or have different criteria, feel free to ask!"
+      }
+    ]
+  },
+  {
+    "conversation_id": "identify-struggling-students_5",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Tabulate struggling students in domain c from school_1435 having threshold of 2"
+      },
+      {
+        "role": "assistant",
+        "content": "No students were found struggling in School 1435 in domain C with a threshold of 2/10 (20.0%). If you need further assistance or adjusted parameters for this analysis, please let me know."
+      }
+    ]
+  },
+  {
+    "conversation_id": "identify-struggling-students_6",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Please find struggling students in school_7 in domain a."
+      },
+      {
+        "role": "assistant",
+        "content": "No students were found to be struggling in School 7 in domain A, based on the current threshold criteria of scoring below 50%. If you need detailed insights on student performance or wish to adjust the criteria, let me know!"
+      }
+    ]
+  },
+  {
+    "conversation_id": "identify-struggling-students_7",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Display students from school_45 in domain c under minimum threshold of 3"
+      },
+      {
+        "role": "assistant",
+        "content": "Here are the students from school_45 in domain C who scored below the minimum threshold of 3 out of 10 questions:\n\n- **Student ID:** student_s45p13  \n  **Performance:** Domain C - 2/10 (20.0%) in exam 1\n\n- **Student ID:** student_s45p15  \n  **Performance:** Domain C - 2/10 (20.0%) in exam 4\n\n- **Student ID:** student_s45p27  \n  **Performance:** Domain C - 2/10 (20.0%) in exam 3\n\nThese students might benefit from additional support or tutoring in this domain to improve their performance."
+      }
+    ]
+  },
+  {
+    "conversation_id": "identify-struggling-students_8",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Extract list of students from school_765 struggling in domain B with a minimum threshold of 4"
+      },
+      {
+        "role": "assistant",
+        "content": "Here is the list of students from School 765 who are struggling in Domain B (scoring below 4/10):\n\n- **Student ID: student_s765p1** - Scored 1/10 (10.0%) in Domain B during exam 1\n- **Student ID: student_s765p3** - Scored 3/10 (30.0%) in Domain B during exam 1\n- **Student ID: student_s765p6** - Scored 3/10 (30.0%) in Domain B during exam 5\n\nThese students may benefit from additional support or targeted interventions to improve their performance in this domain."
+      }
+    ]
+  },
+  {
+    "conversation_id": "identify-struggling-students_9",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Show students struggling in domain 2 from school_50"
+      },
+      {
+        "role": "assistant",
+        "content": "Here are students in school_50 who are struggling in Domain B (score below 5/10):\n\n1. Student student_s50p11: 3/10 (30.0%) in exam 1\n2. Student student_s50p21: 3/10 (30.0%) in exam 3\n3. Student student_s50p23: 4/10 (40.0%) in exam 1\n4. Student student_s50p3: 4/10 (40.0%) in exam 1\n5. Student student_s50p31: 4/10 (40.0%) in exam 1\n6. Student student_s50p4: 4/10 (40.0%) in exam 1\n7. Student student_s50p5: 3/10 (30.0%) in exam 1\n\nIf you need further analysis or detailed insights into any specific student, let me know!"
+      }
+    ]
+  },
+  {
+    "conversation_id": "identify-struggling-students_10",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Reveal struggling students from school_15 in domain a without threshold"
+      },
+      {
+        "role": "assistant",
+        "content": "Here are the students from **school_15** who are struggling in **Domain A** (below 5/10 questions correct):\n\n- **Student student_s15p13**: Scored 4/10 (40%) in Exam 8\n- **Student student_s15p2**: Scored 4/10 (40%) in Exam 6\n- **Student student_s15p7**: Scored 4/10 (40%) in Exam 6\n- **Student student_s15p7**: Scored 4/10 (40%) in Exam 8\n\nThese students may need additional support or resources in this domain."
+      }
+    ]
+  },
+  {
+    "conversation_id": "identify-struggling-students_11",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Search for struggling students from school_11 in domain A without specifying threshold"
+      },
+      {
+        "role": "assistant",
+        "content": "No students were found struggling in School 11 for Domain A using the default threshold of 50%. If you would like to adjust the threshold or analyze other aspects, let me know!"
+      }
+    ]
+  },
+  {
+    "conversation_id": "identify-struggling-students_12",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Seek underperforming students from school_412 in domain D with minimum threshold of 3"
+      },
+      {
+        "role": "assistant",
+        "content": "I'm sorry for the inconvenience but currently we only support analysis for domains a, b, and c. Could you please specify a domain within these options?"
+      }
+    ]
+  },
+  {
+    "conversation_id": "identify-struggling-students_13",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Locate students in school_A7 who are struggling in domain a with threshold of 6"
+      },
+      {
+        "role": "assistant",
+        "content": "It appears that School_A7 doesn't exist in our records. Please check the school ID and try again. Remember, the available school IDs are something like school_1, school_2, etc. If you have the correct school ID, I can help analyze the students' performance in domain 'a' with a threshold of 6."
+      }
+    ]
+  },
+  {
+    "conversation_id": "identify-struggling-students_14",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Present students in school_2 struggling in domain C with no threshold"
+      },
+      {
+        "role": "assistant",
+        "content": "Here are the students in School 2 who are struggling in Domain C, based on performance below 50% in exams:\n\n- **Student ID: student_s2p12**\n  - Exam 1: 3/10 (30.0%)\n  - Exam 5: 4/10 (40.0%)\n\n- **Student ID: student_s2p14**\n  - Exam 1: 3/10 (30.0%)\n\n- **Student ID: student_s2p6**\n  - Exam 4: 4/10 (40.0%)\n\n- **Student ID: student_s2p7**\n  - Exam 4: 4/10 (40.0%)\n\n- **Student ID: student_s2p8**\n  - Exam 1: 4/10 (40.0%)\n\nThese students need additional support in Domain C. You may consider interventions like tutoring or supplemental instructional resources to help them improve."
+      }
+    ]
+  },
+  {
+    "conversation_id": "identify-struggling-students_15",
+    "messages": [
+      {
+        "role": "user",
+        "content": "In school_1078, find struggling students in domain a with a threshold of -1"
+      },
+      {
+        "role": "assistant",
+        "content": "I'm sorry, but the threshold cannot be a negative value. It has to be a value between 0 and 10, as it represents the minimum correct items out of 10. Could you please provide a valid threshold?"
+      }
+    ]
+  },
+  {
+    "conversation_id": "identify-struggling-students_16",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Seek struggle students in domain c from school_265 with threshold 2"
+      },
+      {
+        "role": "assistant",
+        "content": "No students were found struggling in School school_265 in domain C with a threshold set at 2/10 (20.0%)."
+      }
+    ]
+  },
+  {
+    "conversation_id": "identify-struggling-students_17",
+    "messages": [
+      {
+        "role": "user",
+        "content": "List students from school_123 struggling in domain a above threshold 5"
+      },
+      {
+        "role": "assistant",
+        "content": "Here are the students from School 123 who are struggling in Domain A with a performance above the threshold of 5/10 questions (50% or below):\n\n- **Student student_s123p13:** Scored 4/10 (40.0%) in Exam 8\n- **Student student_s123p14:** Scored 4/10 (40.0%) in Exam 8\n- **Student student_s123p3:** Scored 4/10 (40.0%) in Exam 5\n- **Student student_s123p9:** Scored 4/10 (40.0%) in Exam 6\n\nThese students may benefit from targeted interventions in this domain to improve their understanding and performance."
+      }
+    ]
+  },
+  {
+    "conversation_id": "identify-struggling-students_18",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Query tool for students having trouble in domain a at school_10 with threshold 2"
+      },
+      {
+        "role": "assistant",
+        "content": "No students were found struggling in School 10 for domain A with a threshold score of 2/10. This means there are no students in this school having trouble based on your criteria. If you have further questions or need targeted insight on different domains or thresholds, feel free to ask!"
+      }
+    ]
+  },
+  {
+    "conversation_id": "identify-struggling-students_19",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Identify students in struggling with a threshold of 4 in domain c"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure, I need a specific school's ID to analyze. Could you provide it to me?"
+      }
+    ]
+  },
+  {
+    "conversation_id": "identify-struggling-students_20",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Locate struggling students from school_1649 in domain B without specifying a threshold"
+      },
+      {
+        "role": "assistant",
+        "content": "Here are the students from school_1649 who are struggling in Domain B (based on scores below 5 out of 10):\n\n1. Student student_s1649p13:\n   - Domain B: 4/10 (40.0%) in Exam 1\n2. Student student_s1649p14:\n   - Domain B: 4/10 (40.0%) in Exam 1\n   - Domain B: 4/10 (40.0%) in Exam 8\n3. Student student_s1649p17:\n   - Domain B: 2/10 (20.0%) in Exam 1\n4. Student student_s1649p20:\n   - Domain B: 4/10 (40.0%) in Exam 1\n5. Student student_s1649p23:\n   - Domain B: 2/10 (20.0%) in Exam 2\n6. Student student_s1649p5:\n   - Domain B: 4/10 (40.0%) in Exam 1\n7. Student student_s1649p7:\n   - Domain B: 1/10 (10.0%) in Exam 1\n8. Student student_s1649p9:\n   - Domain B: 4/10 (40.0%) in Exam 8\n\nThese students may benefit from additional support or tutoring in Domain B to help improve their performance."
+      }
+    ]
+  },
+  {
+    "conversation_id": "identify-struggling-students_21",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Provide information on students in school_1 who are struggling in domain d with a threshold of 7"
+      },
+      {
+        "role": "assistant",
+        "content": "I'm sorry, but domain \"d\" is not available in our dataset. We can analyze data for domains \"a\", \"b\", or \"c\" only. Kindly provide the correct domain you want to investigate."
+      }
+    ]
+  },
+  {
+    "conversation_id": "identify-struggling-students_22",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Spot struggling students from school_1883 in domain a with a high threshold of 8"
+      },
+      {
+        "role": "assistant",
+        "content": "It seems like school_1883 is not in our dataset. Please double-check the school ID or provide another one, and ensure your request includes the domain and the threshold for more accurate results."
+      }
+    ]
+  },
+  {
+    "conversation_id": "identify-struggling-students_23",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Looking for struggling students in a domain within school_5"
+      },
+      {
+        "role": "assistant",
+        "content": "Here are some students in school_5 who are struggling in different domains (defined as scoring below 5 out of 10 questions):\n\n1. **Student student_s5p1**\n   - Domain B: 40.0% (4/10) in Exam 1\n   - Domain C: 30.0% (3/10) in Exam 4\n   - Domain B: 40.0% (4/10) in Exam 8\n\n2. **Student student_s5p11**\n   - Domain C: 40.0% (4/10) in Exam 1\n   - Domain A: 40.0% (4/10) in Exam 5\n   - Domain B: 40.0% (4/10) in Exam 6\n\n3. **Student student_s5p12**\n   - Domain C: 20.0% (2/10) in Exam 4\n   - Domain A: 40.0% (4/10) in Exam 6\n\n4. **Student student_s5p13**\n   - Domain B: 30.0% (3/10) in Exam 1\n\n5. **Student student_s5p15**\n   - Domain B: 40.0% (4/10) in Exam 1\n   - Domain C: 40.0% (4/10) in Exam 1\n\n6. **Student student_s5p17**\n   - Domain B: 30.0% (3/10) in Exam 1\n   - Domain C: 40.0% (4/10) in Exam 4\n\n7. **Student student_s5p18**\n   - Domain C: 40.0% (4/10) in Exam 3\n\n8. **Student student_s5p2**\n   - Domain A: 40.0% (4/10) in Exam 8\n\n9. **Student student_s5p4**\n   - Domain A: 40.0% (4/10) in Exams 5 and 8\n\n10. **Student student_s5p5**\n    - Domain B: 40.0% (4/10) in Exam 3\n\n11. **Student student_s5p6**\n    - Domain C: 30.0% (3/10) in Exam 1\n\n12. **Student student_s5p8**\n    - Domain C: 40.0% (4/10) in Exams 2 and 4\n    - Domain B: 40.0% (4/10) in Exam 6\n\nThese students could benefit from targeted support in their respective domains. If you need further details or insights, feel free to ask!"
+      }
+    ]
+  },
+  {
+    "conversation_id": "identify-struggling-students_24",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Fetch struggling students in school_1650 under domain a at threshold 6"
+      },
+      {
+        "role": "assistant",
+        "content": "Here are the students struggling in School 1650 for Domain A, scoring below your threshold of 6/10:\n\n- **Student student_s1650p1**: Scored 4/10 (40.0%) in Exam 4\n- **Student student_s1650p10**: Scored 5/10 (50.0%) in Exam 5\n- **Student student_s1650p11**: Scored 5/10 (50.0%) in Exam 6\n- **Student student_s1650p13**: Scored 5/10 (50.0%) in Exam 6\n- **Student student_s1650p15**: Scored 3/10 (30.0%) in Exam 3\n- **Student student_s1650p18**: Scored 5/10 (50.0%) in Exam 6\n- **Student student_s1650p19**: Scored 4/10 (40.0%) in Exam 4\n- **Student student_s1650p19**: Scored 5/10 (50.0%) in Exam 5\n- **Student student_s1650p2**: Scored 5/10 (50.0%) in Exams 1, 5, and 8\n- **Student student_s1650p20**: Scored 5/10 (50.0%) in Exam 6\n- **Student student_s1650p21**: Scored 5/10 (50.0%) in Exam 8\n- **Student student_s1650p6**: Scored 4/10 (40.0%) in Exam 5\n\nThese students might benefit from targeted support in Domain A to improve their scores."
+      }
+    ]
+  },
+  {
+    "conversation_id": "identify-struggling-students_25",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Struggling students in school_800 from domain c with a threshold of 3"
+      },
+      {
+        "role": "assistant",
+        "content": "Here are the students in school_800 who are struggling in domain C, with scores below the threshold of 3 out of 10:\n\n- **Student ID:** student_s800p2\n  - Exam: 2\n  - Score: 2 out of 10 (20.0%)\n\n- **Student ID:** student_s800p22\n  - Exam: 1\n  - Score: 2 out of 10 (20.0%)\n\nThese students may benefit from additional support in domain C to improve their performance."
+      }
+    ]
+  },
+  {
+    "conversation_id": "identify-struggling-students_26",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Can't find students of school_55 struggling in domain A with specified threshold"
+      },
+      {
+        "role": "assistant",
+        "content": "Here are the students from **school_55** struggling in **Domain A** with performances below the specified threshold of 5 out of 10 (50%):\n\n1. **Student ID**: student_s55p15\n   - **Performance**: 2/10 (20%) in exam 8\n\n2. **Student ID**: student_s55p7\n   - **Performance**: 4/10 (40%) in exam 8\n\nThese students are underperforming in Domain A relative to the threshold. You may consider offering additional support or resources to help them improve."
+      }
+    ]
+  },
+  {
+    "conversation_id": "identify-struggling-students_27",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Produce results for students struggling in domain Z from school_409 with threshold 5"
+      },
+      {
+        "role": "assistant",
+        "content": "I'm sorry, but I can only provide analysis on domains labeled \"a\", \"b\", or \"c\". If you could provide one of these domains, I'd be able to give results on struggling students from school_409 with a threshold of 5."
+      }
+    ]
+  },
+  {
+    "conversation_id": "identify-struggling-students_28",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Retrieve struggling students from domain c in school_10 with maximum threshold"
+      },
+      {
+        "role": "assistant",
+        "content": "Here are the students struggling in domain C at school_10, who scored less than 10 out of 10:\n\n1. **Student student_s10p1:**\n   - Exam 1: 1/10 (10.0%)\n   - Exam 2: 8/10 (80.0%)\n   - Exam 3: 8/10 (80.0%)\n   - Exam 4: 7/10 (70.0%)\n   - Exam 5: 7/10 (70.0%)\n   - Exam 6: 7/10 (70.0%)\n   - Exam 7: 6/10 (60.0%)\n\n2. **Student student_s10p2:**\n   - Exam 2: 6/10 (60.0%)\n   - Exam 3: 8/10 (80.0%)\n   - Exam 4: 8/10 (80.0%)\n   - Exam 5: 6/10 (60.0%)\n   - Exam 6: 5/10 (50.0%)\n   - Exam 7: 8/10 (80.0%)\n\n3. **Student student_s10p3:**\n   - Exam 1: 9/10 (90.0%)\n   - Exam 2: 6/10 (60.0%)\n   - Exam 3: 7/10 (70.0%)\n   - Exam 4: 6/10 (60.0%)\n   - Exam 5: 6/10 (60.0%)\n   - Exam 6: 7/10 (70.0%)\n   - Exam 7: 5/10 (50.0%)\n   - Exam 8: 8/10 (80.0%)\n\n4. **Student student_s10p4:**\n   - Exam 1: 7/10 (70.0%)\n   - Exam 2: 7/10 (70.0%)\n   - Exam 3: 6/10 (60.0%)\n   - Exam 4: 4/10 (40.0%)\n   - Exam 5: 9/10 (90.0%)\n   - Exam 6: 9/10 (90.0%)\n   - Exam 7: 7/10 (70.0%)\n\n5. **Student student_s10p5:**\n   - Exam 1: 6/10 (60.0%)\n   - Exam 2: 6/10 (60.0%)\n   - Exam 3: 6/10 (60.0%)\n   - Exam 4: 9/10 (90.0%)\n   - Exam 5: 8/10 (80.0%)\n   - Exam 6: 8/10 (80.0%)\n   - Exam 7: 9/10 (90.0%)\n   - Exam 8: 8/10 (80.0%)\n\n6. **Student student_s10p6:**\n   - Exam 1: 8/10 (80.0%)\n   - Exam 2: 7/10 (70.0%)\n   - Exam 3: 7/10 (70.0%)\n   - Exam 4: 5/10 (50.0%)\n   - Exam 5: 7/10 (70.0%)\n   - Exam 7: 7/10 (70.0%)\n   - Exam 8: 7/10 (70.0%)\n\n7. **Student student_s10p7:**\n   - Exam 1: 3/10 (30.0%)\n   - Exam 2: 5/10 (50.0%)\n   - Exam 3: 4/10 (40.0%)\n   - Exam 4: 9/10 (90.0%)\n   - Exam 5: 6/10 (60.0%)\n   - Exam 6: 8/10 (80.0%)\n   - Exam 7: 9/10 (90.0%)\n   - Exam 8: 9/10 (90.0%)\n\n8. **Student student_s10p8:**\n   - Exam 1: 6/10 (60.0%)\n   - Exam 2: 6/10 (60.0%)\n   - Exam 3: 6/10 (60.0%)\n   - Exam 4: 5/10 (50.0%)\n   - Exam 5: 8/10 (80.0%)\n   - Exam 6: 9/10 (90.0%)\n   - Exam 7: 7/10 (70.0%)\n   - Exam 8: 7/10 (70.0%)\n\n9. **Student student_s10p9:**\n   - Exam 1: 3/10 (30.0%)\n   - Exam 2: 8/10 (80.0%)\n   - Exam 3: 4/10 (40.0%)\n   - Exam 4: 6/10 (60.0%)\n   - Exam 5: 8/10 (80.0%)\n   - Exam 6: 8/10 (80.0%)\n   - Exam 7: 5/10 (50.0%)\n   - Exam 8: 9/10 (90.0%)\n\nIf you need further detailed analysis or interventions, feel free to ask!"
+      }
+    ]
+  },
+  {
+    "conversation_id": "identify-struggling-students_29",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Find all students in domain b from school_123 that are struggling with a threshold of 2"
+      },
+      {
+        "role": "assistant",
+        "content": "No students were found struggling in school_123 within domain B with the specified threshold of 2. It seems that either students are performing above this threshold or further breakdown of domains is required. If you need more insights or other information, let me know!"
+      }
+    ]
+  },
+  {
+    "conversation_id": "identify-struggling-students_30",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Provide list of school_1648 students struggling in the domain a below threshold 7"
+      },
+      {
+        "role": "assistant",
+        "content": "Here is a list of students from school_1648 struggling in domain A, scoring below the threshold of 7 out of 10:\n\n1. **Student ID: student_s1648p1**\n   - Domain A: 6/10 (60.0%) in exam 5\n  \n2. **Student ID: student_s1648p2**\n   - Domain A: 4/10 (40.0%) in exam 5\n   - Domain A: 6/10 (60.0%) in exam 8\n\n3. **Student ID: student_s1648p4**\n   - Domain A: 5/10 (50.0%) in exam 3\n   - Domain A: 5/10 (50.0%) in exam 4\n\n4. **Student ID: student_s1648p5**\n   - Domain A: 6/10 (60.0%) in exam 5\n   - Domain A: 5/10 (50.0%) in exam 8\n\n5. **Student ID: student_s1648p8**\n   - Domain A: 6/10 (60.0%) in exam 8\n\nConsider providing additional support to these students to improve their performance in domain A."
+      }
+    ]
+  },
+  {
+    "conversation_id": "identify-struggling-students_31",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Analyse school_7 for students who are struggling in domain A but no threshold"
+      },
+      {
+        "role": "assistant",
+        "content": "No students are currently identified as struggling in domain A at School 7 under the default threshold of 5/10 (50.0%). If you would like to adjust the threshold or explore other domains, please let me know!"
+      }
+    ]
+  },
+  {
+    "conversation_id": "identify-struggling-students_32",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Collect struggling students in school_1 for domain b without a threshold value"
+      },
+      {
+        "role": "assistant",
+        "content": "Here are the students in school_1 struggling with domain B, scoring below 5 out of 10 questions:\n\n- **Student student_s1p1**: Scored 4/10 (40.0%) in exam 1.\n- **Student student_s1p4**: Scored 4/10 (40.0%) in exam 1.\n- **Student student_s1p5**: Scored 4/10 (40.0%) in exam 1.\n- **Student student_s1p7**: Scored 3/10 (30.0%) in exam 1.\n\nFor more tailored interventions, consider reviewing these students' specific challenges and providing additional support materials in domain B."
+      }
+    ]
+  },
+  {
+    "conversation_id": "identify-struggling-students_33",
+    "messages": [
+      {
+        "role": "user",
+        "content": "I need to find students in school_125 struggling in domain c with a 3 threshold"
+      },
+      {
+        "role": "assistant",
+        "content": "There are no students identified as struggling in domain C with a threshold score of 3 or below in school_125. If you have other criteria or need further assistance, please let me know!"
+      }
+    ]
+  },
+  {
+    "conversation_id": "identify-struggling-students_34",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Query struggling students in school_999 without domain and threshold"
+      },
+      {
+        "role": "assistant",
+        "content": "Here is the list of students struggling in **School 999**. Each of these students scored below 5 out of 10 in various domains:\n\n1. **Student student_s999p1:**\n   - Domain B: 3/10 (30%) in Exam 1\n   - Domain C: 4/10 (40%) in Exam 1\n\n2. **Student student_s999p10:**\n   - Domain B: 4/10 (40%) in Exam 1\n   - Domain A: 3/10 (30%) in Exam 5\n\n3. **Student student_s999p3:**\n   - Domain C: 4/10 (40%) in Exam 1\n   - Domain C: 4/10 (40%) in Exam 2\n   - Domain A: 4/10 (40%) in Exam 6 \n\n4. **Student student_s999p4:**\n   - Domain B: 4/10 (40%) in Exam 1\n   - Domain C: 4/10 (40%) in Exam 1\n   - Domain C: 4/10 (40%) in Exam 2\n\n5. **Student student_s999p5:**\n   - Domain A: 4/10 (40%) in Exam 8\n\n6. **Student student_s999p6:**\n   - Domain B: 4/10 (40%) in Exam 1\n\n7. **Student student_s999p7:**\n   - Domain C: 4/10 (40%) in Exam 1\n   - Domain B: 4/10 (40%) in Exam 8\n\n8. **Student student_s999p8:**\n   - Domain B: 4/10 (40%) in Exam 1\n\n9. **Student student_s999p9:**\n   - Domain B: 1/10 (10%) in Exam 1\n   - Domain C: 2/10 (20%) in Exam 1\n\nThese results suggest targeted support is needed specifically in Domain B and C for multiple students. Implementing additional resources, tutoring, or customized lesson plans in these areas may help improve student performance."
+      }
+    ]
+  },
+  {
+    "conversation_id": "identify-struggling-students_35",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Locate students in school_9 who have trouble in domain A but omitting the threshold value"
+      },
+      {
+        "role": "assistant",
+        "content": "It seems no students in School 9 are found to be struggling in domain A based on the default threshold value of 50%. If you would like a more detailed analysis, please provide a specific threshold to identify struggling students."
+      }
+    ]
+  },
+  {
+    "conversation_id": "identify-struggling-students_36",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Discover struggling students from school_1 in domain a having threshold 3"
+      },
+      {
+        "role": "assistant",
+        "content": "No students are currently identified as struggling in School 1 in domain A with a performance threshold of 3 out of 10 (30%). If you have any specific students or need analysis for different criteria, feel free to let me know!"
+      }
+    ]
+  },
+  {
+    "conversation_id": "identify-struggling-students_37",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Generate list of students in school_9989 struggling in domain b without presenting threshold"
+      },
+      {
+        "role": "assistant",
+        "content": "It seems there is no school with the ID school_9989 in the dataset. Please verify the school ID or provide a different one for analysis."
+      }
+    ]
+  },
+  {
+    "conversation_id": "identify-struggling-students_38",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Provide the records of students from domain c in school_8, under threshold 6"
+      },
+      {
+        "role": "assistant",
+        "content": "Here are the students from school_8 who are struggling in domain C, scoring below the threshold of 6 out of 10 in various exams:\n\n- **Student student_s8p1**: \n  - Domain C 5/10 (50.0%) in exam 1\n  - Domain C 5/10 (50.0%) in exam 4\n  - Domain C 4/10 (40.0%) in exam 6\n  - Domain C 5/10 (50.0%) in exam 7\n\n- **Student student_s8p10**: \n  - Domain C 4/10 (40.0%) in exam 4\n\n- **Student student_s8p11**: \n  - Domain C 4/10 (40.0%) in exam 1\n  - Domain C 5/10 (50.0%) in exam 2\n\n- **Student student_s8p12**: \n  - Domain C 3/10 (30.0%) in exam 1\n  - Domain C 5/10 (50.0%) in exam 2\n  - Domain C 3/10 (30.0%) in exam 7\n\n- **Student student_s8p13**: \n  - Domain C 4/10 (40.0%) in exam 1\n  - Domain C 4/10 (40.0%) in exam 4\n\n- **Student student_s8p14**: \n  - Domain C 5/10 (50.0%) in exam 3\n\n- **Student student_s8p15**: \n  - Domain C 5/10 (50.0%) in exam 4\n  - Domain C 5/10 (50.0%) in exam 5\n\n- **Student student_s8p2**: \n  - Domain C 5/10 (50.0%) in exam 4\n\n- **Student student_s8p3**: \n  - Domain C 5/10 (50.0%) in exam 6\n\n- **Student student_s8p4**: \n  - Domain C 3/10 (30.0%) in exam 1\n  - Domain C 5/10 (50.0%) in exam 5\n  - Domain C 4/10 (40.0%) in exam 8\n\n- **Student student_s8p5**: \n  - Domain C 4/10 (40.0%) in exam 1\n\n- **Student student_s8p6**: \n  - Domain C 4/10 (40.0%) in exam 1\n  - Domain C 5/10 (50.0%) in exam 7\n\n- **Student student_s8p7**: \n  - Domain C 5/10 (50.0%) in exam 2\n\n- **Student student_s8p9**: \n  - Domain C 4/10 (40.0%) in exam 1\n\nThese students could benefit from targeted interventions to improve their performance in domain C."
+      }
+    ]
+  },
+  {
+    "conversation_id": "identify-struggling-students_39",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Show students in school_120 struggling in domain a with no threshold defined"
+      },
+      {
+        "role": "assistant",
+        "content": "In school_120, for domain A, there is one student identified as struggling:\n\n- **Student ID:** student_s120p3\n  - **Performance in Exam 8:** Scored 3 out of 10, achieving 30% in domain A.\n\nIf you need more detailed analysis or additional insights, feel free to let me know."
+      }
+    ]
+  },
+  {
+    "conversation_id": "identify-struggling-students_40",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Search struggling students from school_1751 in domain C without mentioning the threshold"
+      },
+      {
+        "role": "assistant",
+        "content": "It seems that school_1751 does not exist in the available data. Please check the school ID for accuracy or provide a different ID for analysis."
+      }
+    ]
+  },
+  {
+    "conversation_id": "identify-struggling-students_41",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Explore students in school_91 struggling in domain B with defined threshold"
+      },
+      {
+        "role": "assistant",
+        "content": "Here are the students from school_91 who scored below 5 out of 10 in Domain B, indicating they may be struggling:\n\n1. **Student student_s91p1**: Scored 4/10 (40.0%) in exam 6\n2. **Student student_s91p18**: Scored 3/10 (30.0%) in exam 1\n3. **Student student_s91p19**: Scored 4/10 (40.0%) in exam 1\n4. **Student student_s91p2**: Scored 4/10 (40.0%) in exam 2\n5. **Student student_s91p20**: Scored 4/10 (40.0%) in exam 1\n6. **Student student_s91p21**: Scored 4/10 (40.0%) in exam 6\n7. **Student student_s91p32**: Scored 3/10 (30.0%) in exam 1\n8. **Student student_s91p33**: Scored 3/10 (30.0%) in exam 1\n9. **Student student_s91p35**: Scored 4/10 (40.0%) in exam 1\n10. **Student student_s91p35**: Scored 3/10 (30.0%) in exam 6\n11. **Student student_s91p38**: Scored 3/10 (30.0%) in exam 1\n12. **Student student_s91p39**: Scored 4/10 (40.0%) in exam 1\n13. **Student student_s91p48**: Scored 4/10 (40.0%) in exam 1\n14. **Student student_s91p51**: Scored 4/10 (40.0%) in exam 1\n15. **Student student_s91p6**: Scored 3/10 (30.0%) in exam 1\n\nConsider offering additional support or resources to help improve their performance in Domain B."
+      }
+    ]
+  },
+  {
+    "conversation_id": "identify-struggling-students_42",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Fetch students in school_1 who are struggling in domain b with a threshold of 11"
+      },
+      {
+        "role": "assistant",
+        "content": "Here are some students from school_1 who are struggling in domain B with scores below the threshold of 11/10 questions:\n\n1. **Student student_s1p1:**\n   - Exam 1: 4/10 (40.0%)\n   - Exam 2: 7/10 (70.0%)\n   - Exam 3: 8/10 (80.0%)\n   - Exam 4: 6/10 (60.0%)\n   - Exam 5: 8/10 (80.0%)\n   - Exam 6: 6/10 (60.0%)\n   - Exam 7: 8/10 (80.0%)\n   - Exam 8: 8/10 (80.0%)\n\n2. **Student student_s1p4:**\n   - Exam 1: 4/10 (40.0%)\n   - Exam 2: 8/10 (80.0%)\n   - Exam 3: 7/10 (70.0%)\n   - Exam 4: 5/10 (50.0%)\n   - Exam 5: 8/10 (80.0%)\n   - Exam 6: 7/10 (70.0%)\n   - Exam 7: 9/10 (90.0%)\n   - Exam 8: 9/10 (90.0%)\n\n3. **Student student_s1p5:**\n   - Exam 1: 4/10 (40.0%)\n   - Exam 2: 7/10 (70.0%)\n   - Exam 3: 5/10 (50.0%)\n   - Exam 4: 8/10 (80.0%)\n   - Exam 5: 9/10 (90.0%)\n   - Exam 6: 9/10 (90.0%)\n   - Exam 7: 8/10 (80.0%)\n   - Exam 8: 8/10 (80.0%)\n\nPlease let me know if you need more detailed information or additional students."
+      }
+    ]
+  },
+  {
+    "conversation_id": "identify-struggling-students_43",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Search for students struggling in domain C from school_77 without the threshold"
+      },
+      {
+        "role": "assistant",
+        "content": "It seems there was an issue locating school_77 in our data records. Please double-check the school ID and ensure it is correct. If you have any other details specific to this inquiry, feel free to provide them."
+      }
+    ]
+  },
+  {
+    "conversation_id": "identify-struggling-students_44",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Find struggling students from school_9999 for domain C with threshold 4"
+      },
+      {
+        "role": "assistant",
+        "content": "Here is a list of students from School 9999 who are struggling in Domain C (scoring below 4 out of 10):\n\n- Student student_s9999p102: Domain C 3/10 (30.0%) in exam 1\n- Student student_s9999p107: Domain C 3/10 (30.0%) in exam 1\n- Student student_s9999p120: Domain C 2/10 (20.0%) in exam 5\n- Student student_s9999p122: Domain C 2/10 (20.0%) in exam 4 and 3/10 (30.0%) in exam 7\n- Student student_s9999p137: Domain C 3/10 (30.0%) in exam 1\n- Student student_s9999p139: Domain C 3/10 (30.0%) in exam 4\n- Student student_s9999p14: Domain C 3/10 (30.0%) in exam 5\n- Student student_s9999p15: Domain C 3/10 (30.0%) in exam 4\n- Student student_s9999p151: Domain C 2/10 (20.0%) in exam 1\n- Student student_s9999p152: Domain C 3/10 (30.0%) in exam 1\n- Student student_s9999p158: Domain C 3/10 (30.0%) in exam 1\n- Student student_s9999p160: Domain C 3/10 (30.0%) in exam 4\n- Student student_s9999p162: Domain C 3/10 (30.0%) in exam 1\n- Student student_s9999p173: Domain C 3/10 (30.0%) in exam 2\n- Student student_s9999p175: Domain C 3/10 (30.0%) in exam 3\n- Student student_s9999p181: Domain C 2/10 (20.0%) in exam 4\n- Student student_s9999p188: Domain C 2/10 (20.0%) in exam 1\n- Student student_s9999p197: Domain C 3/10 (30.0%) in exams 1 and 6\n- Student student_s9999p20: Domain C 3/10 (30.0%) in exam 4\n- Student student_s9999p202: Domain C 3/10 (30.0%) in exam 1\n- Student student_s9999p207: Domain C 3/10 (30.0%) in exam 1\n- Student student_s9999p212: Domain C 2/10 (20.0%) in exam 1\n- Student student_s9999p214: Domain C 3/10 (30.0%) in exam 1\n- Student student_s9999p224: Domain C 3/10 (30.0%) in exam 5\n- Student student_s9999p23: Domain C 3/10 (30.0%) in exams 1 and 8\n- Student student_s9999p231: Domain C 3/10 (30.0%) in exam 1\n- Student student_s9999p240: Domain C 3/10 (30.0%) in exam 1\n- Student student_s9999p243: Domain C 3/10 (30.0%) in exam 1\n- Student student_s9999p250: Domain C 3/10 (30.0%) in exam 1\n- Student student_s9999p26: Domain C 3/10 (30.0%) in exam 2\n- Student student_s9999p262: Domain C 3/10 (30.0%) in exam 1\n- Student student_s9999p27: Domain C 3/10 (30.0%) in exam 1\n- Student student_s9999p272: Domain C 2/10 (20.0%) in exam 2\n- Student student_s9999p273: Domain C 3/10 (30.0%) in exam 4\n- Student student_s9999p280: Domain C 2/10 (20.0%) in exam 1\n- Student student_s9999p282: Domain C 3/10 (30.0%) in exam 1\n- Student student_s9999p285: Domain C 3/10 (30.0%) in exam 1\n- Student student_s9999p293: Domain C 3/10 (30.0%) in exam 2\n- Student student_s9999p296: Domain C 3/10 (30.0%) in exam 1\n- Student student_s9999p30: Domain C 3/10 (30.0%) in exam 2\n- Student student_s9999p306: Domain C 3/10 (30.0%) in exam 4\n- Student student_s9999p31: Domain C 3/10 (30.0%) in exam 1\n- Student student_s9999p33: Domain C 2/10 (20.0%) in exam 1\n- Student student_s9999p37: Domain C 3/10 (30.0%) in exam 4\n- Student student_s9999p47: Domain C 3/10 (30.0%) in exam 1\n- Student student_s9999p5: Domain C 3/10 (30.0%) in exam 1\n- Student student_s9999p50: Domain C 3/10 (30.0%) in exam 1\n- Student student_s9999p56: Domain C 3/10 (30.0%) in exam 4\n- Student student_s9999p64: Domain C 3/10 (30.0%) in exam 5\n- Student student_s9999p74: Domain C 2/10 (20.0%) in exam 1\n- Student student_s9999p75: Domain C 3/10 (30.0%) in exam 1\n- Student student_s9999p87: Domain C 3/10 (30.0%) in exam 4\n- Student student_s9999p89: Domain C 3/10 (30.0%) in exam 1\n- Student student_s9999p90: Domain C 3/10 (30.0%) in exam 2\n- Student student_s9999p95: Domain C 3/10 (30.0%) in exam 1\n- Student student_s9999p98: Domain C 3/10 (30.0%) in exam 1\n- Student student_s9999p99: Domain C 3/10 (30.0%) in exam 4\n\nThese students may need additional support to improve their understanding and performance in Domain C."
+      }
+    ]
+  },
+  {
+    "conversation_id": "identify-struggling-students_45",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Look for students struggling in domain b from school_55, but no threshold given"
+      },
+      {
+        "role": "assistant",
+        "content": "Here are the students from school_55 who are struggling in domain B:\n\n- **Student ID**: student_s55p4\n  - **Performance in Exam 1**: Scored 4 out of 10 (40.0%)\n  - **Performance in Exam 8**: Scored 3 out of 10 (30.0%)\n\nThese students scored below 50% in domain B, indicating they may need support in this area. Providing additional resources or targeted tutoring could help improve their performance."
+      }
+    ]
+  },
+  {
+    "conversation_id": "identify-struggling-students_46",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Who are the students in school_999 struggling in domain a with a threshold of 3"
+      },
+      {
+        "role": "assistant",
+        "content": "No students were found struggling in School 999 in domain A with a threshold of 30%. If you have any further questions or need assistance with other analysis, feel free to ask!"
+      }
+    ]
+  },
+  {
+    "conversation_id": "identify-struggling-students_47",
+    "messages": [
+      {
+        "role": "user",
+        "content": "List down the struggling students from school_1555, domain C but don't include threshold"
+      },
+      {
+        "role": "assistant",
+        "content": "Here is a list of students struggling in school_1555 within Domain C, having scored below 5 out of 10 questions in various exams:\n\n- **Student student_s1555p1:** 40.0% in exam 2\n- **Student student_s1555p10:** 40.0% in exam 3\n- **Student student_s1555p13:** 40.0% in exam 7\n- **Student student_s1555p18:** 40.0% in exam 2, 20.0% in exam 4\n- **Student student_s1555p20:** 40.0% in exam 1\n- **Student student_s1555p22:** 40.0% in exam 1\n- **Student student_s1555p23:** 40.0% in exam 2 and in exam 5\n- **Student student_s1555p24:** 20.0% in exam 2\n- **Student student_s1555p25:** 40.0% in exam 1\n- **Student student_s1555p26:** 40.0% in exam 2\n- **Student student_s1555p27:** 20.0% in exam 1\n- **Student student_s1555p32:** 40.0% in exam 1, 30.0% in exam 2\n- **Student student_s1555p33:** 30.0% in exam 7\n- **Student student_s1555p4:** 40.0% in exam 1\n- **Student student_s1555p7:** 30.0% in exam 2\n- **Student student_s1555p9:** 40.0% in exam 4\n\nIf you need a more detailed analysis or insights, feel free to ask!"
+      }
+    ]
+  },
+  {
+    "conversation_id": "identify-struggling-students_48",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Fetch students in school_1 who are having a hard time in domain a with a threshold of 7"
+      },
+      {
+        "role": "assistant",
+        "content": "Here are students from **school_1** who are struggling in **Domain A** with scores below 7 out of 10:\n\n1. **Student ID: student_s1p1**\n   - Exam: 3, Score: 6/10 (60.0%)\n   \n2. **Student ID: student_s1p11**\n   - Exam: 6, Score: 6/10 (60.0%)\n\n3. **Student ID: student_s1p12**\n   - Exam: 5, Score: 6/10 (60.0%)\n\n4. **Student ID: student_s1p13**\n   - Exam: 5, Score: 6/10 (60.0%)\n\n5. **Student ID: student_s1p14**\n   - Exam: 8, Score: 5/10 (50.0%)\n\n6. **Student ID: student_s1p2**\n   - Exam: 1, Score: 6/10 (60.0%)\n   - Exam: 3, Score: 4/10 (40.0%)\n   - Exam: 8, Score: 6/10 (60.0%)\n\n7. **Student ID: student_s1p3**\n   - Exam: 5, Score: 6/10 (60.0%)\n   - Exam: 8, Score: 5/10 (50.0%)\n\n8. **Student ID: student_s1p5**\n   - Exam: 8, Score: 6/10 (60.0%)\n\n9. **Student ID: student_s1p6**\n   - Exam: 8, Score: 3/10 (30.0%)\n\n10. **Student ID: student_s1p8**\n    - Exam: 8, Score: 5/10 (50.0%)\n\n11. **Student ID: student_s1p9**\n    - Exam: 4, Score: 6/10 (60.0%)\n    - Exam: 6, Score: 6/10 (60.0%)\n    - Exam: 8, Score: 6/10 (60.0%)\n\nThese students scored below the threshold in their respective exams and may need additional support in Domain A."
+      }
+    ]
+  },
+  {
+    "conversation_id": "identify-struggling-students_49",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Highlight struggling students from school_1599, domain b with undefined threshold"
+      },
+      {
+        "role": "assistant",
+        "content": "Here are the students struggling in school_1599 for domain B, scoring below 5 out of 10 questions:\n\n- **Student student_s1599p12:** Scored 4/10 (40.0%) in exam 1.\n- **Student student_s1599p15:** Scored 4/10 (40.0%) in exam 1.\n- **Student student_s1599p17:** Scored 4/10 (40.0%) in exam 3.\n- **Student student_s1599p19:** Scored 4/10 (40.0%) in exam 5.\n- **Student student_s1599p9:** Scored 4/10 (40.0%) in exam 1.\n\nThese students could benefit from additional support in domain B to improve their performance."
+      }
+    ]
+  },
+  {
+    "conversation_id": "get-school-overview_1",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Please provide an overview of school_1650"
+      },
+      {
+        "role": "assistant",
+        "content": "School school_1650 Overview:\n\n- **Students**: 22\n- **Total Exams**: 176\n- **Average Exam Score**: 211.9\n\n### Average Domain Performance:\n- **Domain A**: 7.8/10 (78.1%)\n- **Domain B**: 7.3/10 (72.6%)\n- **Domain C**: 6.7/10 (67.0%)"
+      }
+    ]
+  },
+  {
+    "conversation_id": "get-school-overview_2",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Can you please provide information on school_6?"
+      },
+      {
+        "role": "assistant",
+        "content": "Here is the overview for school_6:\n\n- **Number of Students:** 18\n- **Total Exams Taken:** 144\n- **Average Exam Score:** 217.6\n\n**Average Domain Performance:**\n- **Domain A:** 8.1/10 (80.9%)\n- **Domain B:** 7.5/10 (75.3%)\n- **Domain C:** 7.0/10 (69.5%)\n\nIf you need further analysis or specific data, feel free to ask!"
+      }
+    ]
+  },
+  {
+    "conversation_id": "get-school-overview_3",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Find the summary for school_1"
+      },
+      {
+        "role": "assistant",
+        "content": "School **school_1** Overview:\n- **Students**: 14\n- **Total Exams**: 112\n- **Average Exam Score**: 220.7\n\n**Average Domain Performance**:\n- **Domain A**: 8.0/10 (80.0%)\n- **Domain B**: 7.5/10 (74.6%)\n- **Domain C**: 7.4/10 (73.6%)\n\nIf you need more detailed analysis or specific insights, feel free to specify student IDs, exam IDs, or domains."
+      }
+    ]
+  },
+  {
+    "conversation_id": "get-school-overview_4",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Can I get the details for school_9999"
+      },
+      {
+        "role": "assistant",
+        "content": "Here are the details for school_9999:\n\n- **Total Students:** 306\n- **Total Exams Taken:** 2448\n- **Average Exam Score:** 219.5\n\n**Average Domain Performance:**\n- **Domain A:** 8.0/10 (79.9%)\n- **Domain B:** 7.5/10 (74.7%)\n- **Domain C:** 7.1/10 (71.1%)\n\nIf you need more specific information or analysis about this school, feel free to ask!"
+      }
+    ]
+  },
+  {
+    "conversation_id": "get-school-overview_5",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Show me the performance of school_2"
+      },
+      {
+        "role": "assistant",
+        "content": "Here's an overview of the performance of school_2:\n\n- **Students Enrolled**: 14\n- **Total Exams Taken**: 112\n- **Average Exam Score**: 222.3\n\n**Average Domain Performance**:\n- **Domain A**: 8.1/10 (80.8%)\n- **Domain B**: 7.5/10 (74.9%)\n- **Domain C**: 7.3/10 (72.7%)\n\nIf you need more detailed analysis or specific information on particular students, exams, or domains, feel free to ask!"
+      }
+    ]
+  },
+  {
+    "conversation_id": "get-school-overview_6",
+    "messages": [
+      {
+        "role": "user",
+        "content": "I want to see the overview of school_1648"
+      },
+      {
+        "role": "assistant",
+        "content": "Here's an overview of **school_1648**:\n\n- **Total Students:** 8\n- **Total Exams Taken:** 64\n- **Average Exam Score:** 226.7\n\n**Average Performance by Domain:**\n- **Domain A:** 8.3/10 (82.7%)\n- **Domain B:** 7.8/10 (78.3%)\n- **Domain C:** 7.0/10 (70.5%)\n\nIf you need a more detailed analysis or specific student data, feel free to provide additional information or specify the data you are interested in!"
+      }
+    ]
+  },
+  {
+    "conversation_id": "get-school-overview_7",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Get me the details for school 5"
+      },
+      {
+        "role": "assistant",
+        "content": "Here are the details for School 5:\n\n- **Total Number of Students:** 18\n- **Total Exams Taken:** 144\n- **Average Exam Score:** 218.0\n\n**Average Domain Performance:**\n- **Domain A:** 7.8/10 (78.0%)\n- **Domain B:** 7.4/10 (73.6%)\n- **Domain C:** 7.2/10 (72.2%)"
+      }
+    ]
+  },
+  {
+    "conversation_id": "get-school-overview_8",
+    "messages": [
+      {
+        "role": "user",
+        "content": "What's the status of sch_1651"
+      },
+      {
+        "role": "assistant",
+        "content": "Here is the overview of School 1651:\n\n- **Total Students:** 24\n- **Total Exams Administered:** 192\n- **Average Exam Score:** 224.2\n\n**Average Domain Performance:**\n- **Domain A:** 8.0/10 (80.4%)\n- **Domain B:** 7.6/10 (75.8%)\n- **Domain C:** 7.2/10 (71.5%)\n\nIf you need more details about specific exams or deeper insights into student performances, feel free to ask with specific IDs or domains!"
+      }
+    ]
+  },
+  {
+    "conversation_id": "get-school-overview_9",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Find the overview for School_1649"
+      },
+      {
+        "role": "assistant",
+        "content": "Here is an overview of School 1649:\n\n- **Students:** 23\n- **Total Exams Taken:** 184\n- **Average Exam Score:** 223.9\n\n**Average Domain Performance:**\n- **Domain A:** 8.2/10 (81.5%)\n- **Domain B:** 7.6/10 (76.5%)\n- **Domain C:** 7.3/10 (73.2%)"
+      }
+    ]
+  },
+  {
+    "conversation_id": "get-school-overview_10",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Fetch the summary for School 1"
+      },
+      {
+        "role": "assistant",
+        "content": "Here is the summary for School 1:\n\n- **Number of Students**: 14\n- **Total Exams Administered**: 112\n- **Average Exam Score**: 220.7\n\n**Average Domain Performance**:\n- Domain A: 8.0/10 (80.0%)\n- Domain B: 7.5/10 (74.6%)\n- Domain C: 7.4/10 (73.6%)"
+      }
+    ]
+  },
+  {
+    "conversation_id": "get-school-overview_11",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Please provide an analysis of sch_1650"
+      },
+      {
+        "role": "assistant",
+        "content": "Here is an overview of school_1650:\n\n- **Total Students:** 22\n- **Total Exams Taken:** 176\n- **Average Exam Score:** 211.9\n\n**Average Domain Performance:**\n- **Domain A:** 7.8 out of 10 (78.1%)\n- **Domain B:** 7.3 out of 10 (72.6%)\n- **Domain C:** 6.7 out of 10 (67.0%)\n\nFor more targeted insights, you could specify which aspects of student performance or particular exams you are interested in analyzing further."
+      }
+    ]
+  },
+  {
+    "conversation_id": "get-school-overview_12",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Provide details about sch_9999"
+      },
+      {
+        "role": "assistant",
+        "content": "Here's an overview of school_9999:\n\n- Total Students: 306\n- Total Exams Taken: 2448\n- Average Exam Score Across All Exams: 219.5\n\nAverage Domain Performance:\n- Domain A: 8.0/10 (79.9%)\n- Domain B: 7.5/10 (74.7%)\n- Domain C: 7.1/10 (71.1%)\n\nIf you need more specific insights, such as performance breakdowns by student or specific exam results, please let me know!"
+      }
+    ]
+  },
+  {
+    "conversation_id": "get-school-overview_13",
+    "messages": [
+      {
+        "role": "user",
+        "content": "I want details on sch_6"
+      },
+      {
+        "role": "assistant",
+        "content": "Here is the overview for School 6:\n\n- **Total Students:** 18\n- **Total Exams Taken:** 144\n- **Average Exam Score:** 217.6\n\n**Average Domain Performance:**\n- **Domain A:** 8.1/10 (80.9%)\n- **Domain B:** 7.5/10 (75.3%)\n- **Domain C:** 7.0/10 (69.5%)\n\nIf you need more specific details or insights about this school, such as trends over time or specific student performance, let me know!"
+      }
+    ]
+  },
+  {
+    "conversation_id": "get-school-overview_14",
+    "messages": [
+      {
+        "role": "user",
+        "content": "I want to know the performance of sc_7"
+      },
+      {
+        "role": "assistant",
+        "content": "Here's an overview of the performance for School 7:\n\n- **Number of Students:** 6\n- **Total Exams Administered:** 48\n- **Average Exam Score:** 218.9\n\n**Average Domain Performance:**\n- **Domain A:** 8.1/10 (81.0%)\n- **Domain B:** 7.5/10 (74.6%)\n- **Domain C:** 7.0/10 (69.8%)\n\nIf you have specific areas or student IDs for a more detailed analysis, please provide them."
+      }
+    ]
+  },
+  {
+    "conversation_id": "get-school-overview_15",
+    "messages": [
+      {
+        "role": "user",
+        "content": "I want to analyze school_1648"
+      },
+      {
+        "role": "assistant",
+        "content": "Here is an overview of School 1648:\n\n- **Total Students**: 8\n- **Total Exams**: 64\n- **Average Exam Score**: 226.7\n\n**Average Domain Performance**:\n- **Domain A**: 8.3/10 (82.7%)\n- **Domain B**: 7.8/10 (78.3%)\n- **Domain C**: 7.0/10 (70.5%)\n\nIf you need more detailed insights or specific analysis on students or exam domains, please let me know."
+      }
+    ]
+  },
+  {
+    "conversation_id": "get-school-overview_16",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Get me the summary for S_1651"
+      },
+      {
+        "role": "assistant",
+        "content": "Here is the summary for school_1651:\n\n- **Total Students**: 24\n- **Total Exams Administered**: 192\n- **Average Exam Score**: 224.2\n\n**Average Domain Performance**:\n- **Domain A**: 8.0 out of 10 (80.4%)\n- **Domain B**: 7.6 out of 10 (75.8%)\n- **Domain C**: 7.2 out of 10 (71.5%)\n\nPlease let me know if you need more specific details or further analysis."
+      }
+    ]
+  },
+  {
+    "conversation_id": "get-school-overview_17",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Show me an outline for school_4"
+      },
+      {
+        "role": "assistant",
+        "content": "Here is an outline for School 4:\n\n- **Students**: 16\n- **Total Exams Administered**: 128\n- **Average Exam Score**: 222.6\n\n- **Average Domain Performance**:\n  - Domain A: 8.1/10 (80.7%)\n  - Domain B: 7.5/10 (75.4%)\n  - Domain C: 7.3/10 (73.0%)"
+      }
+    ]
+  },
+  {
+    "conversation_id": "get-school-overview_18",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Give me the details about sch_5"
+      },
+      {
+        "role": "assistant",
+        "content": "Here are the details for School ID `school_5`:\n\n- **Number of Students:** 18\n- **Total Exams Conducted:** 144\n- **Average Exam Score:** 218.0\n\n**Average Domain Performance:**\n- **Domain A:** 7.8/10 (78.0%)\n- **Domain B:** 7.4/10 (73.6%)\n- **Domain C:** 7.2/10 (72.2%)\n\nIf you need more specific details or analysis regarding particular students or exams, please provide additional identifiers or domains of interest."
+      }
+    ]
+  },
+  {
+    "conversation_id": "get-school-overview_19",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Provide the overview of school_4"
+      },
+      {
+        "role": "assistant",
+        "content": "Here is the overview for School 4:\n\n- **Total Number of Students**: 16\n- **Total Exams Taken**: 128\n- **Average Exam Score**: 222.6\n\n**Average Domain Performance**:\n- **Domain A**: 8.1/10 (80.7%)\n- **Domain B**: 7.5/10 (75.4%)\n- **Domain C**: 7.3/10 (73.0%)\n\nIf you need a deeper analysis or insights on specific domains or students within this school, please let me know!"
+      }
+    ]
+  },
+  {
+    "conversation_id": "get-school-overview_20",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Get details about the current performance of school_6"
+      },
+      {
+        "role": "assistant",
+        "content": "Here are the current performance details for **School_6**:\n\n- **Total Students:** 18\n- **Total Exams Taken:** 144\n- **Average Exam Score:** 217.6\n\n**Average Domain Performance:**\n- **Domain A:** 8.1/10 (80.9%)\n- **Domain B:** 7.5/10 (75.3%)\n- **Domain C:** 7.0/10 (69.5%)\n\nIf you need more specific insights or further analysis, let me know!"
+      }
+    ]
+  },
+  {
+    "conversation_id": "get-school-overview_21",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Analyze the performance of sch_5"
+      },
+      {
+        "role": "assistant",
+        "content": "Here's an overview of the performance of School 5:\n\n- **Total Students**: 18\n- **Total Exams Taken**: 144\n- **Average Exam Score**: 218.0\n\n**Average Domain Performance**:\n- **Domain A**: 7.8/10 (78.0%)\n- **Domain B**: 7.4/10 (73.6%)\n- **Domain C**: 7.2/10 (72.2%)\n\nIf you need more detailed insights, such as performance over time, specific grade levels, or comparisons with other schools, please let me know!"
+      }
+    ]
+  },
+  {
+    "conversation_id": "get-school-overview_22",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Show me an graph for the results of School_1649"
+      },
+      {
+        "role": "assistant",
+        "content": "Here is a summary overview of School_1649:\n\n- **Total Students**: 23\n- **Total Exams Conducted**: 184\n- **Average Exam Score**: 223.9\n\n### Average Domain Performance\n\n- **Domain A**: 8.2/10 (81.5%)\n- **Domain B**: 7.6/10 (76.5%)\n- **Domain C**: 7.3/10 (73.2%)\n\nIf you would like a graphical representation or more detailed analysis for specific exams or domains, please provide those identifiers."
+      }
+    ]
+  },
+  {
+    "conversation_id": "get-school-overview_23",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Dive in to school_2's performance this year"
+      },
+      {
+        "role": "assistant",
+        "content": "Here's an overview of school_2's performance this year:\n\n- **Total Students**: 14\n- **Total Exams Taken**: 112\n- **Average Exam Score**: 222.3\n\n**Average Domain Performance:**\n- **Domain A**: 8.1/10 (80.8%)\n- **Domain B**: 7.5/10 (74.9%)\n- **Domain C**: 7.3/10 (72.7%)\n\nLet me know if you need further details or specific analysis!"
+      }
+    ]
+  },
+  {
+    "conversation_id": "get-school-overview_24",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Fetch me the details for sch_1651"
+      },
+      {
+        "role": "assistant",
+        "content": "Here is the overview for **School 1651**:\n\n- **Total Number of Students:** 24\n- **Total Exams Conducted:** 192\n- **Average Exam Score:** 224.2\n\n**Average Domain Performance:**\n- **Domain A:** 8.0/10 (80.4%)\n- **Domain B:** 7.6/10 (75.8%)\n- **Domain C:** 7.2/10 (71.5%)"
+      }
+    ]
+  },
+  {
+    "conversation_id": "get-school-overview_25",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Find the overview of sch_2"
+      },
+      {
+        "role": "assistant",
+        "content": "Here's an overview of School 2:\n\n- **Number of Students:** 14\n- **Total Exams Taken:** 112\n- **Average Exam Score:** 222.3\n\n**Average Domain Performance:**\n- **Domain A:** 8.1/10 (80.8%)\n- **Domain B:** 7.5/10 (74.9%)\n- **Domain C:** 7.3/10 (72.7%) \n\nIf you need further details on specific students, exams, or domains, please let me know!"
+      }
+    ]
+  },
+  {
+    "conversation_id": "get-school-overview_26",
+    "messages": [
+      {
+        "role": "user",
+        "content": "I want to analyze School_4"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure, I can do that. To provide the most relevant information, could you please specify what kind of analysis you need? Here are some options:\n\n1. Performance comparison across different learning domains (a, b, c) for the entire school\n2. Identification of students who might be struggling in specific domains\n3. An overview of the overall school performance\n\nPlease provide some more details so I can deliver the most useful results."
+      }
+    ]
+  },
+  {
+    "conversation_id": "get-school-overview_27",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Review the performance of school_5"
+      },
+      {
+        "role": "assistant",
+        "content": "Here is the performance overview for School 5:\n\n- **Total Students**: 18\n- **Total Exams Taken**: 144\n- **Average Exam Score**: 218.0\n\n**Average Domain Performance**:\n- **Domain A**: 7.8/10 (78.0%)\n- **Domain B**: 7.4/10 (73.6%)\n- **Domain C**: 7.2/10 (72.2%)\n\nIf you need a more detailed analysis or insights into specific student or domain performances, please provide additional identifiers or specify the domains of interest."
+      }
+    ]
+  },
+  {
+    "conversation_id": "get-school-overview_28",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Get me a focused overview of school_5"
+      },
+      {
+        "role": "assistant",
+        "content": "Here is a focused overview of school_5:\n\n- **Total Students:** 18\n- **Total Exams:** 144\n- **Average Exam Score:** 218.0\n\n**Average Domain Performance:**\n- Domain A: 7.8/10 (78.0%)\n- Domain B: 7.4/10 (73.6%)\n- Domain C: 7.2/10 (72.2%) \n\nThis data provides a snapshot of the school’s overall performance across the different domains. If you need more detailed insights or comparisons with other schools or specific students, let me know!"
+      }
+    ]
+  },
+  {
+    "conversation_id": "get-school-overview_29",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Show me a targeted overview of school_3"
+      },
+      {
+        "role": "assistant",
+        "content": "It seems that school_3 is not available in the current data set. Please provide a different school ID from the following available options: school_1, school_2, school_4, school_5, or school_6. This will allow me to generate a detailed analysis for you."
+      }
+    ]
+  },
+  {
+    "conversation_id": "get-school-overview_30",
+    "messages": [
+      {
+        "role": "user",
+        "content": "I need a close view of school_1"
+      },
+      {
+        "role": "assistant",
+        "content": "Here's an overview of School_1:\n\n- **Total Students:** 14\n- **Total Number of Exams:** 112\n- **Average Exam Score:** 220.7\n\n**Average Domain Performance:**\n- **Domain A:** 8.0/10 (80.0%)\n- **Domain B:** 7.5/10 (74.6%)\n- **Domain C:** 7.4/10 (73.6%)\n\nIf you need more detailed insights or specific analysis, please provide additional identifiers or domains of interest."
+      }
+    ]
+  },
+  {
+    "conversation_id": "get-school-overview_31",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Give me details on school_1672"
+      },
+      {
+        "role": "assistant",
+        "content": "It seems that school_1672 is not in our database. Please double-check the school ID and try again with a valid ID from the available list. If you have any other questions or need further assistance, feel free to ask!"
+      }
+    ]
+  },
+  {
+    "conversation_id": "get-school-overview_32",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Show me the summary for school_852"
+      },
+      {
+        "role": "assistant",
+        "content": "It seems that there is no data available for school_852. Please double-check the school ID or provide a different ID for analysis."
+      }
+    ]
+  },
+  {
+    "conversation_id": "get-school-overview_33",
+    "messages": [
+      {
+        "role": "user",
+        "content": "What's the latest about school_709"
+      },
+      {
+        "role": "assistant",
+        "content": "Here's the latest overview of school_709:\n\n- **Total Students:** 23\n- **Total Exams Conducted:** 184\n- **Average Exam Score:** 218.9\n\n**Average Domain Performance:**\n\n- **Domain A:** 81.1% (8.1/10)\n- **Domain B:** 74.3% (7.4/10)\n- **Domain C:** 72.1% (7.2/10)\n\nIf you need more detailed analysis or insights into specific areas, feel free to ask!"
+      }
+    ]
+  },
+  {
+    "conversation_id": "get-school-overview_34",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Find me the status of School_2344"
+      },
+      {
+        "role": "assistant",
+        "content": "I'm sorry but the ID you provided doesn't seem to exist in the data. The available school IDs are between school_1 and school_1651. Could you please provide an existing school ID for me to generate the report?"
+      }
+    ]
+  },
+  {
+    "conversation_id": "get-school-overview_35",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Show me the stats for school_145"
+      },
+      {
+        "role": "assistant",
+        "content": "Here are the statistics for school_145:\n\n- **Total Students:** 18\n- **Total Exams:** 144\n- **Average Exam Score:** 224.5\n\n**Average Domain Performance:**\n- **Domain A:** 8.2/10 (81.5%)\n- **Domain B:** 7.9/10 (78.8%)\n- **Domain C:** 7.0/10 (70.3%)\n\nIf you need more detailed insights or comparisons, feel free to specify what you're looking for!"
+      }
+    ]
+  },
+  {
+    "conversation_id": "get-school-overview_36",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Can you analyze school_752"
+      },
+      {
+        "role": "assistant",
+        "content": "Here is an overview of School 752:\n\n- **Number of Students**: 44\n- **Total Exams Conducted**: 352\n- **Average Exam Score**: 217.8\n\n**Average Domain Performance**:\n- **Domain A**: 8.0/10 (80.2%)\n- **Domain B**: 7.4/10 (74.0%)\n- **Domain C**: 6.9/10 (69.2%)\n\nIf you need further analysis or details, such as specific student performance or a breakdown by exam type, let me know!"
+      }
+    ]
+  },
+  {
+    "conversation_id": "get-school-overview_37",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Bring up the data for school_1651"
+      },
+      {
+        "role": "assistant",
+        "content": "Here is the overview of School 1651:\n\n- **Total Students:** 24\n- **Total Exams:** 192\n- **Average Exam Score:** 224.2\n\n**Average Domain Performance:**\n- **Domain A:** 8.0/10 (80.4%)\n- **Domain B:** 7.6/10 (75.8%)\n- **Domain C:** 7.2/10 (71.5%)\n\nIf you need more detailed analysis or have specific questions, feel free to ask!"
+      }
+    ]
+  },
+  {
+    "conversation_id": "get-school-overview_38",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Can I get performance details for sch_13"
+      },
+      {
+        "role": "assistant",
+        "content": "It seems there was a mistake in the school ID you provided. The correct format for school IDs is `school_` followed by the number. For example, `school_13` would be `school_13`. Could you provide the correct school ID so I can get the detailed performance data for you?"
+      }
+    ]
+  },
+  {
+    "conversation_id": "get-school-overview_39",
+    "messages": [
+      {
+        "role": "user",
+        "content": "How has school_8 been performing recently?"
+      },
+      {
+        "role": "assistant",
+        "content": "School 8 recently has the following performance overview:\n\n- Total Number of Students: 17\n- Total Exams Administered: 136\n- Average Exam Score: 215.7 out of a possible higher score (details needed for maximum score).\n\n**Average Domain Performance:**\n- Domain A: 7.8 out of 10 (77.5%)\n- Domain B: 7.2 out of 10 (71.5%)\n- Domain C: 6.9 out of 10 (69.1%)\n\nIf you need a more detailed analysis or specific insights regarding individual students or exam performances, please provide additional identifiers or domains."
+      }
+    ]
+  },
+  {
+    "conversation_id": "get-school-overview_40",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Get me information about school 9"
+      },
+      {
+        "role": "assistant",
+        "content": "Here's an overview of School 9:\n\n- **Total Students:** 5\n- **Total Exams:** 40\n- **Average Exam Score:** 224.8\n\n**Average Domain Performance:**\n- **Domain A:** 8.2/10 (81.5%)\n- **Domain B:** 7.8/10 (77.5%)\n- **Domain C:** 7.0/10 (70.0%)\n\nIf you need more detailed analysis or specific data, let me know!"
+      }
+    ]
+  },
+  {
+    "conversation_id": "get-school-overview_41",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Show latest stats about school_10"
+      },
+      {
+        "role": "assistant",
+        "content": "Here's the latest overview for School 10:\n\n- **Students:** 9\n- **Total Exams:** 72\n- **Average Exam Score:** 216.4\n\n**Average Domain Performance:**\n\n- **Domain A:** 7.9/10 (78.8%)\n- **Domain B:** 7.6/10 (75.7%)\n- **Domain C:** 7.0/10 (70.0%)"
+      }
+    ]
+  },
+  {
+    "conversation_id": "get-school-overview_42",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Bring up the details for school 15"
+      },
+      {
+        "role": "assistant",
+        "content": "Here is an overview of School 15:\n\n- **Students**: 13\n- **Total Exams**: 104\n- **Average Exam Score**: 222.6\n\n**Average Domain Performance**:\n- **Domain A**: 8.0/10 (80.3%)\n- **Domain B**: 7.7/10 (76.8%)\n- **Domain C**: 7.3/10 (73.4%)\n\nIf you need further detailed analysis or specific insights, please let me know!"
+      }
+    ]
+  },
+  {
+    "conversation_id": "get-school-overview_43",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Retrieving data for school_11"
+      },
+      {
+        "role": "assistant",
+        "content": "Here is an overview of School 11:\n\n- **Total Students**: 6\n- **Total Exams Completed**: 48\n- **Average Exam Score**: 223.6\n\n**Average Domain Performance**:\n- **Domain A**: 7.9/10 (78.8%)\n- **Domain B**: 7.8/10 (78.3%)\n- **Domain C**: 7.0/10 (70.2%)\n\nIf you need more specific insights or details on the performance in a particular domain or student data, let me know!"
+      }
+    ]
+  },
+  {
+    "conversation_id": "get-school-overview_44",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Looking for performance of school_12"
+      },
+      {
+        "role": "assistant",
+        "content": "It seems that there is no available data for the school with the ID `school_12`. Please check the ID and try again with a valid school ID. If you have questions about another specific school, please let me know!"
+      }
+    ]
+  },
+  {
+    "conversation_id": "get-school-overview_45",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Search for details about school_3781"
+      },
+      {
+        "role": "assistant",
+        "content": "It seems that there is no information available for school_3781. Please ensure the school ID is correct or provide a different ID for analysis. If you need help with another school, feel free to ask!"
+      }
+    ]
+  },
+  {
+    "conversation_id": "get-school-overview_46",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Find latest information about school_15"
+      },
+      {
+        "role": "assistant",
+        "content": "Here's the latest information about **school_15**:\n\n- **Number of Students:** 13\n- **Total Exams Taken:** 104\n- **Average Exam Score:** 222.6\n\n**Average Domain Performance:**\n- **Domain A:** 8.0/10 (80.3%)\n- **Domain B:** 7.7/10 (76.8%)\n- **Domain C:** 7.3/10 (73.4%)\n\nIf you need further analysis or specific details, feel free to ask!"
+      }
+    ]
+  },
+  {
+    "conversation_id": "get-school-overview_47",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Looking for overview of school_1650"
+      },
+      {
+        "role": "assistant",
+        "content": "Here's an overview of **school_1650**:\n\n- **Total Students:** 22\n- **Total Exams Conducted:** 176\n- **Average Exam Score:** 211.9\n\n**Average Domain Performance:**\n\n- **Domain A:** 7.8/10 (78.1%)\n- **Domain B:** 7.3/10 (72.6%)\n- **Domain C:** 6.7/10 (67.0%)\n\nIf you need more detailed analysis or specific aspects of the school's performance, feel free to ask!"
+      }
+    ]
+  },
+  {
+    "conversation_id": "get-school-overview_48",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Give me the summary of school_32"
+      },
+      {
+        "role": "assistant",
+        "content": "Here is the summary for school_32:\n\n- **Total Students:** 22\n- **Total Exams Taken:** 176\n- **Average Exam Score:** 228.9\n\n**Average Domain Performance:**\n- **Domain A:** 8.2/10 (82.2%)\n- **Domain B:** 7.8/10 (78.4%)\n- **Domain C:** 7.4/10 (73.6%)\n\nThis overview reflects the school's performance across different domains and the overall average exam scores. If you need more detailed insights or comparisons, feel free to ask!"
+      }
+    ]
+  },
+  {
+    "conversation_id": "get-school-overview_49",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Detail me about school_5's performance"
+      },
+      {
+        "role": "assistant",
+        "content": "Here's an overview of the performance for School 5:\n\n- **Total Students:** 18\n- **Total Exams Administered:** 144\n- **Average Exam Score:** 218.0\n\n**Performance by Domain:**\n- **Domain A:** 7.8 out of 10 (78.0%)\n- **Domain B:** 7.4 out of 10 (73.6%)\n- **Domain C:** 7.2 out of 10 (72.2%)\n\nIf you need more detailed insights, for example into specific classes or students, feel free to ask!"
+      }
+    ]
+  },
+  {
+    "conversation_id": "get-school-overview_50",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Can I get the outline of school_1651?"
+      },
+      {
+        "role": "assistant",
+        "content": "Here's an outline of **School 1651**:\n\n- **Number of Students:** 24\n- **Total Exams Conducted:** 192\n- **Average Exam Score:** 224.2\n\n**Average Domain Performance:**\n- **Domain A:** 8.0/10 (80.4%)\n- **Domain B:** 7.6/10 (75.8%)\n- **Domain C:** 7.2/10 (71.5%) \n\nIf you need further details or specific insights, feel free to ask!"
+      }
+    ]
+  },
+  {
+    "conversation_id": "get-exam-percentile_1",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Calculate the percentile of student_s1p10 on exam 3."
+      },
+      {
+        "role": "assistant",
+        "content": "Student `student_s1p10` scored 191 on exam 3. Compared to a global average of 206.7 with a standard deviation of 27.1, this score places the student approximately in the 28.2th percentile."
+      }
+    ]
+  },
+  {
+    "conversation_id": "get-exam-percentile_2",
+    "messages": [
+      {
+        "role": "user",
+        "content": "What percentile did student_s1p13 score on exam 5?"
+      },
+      {
+        "role": "assistant",
+        "content": "Student **student_s1p13** scored 202 on exam 5, which corresponds to approximately the **14.1th percentile**. The global average for this exam was 229.6 with a standard deviation of 25.7."
+      }
+    ]
+  },
+  {
+    "conversation_id": "get-exam-percentile_3",
+    "messages": [
+      {
+        "role": "user",
+        "content": "How did student_s9999p98 perform on exam 2 in terms of percentile?"
+      },
+      {
+        "role": "assistant",
+        "content": "Student student_s9999p98 scored 169 on exam 2. The global average for this exam was 190.5 with a standard deviation of 27.1, placing this student approximately in the 21.3th percentile."
+      }
+    ]
+  },
+  {
+    "conversation_id": "get-exam-percentile_4",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Provide the percentile rank of student_s1p11 on exam 6."
+      },
+      {
+        "role": "assistant",
+        "content": "Student student_s1p11 scored 229 on exam 6. Compared to the global average of 241.5 with a standard deviation of 26.1, this score corresponds to approximately the 31.6th percentile."
+      }
+    ]
+  },
+  {
+    "conversation_id": "get-exam-percentile_5",
+    "messages": [
+      {
+        "role": "user",
+        "content": "What is the exam 4 percentile of student_s9999p96?"
+      },
+      {
+        "role": "assistant",
+        "content": "Student student_s9999p96 scored 234 on exam 4. The global average for exam 4 is 218.2, with a standard deviation of 26.1. This score places the student approximately in the 72.8th percentile."
+      }
+    ]
+  },
+  {
+    "conversation_id": "get-exam-percentile_6",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Can I get the percentile for student_s1p12 on exam 1?"
+      },
+      {
+        "role": "assistant",
+        "content": "Student student_s1p12 scored 200 on exam 1. Given the global average of 168.8 and a standard deviation of 28.4, this score corresponds to approximately the 86.4th percentile."
+      }
+    ]
+  },
+  {
+    "conversation_id": "get-exam-percentile_7",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Provide the exam 8 percentile of student_s9999p99."
+      },
+      {
+        "role": "assistant",
+        "content": "Student student_s9999p99 scored 298 on exam 8. The global average score for this exam is 261.4 with a standard deviation of 25.3. This places the student approximately in the 92.6th percentile."
+      }
+    ]
+  },
+  {
+    "conversation_id": "get-exam-percentile_8",
+    "messages": [
+      {
+        "role": "user",
+        "content": "How did student_s1p1 perform on exam 7 in percentile?"
+      },
+      {
+        "role": "assistant",
+        "content": "Student `student_s1p1` scored 239 on exam 7, which places them in approximately the 30.5th percentile relative to other test takers. The global average for this exam was 252.4 with a standard deviation of 26.3."
+      }
+    ]
+  },
+  {
+    "conversation_id": "get-exam-percentile_9",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Get me the percentile of student_s1p10 on exam 4."
+      },
+      {
+        "role": "assistant",
+        "content": "Student student_s1p10 scored 193 on exam 4. The average score for this exam is 218.2 with a standard deviation of 26.1. This places the student in approximately the 16.8th percentile, indicating they performed better than 16.8% of the students."
+      }
+    ]
+  },
+  {
+    "conversation_id": "get-exam-percentile_10",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Calculate the percentile for student_s9999p95 on exam 2."
+      },
+      {
+        "role": "assistant",
+        "content": "Student student_s9999p95 scored 204 on exam 2, which places them at approximately the 69.0th percentile. This score is compared to a global average of 190.5 with a standard deviation of 27.1."
+      }
+    ]
+  },
+  {
+    "conversation_id": "get-exam-percentile_11",
+    "messages": [
+      {
+        "role": "user",
+        "content": "How is the percentile score of student_s1p13 on exam 8?"
+      },
+      {
+        "role": "assistant",
+        "content": "Student student_s1p13 scored 247 on exam 8. With a global average score of 261.4 and a standard deviation of 25.3, this places the student approximately in the 28.4th percentile."
+      }
+    ]
+  },
+  {
+    "conversation_id": "get-exam-percentile_12",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Get me the percentile for exam 3 of student_s9999p97."
+      },
+      {
+        "role": "assistant",
+        "content": "Student \\( \\text{student\\_s9999p97} \\) scored 163 on exam 3. Comparing this score to the global average of 206.7 and a standard deviation of 27.1, this corresponds approximately to the 5.4th percentile."
+      }
+    ]
+  },
+  {
+    "conversation_id": "get-exam-percentile_13",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Calculate percentile for exam 5 of student_s1p11."
+      },
+      {
+        "role": "assistant",
+        "content": "Student student_s1p11 scored 247 on exam 5. Compared to the global average of 229.6 with a standard deviation of 25.7, this score corresponds to approximately the 75.1st percentile. This indicates that student_s1p11 performed better than about 75% of the test-takers."
+      }
+    ]
+  },
+  {
+    "conversation_id": "get-exam-percentile_14",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Give me the percentile score of student_s1p1 for exam 6."
+      },
+      {
+        "role": "assistant",
+        "content": "Student \"student_s1p1\" scored 193 on exam 6. The global average score for this exam was 241.5, with a standard deviation of 26.1. This places the student approximately at the 3.2nd percentile, indicating that the student scored better than about 3.2% of the global test takers."
+      }
+    ]
+  },
+  {
+    "conversation_id": "get-exam-percentile_15",
+    "messages": [
+      {
+        "role": "user",
+        "content": "What percentile did student_s9999p99 get on exam 1?"
+      },
+      {
+        "role": "assistant",
+        "content": "Student student_s9999p99 scored 197 on exam 1. With a global average of 168.8 and a standard deviation of 28.4, this score corresponds to approximately the 84.0th percentile."
+      }
+    ]
+  },
+  {
+    "conversation_id": "get-exam-percentile_16",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Get me the exam 7 percentile for student_s9999p96."
+      },
+      {
+        "role": "assistant",
+        "content": "Student student_s9999p96 scored 248 on exam 7. The global average for this exam was 252.4 with a standard deviation of 26.3, placing the student approximately in the 43.3th percentile."
+      }
+    ]
+  },
+  {
+    "conversation_id": "get-exam-percentile_17",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Calculate the percentile score of student_s1p12 on exam 1."
+      },
+      {
+        "role": "assistant",
+        "content": "Student student_s1p12 scored 200 on exam 1, which corresponds to approximately the 86.4th percentile. This score is higher than the global average of 168.8, with a standard deviation of 28.4."
+      }
+    ]
+  },
+  {
+    "conversation_id": "get-exam-percentile_18",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Please, provide percentile of student_s1p1 for exam 2."
+      },
+      {
+        "role": "assistant",
+        "content": "Student student_s1p1 scored 198 on exam 2. With a global average score of 190.5 and a standard deviation of 27.1, this corresponds to approximately the 60.9th percentile."
+      }
+    ]
+  },
+  {
+    "conversation_id": "get-exam-percentile_19",
+    "messages": [
+      {
+        "role": "user",
+        "content": "School_4"
+      },
+      {
+        "role": "assistant",
+        "content": "I see that you're interested in information related to \"school_4\", but I need a bit more detail to provide a comprehensive response. Here are a few types of analyses we can run:\n\n1. Overview of the school's performance\n2. Comparing the performance of different domains (A, B, C)\n3. Identifying struggling students within the school\n4. Identifying students who are struggling in specific domains within the school\n\nPlease specify what kind of information you are looking for."
+      }
+    ]
+  },
+  {
+    "conversation_id": "get-exam-percentile_20",
+    "messages": [
+      {
+        "role": "user",
+        "content": "How did student_s1p10 perform on exam_9?"
+      },
+      {
+        "role": "assistant",
+        "content": "I'm sorry for the confusion but we only have exam IDs from 1 to 8. Can you please specify one of these available exam IDs so I can provide you with the respective data for student_s1p10?"
+      }
+    ]
+  },
+  {
+    "conversation_id": "get-exam-percentile_21",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Get me percentile of student_s110 on exam 1."
+      },
+      {
+        "role": "assistant",
+        "content": "It seems that there is no information available for a student with the ID `student_s110`. Please double-check the student ID and try again with a valid one. The available student IDs start with `student_s1p1` and go up to `student_s9999p99`."
+      }
+    ]
+  },
+  {
+    "conversation_id": "get-exam-percentile_22",
+    "messages": [
+      {
+        "role": "user",
+        "content": "What is the exam 1 percentile of student_s9999p95"
+      },
+      {
+        "role": "assistant",
+        "content": "Student student_s9999p95 scored 168 on exam 1. The global average was 168.8, with a standard deviation of 28.4, placing this student approximately in the 48.9th percentile."
+      }
+    ]
+  },
+  {
+    "conversation_id": "get-exam-percentile_23",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Percentile of student_s1p013 on exam 3?"
+      },
+      {
+        "role": "assistant",
+        "content": "The student ID you provided, \"student_s1p013,\" seems to be incorrect. Please ensure that the student ID is properly formatted and exists in our available records. For example, valid student IDs follow the pattern \"student_s1p13\" (note the difference in suffix). Please verify and try again."
+      }
+    ]
+  },
+  {
+    "conversation_id": "get-exam-percentile_24",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Can you give me the percentile for student_9999p98 on exam 4?"
+      },
+      {
+        "role": "assistant",
+        "content": "Student student_s9999p98 scored 198 on exam 4. Given the global average score is 218.2 with a standard deviation of 26.1, this score corresponds to approximately the 22.0th percentile."
+      }
+    ]
+  },
+  {
+    "conversation_id": "get-exam-percentile_25",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Get the percentile of student_s9999p97 on exam 100."
+      },
+      {
+        "role": "assistant",
+        "content": "The system does not have data for exam 100. Please provide a valid exam ID from the available range, 1 to 8, for a more accurate analysis."
+      }
+    ]
+  },
+  {
+    "conversation_id": "get-exam-percentile_26",
+    "messages": [
+      {
+        "role": "user",
+        "content": "What was percentile score of student_s1p11 for domain b?"
+      },
+      {
+        "role": "assistant",
+        "content": "To get this information, I need to know the exam ID for which you want to calculate the percentile. Could you please provide that detail?"
+      }
+    ]
+  },
+  {
+    "conversation_id": "get-exam-percentile_27",
+    "messages": [
+      {
+        "role": "user",
+        "content": "How did student_s1p13 perform on exam x?"
+      },
+      {
+        "role": "assistant",
+        "content": "I'm sorry, but the exam identifiers provided in the dataset don't include \"x\". They range from 1 to 8. Additionally, we need the correct student ID. Could you please verify the exam and student ID? Then, we can analyze the student's performance."
+      }
+    ]
+  },
+  {
+    "conversation_id": "get-exam-percentile_28",
+    "messages": [
+      {
+        "role": "user",
+        "content": "I want to see the percentile score of student_s115 for exam 5."
+      },
+      {
+        "role": "assistant",
+        "content": "It seems that there is no student with the ID `student_s115`. Please double-check the student ID and provide a valid one. If you need help identifying the correct ID, let me know!"
+      }
+    ]
+  },
+  {
+    "conversation_id": "get-exam-percentile_29",
+    "messages": [
+      {
+        "role": "user",
+        "content": "What percentile did student_s1p10 get on exam y?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sorry, but I can't process the request as the exam ID provided is invalid. Exam IDs are numerical and range from 1 to 8. Please provide a valid exam ID."
+      }
+    ]
+  },
+  {
+    "conversation_id": "get-exam-percentile_30",
+    "messages": [
+      {
+        "role": "user",
+        "content": "See the exam percentile of student_987."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure, but I am going to need more information. Can you please provide the exam ID for the student_987 that you are interested in? The available exam IDs are 1 through 8."
+      }
+    ]
+  },
+  {
+    "conversation_id": "get-exam-percentile_31",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Find the percentile of student_s1p1 on the third exam."
+      },
+      {
+        "role": "assistant",
+        "content": "Student student_s1p1 scored 147 on the third exam. Compared to the global average of 206.7 and a standard deviation of 27.1, this score places the student approximately in the 1.4th percentile."
+      }
+    ]
+  },
+  {
+    "conversation_id": "get-exam-percentile_32",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Percentile of student_on exam 5?"
+      },
+      {
+        "role": "assistant",
+        "content": "It appears you're trying to find out the percentile of a student for a specific exam. However, you didn't provide a specific student's ID. Please provide the exact ID of the student you're interested in. The format is something like \"student_s1p1\". Could you please provide the student ID for more targeted results?"
+      }
+    ]
+  },
+  {
+    "conversation_id": "get-exam-percentile_33",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Can you tell me the percentile of student_s9999p99 on the first exam?"
+      },
+      {
+        "role": "assistant",
+        "content": "Student student_s9999p99 scored 197 on the first exam. Considering the global average score of 168.8 and a standard deviation of 28.4, this score corresponds to approximately the 84.0th percentile."
+      }
+    ]
+  },
+  {
+    "conversation_id": "get-exam-percentile_34",
+    "messages": [
+      {
+        "role": "user",
+        "content": "How can I find the percentile of student_s1p12 on exam two?"
+      },
+      {
+        "role": "assistant",
+        "content": "Student student_s1p12 scored 186 on exam 2. Compared to a global average of 190.5 with a standard deviation of 27.1, this score places the student in approximately the 43.4th percentile."
+      }
+    ]
+  },
+  {
+    "conversation_id": "get-exam-percentile_35",
+    "messages": [
+      {
+        "role": "user",
+        "content": "What is the percentile for student_s1p1?"
+      },
+      {
+        "role": "assistant",
+        "content": "To calculate the percentile of a student, we need the specific exam ID to analyze. Please provide the exam ID along with the student ID."
+      }
+    ]
+  },
+  {
+    "conversation_id": "get-exam-percentile_36",
+    "messages": [
+      {
+        "role": "user",
+        "content": "How did student_s9999p96 perform on ?"
+      },
+      {
+        "role": "assistant",
+        "content": "It appears you want to inquire about a specific student's performance, but you didn't mention on which domain or exam you are interested in. It would be helpful for me to provide a more accurate response if you could specify if you want to examine the student's performance on a particular domain (a,b,c) or on a specific exam (1 through 8)."
+      }
+    ]
+  },
+  {
+    "conversation_id": "get-exam-percentile_37",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Show me the percentile of student_255 on exam 4."
+      },
+      {
+        "role": "assistant",
+        "content": "It seems that the student ID \"student_255\" is not in the available records. Please check and provide a valid student ID from the available list, such as one starting with \"student_s1p\" or ending with \"student_s9999p99,\" to get the percentile for exam 4."
+      }
+    ]
+  },
+  {
+    "conversation_id": "get-exam-percentile_38",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Can you get me the percentile of student_s9999p95 on exam 2,3,4?"
+      },
+      {
+        "role": "assistant",
+        "content": "For exam 2, student_s9999p95 is in approximately the 69.0th percentile, having scored 204. \n\nShall I continue with the analysis for exams 3 and 4?"
+      }
+    ]
+  },
+  {
+    "conversation_id": "get-exam-percentile_39",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Who is the first percentile in exam 3?"
+      },
+      {
+        "role": "assistant",
+        "content": "Apologies for any confusion, but the current data analysis tools cannot directly identify which student belongs to a specific percentile for an exam. Instead, I can calculate the percentile rank of a student's performance in a specified exam. For that, you would need to provide a student_id. Alternatively, I could identify struggling students within a specified school in a certain domain.\n\nWould you like to proceed with any of these options? If so, please provide the necessary details."
+      }
+    ]
+  },
+  {
+    "conversation_id": "get-exam-percentile_40",
+    "messages": [
+      {
+        "role": "user",
+        "content": "What is the student_s1p11 scores percentile on 6?"
+      },
+      {
+        "role": "assistant",
+        "content": "Student student_s1p11 scored 229 on exam 6. Compared to the global average of 241.5 and a standard deviation of 26.1, this score is approximately at the 31.6th percentile."
+      }
+    ]
+  },
+  {
+    "conversation_id": "get-exam-percentile_41",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Give me the percentile scores for student_s1p1"
+      },
+      {
+        "role": "assistant",
+        "content": "Student student_s1p1 scored 151 on exam 1. The global average score was 168.8 with a standard deviation of 28.4. This places student_s1p1 approximately in the 26.5th percentile."
+      }
+    ]
+  },
+  {
+    "conversation_id": "get-exam-percentile_42",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Find me the percentile score for student_s1p1 on exam 9"
+      },
+      {
+        "role": "assistant",
+        "content": "It seems there is no Exam 9 available for student `student_s1p1`. Our available exam IDs range from 1 to 8. Please check the exam ID or provide any of these valid IDs for further analysis."
+      }
+    ]
+  },
+  {
+    "conversation_id": "get-exam-percentile_43",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Score for student_s1p13 on exam 2?"
+      },
+      {
+        "role": "assistant",
+        "content": "Student **student_s1p13** scored **179** on exam 2. The global average for this exam is **190.5** with a standard deviation of **27.1**. This score corresponds to approximately the **33.5th percentile**."
+      }
+    ]
+  },
+  {
+    "conversation_id": "get-exam-percentile_44",
+    "messages": [
+      {
+        "role": "user",
+        "content": "What is the first student's percentile for exam 5?"
+      },
+      {
+        "role": "assistant",
+        "content": "The first student, student_s1p1, scored 261 on exam 5. Given the global average of 229.6 and a standard deviation of 25.7, this score places them at approximately the 88.9th percentile."
+      }
+    ]
+  },
+  {
+    "conversation_id": "get-exam-percentile_45",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Get me the student_s9999p99's percentile on exam 3 for school_1648"
+      },
+      {
+        "role": "assistant",
+        "content": "The student with ID `student_s9999p99` scored 183 on exam 3. Compared to the global average score of 206.7 and a standard deviation of 27.1, this places the student at approximately the 19.2th percentile."
+      }
+    ]
+  },
+  {
+    "conversation_id": "get-exam-percentile_46",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Calculate the percentile for student_s9999p97 for the second exam"
+      },
+      {
+        "role": "assistant",
+        "content": "Student student_s9999p97 scored 249 on exam 2. Compared to a global average score of 190.5 and a standard deviation of 27.1, this places the student in approximately the 98.5th percentile."
+      }
+    ]
+  },
+  {
+    "conversation_id": "get-exam-percentile_47",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Did student_s9999p96 got the full percentile on exam 8?"
+      },
+      {
+        "role": "assistant",
+        "content": "Student student_s9999p96 did not score at the full percentile on exam 8. They scored 222, which places them approximately at the 5.9th percentile compared to the global average score of 261.4 with a standard deviation of 25.3."
+      }
+    ]
+  },
+  {
+    "conversation_id": "get-exam-percentile_48",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Who performed best on exam 4?"
+      },
+      {
+        "role": "assistant",
+        "content": "I'm sorry but I can't provide the requested analysis without more specific identifiers. If you're interested in the best performance on exam 4, are you asking:\n\n1. Who performed best on exam 4 across all schools? \n2. Who performed best on exam 4 in a specific school? If so, please provide the school ID (e.g., 'school_1', 'school_1650'). \n3. Who performed best on exam 4 in a specific domain? If so, specify the domain ('a', 'b', or 'c').\n\nPlease provide more specific identifiers for more targeted results."
+      }
+    ]
+  },
+  {
+    "conversation_id": "get-exam-percentile_49",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Which one scored higher percentile, student_s1p13 or student_s1p12, on exam 7?"
+      },
+      {
+        "role": "assistant",
+        "content": "Student_s1p13 scored in the 8.3th percentile on exam 7. Let me check student_s1p12 for comparison."
+      }
+    ]
+  },
+  {
+    "conversation_id": "get-exam-percentile_50",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Did anyone score the 100th percentile on exam 2?"
+      },
+      {
+        "role": "assistant",
+        "content": "To answer the question of whether any student scored at the 100th percentile on exam 2, I need to analyze the scores of all students who took this exam. Please hold on while I process this data for all students."
+      }
+    ]
+  }
+]

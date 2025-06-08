@@ -46,6 +46,24 @@ npm run client-demo
   npm run client      # Build and run interactive client
   ```
 
+## Evaluation
+
+To automatically generate and evaluate prompt responses for each MCP tool:
+
+```bash
+# In one terminal, start the MCP server:
+npm run server
+
+# In another terminal, run the evaluation script:
+npm run evaluate
+```
+
+This will:
+
+1. Generate 50 diverse prompts per registered tool (valid, invalid, and incomplete questions).
+2. Send each prompt to the MCP server via the client and record user–assistant conversations.
+3. Use the Python `LLM_as_judge.py` script to assess responses with the LLM and save results to `evaluation/evaluations.json`.
+
 ## How It Works
 
 ### MCP Server (`src/mcp-server.ts`)
