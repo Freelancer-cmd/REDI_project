@@ -50,8 +50,7 @@ npm run client-demo
 
 ### MCP Server (`src/mcp-server.ts`)
 
-- Loads educational data from `data/resp_data.json`.
-- Registers five analysis tools:
+- Sets up the MCP server and registers analysis tools defined in `src/tools/`:
   - `analyze-student-performance`
   - `compare-domain-performance`
   - `identify-struggling-students`
