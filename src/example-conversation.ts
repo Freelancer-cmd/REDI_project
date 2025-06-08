@@ -3,6 +3,13 @@ import * as readline from "readline";
 import OpenAI from "openai";
 import fs from "fs";
 
+function abbreviateIds(ids: string[], count: number = 5): string[] {
+    if (ids.length <= count * 2) {
+        return ids;
+    }
+    return [...ids.slice(0, count), ...ids.slice(-count)];
+}
+
 async function runEducationalAnalyticsDemo() {
     const client = new MCPClient();
     
@@ -12,10 +19,12 @@ async function runEducationalAnalyticsDemo() {
 
         // Load dataset to provide dynamic ID suggestions
         const data = JSON.parse(fs.readFileSync("data/resp_data.json", "utf8"));
-        const studentIds = data.schools.flatMap((s: any) =>
+        const allStudentIds = data.schools.flatMap((s: any) =>
             s.students.map((st: any) => st.id)
         );
-        const schoolIds = data.schools.map((s: any) => s.id);
+        const allSchoolIds = data.schools.map((s: any) => s.id);
+        const studentIds = abbreviateIds(allStudentIds);
+        const schoolIds = abbreviateIds(allSchoolIds);
 
         console.log("\n🎓 Educational Analytics Demo");
         console.log("=".repeat(60));
