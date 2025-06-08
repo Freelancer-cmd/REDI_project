@@ -7,9 +7,7 @@
         "build": "tsc",
         "server": "npm run build && node dist/src/mcp-server.js",
         "client": "npm run build && node dist/src/example-conversation.js",
-        "client-demo": "npm run build && node dist/src/example-conversation.js examples",
-        "dev:server": "ts-node --esm src/mcp-server.ts",
-        "dev:client": "ts-node --esm src/example-conversation.ts"
+        "client-demo": "npm run build && node dist/src/example-conversation.js examples"
     },
     "keywords": [
         "openai",
