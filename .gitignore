@@ -30,4 +30,4 @@ build/
 .claude
 
 # data
-/data
+/data/resp_data.json
