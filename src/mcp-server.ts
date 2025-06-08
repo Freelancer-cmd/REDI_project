@@ -17,9 +17,9 @@ interface SchoolData {
                 exam_score: number;
                 time: string;
                 items_correct: {
-                    a: number;
-                    b: number;
-                    c: number;
+                    A: number;
+                    B: number;
+                    C: number;
                 };
             }[];
         }[];
@@ -111,7 +111,12 @@ server.registerTool(
         description: "Identify students who are struggling in specific domains within a school",
         inputSchema: {
             school_id: z.string().describe("Required school ID to analyze"),
-            domain: z.enum(["a", "b", "c"]).optional().describe("Specific domain to analyze"),
+            domain: z.preprocess(
+                (val) => (typeof val === "string" ? val.toLowerCase() : val),
+                z.enum(["a", "b", "c"])
+            )
+            .optional()
+            .describe("Specific domain to analyze (a, b, or c, case-insensitive)"),
             threshold: z.number().default(5).describe("Minimum correct items threshold (out of 10)")
         }
     },
@@ -172,9 +177,9 @@ function analyzeStudentPerformance(student: any) {
     let avgScore = 0;
 
     for (const exam of exams) {
-        totalA += exam.items_correct.a;
-        totalB += exam.items_correct.b;
-        totalC += exam.items_correct.c;
+        totalA += Number(exam.items_correct.A);
+        totalB += Number(exam.items_correct.B);
+        totalC += Number(exam.items_correct.C);
         avgScore += exam.exam_score;
     }
 
@@ -191,7 +196,7 @@ function analyzeStudentPerformance(student: any) {
     const percentageC = (avgC / 10) * 100;
 
     let insights = [`Student ${id} (School: ${school_id}) Performance Analysis:`];
-    insights.push(`Average Exam Score: ${avgScore.toFixed(1)}%`);
+    insights.push(`Average Exam Score: ${avgScore.toFixed(1)}`);
     insights.push(`Overall Questions Correct: ${totalCorrect.toFixed(1)}/${TOTAL_QUESTIONS_PER_EXAM} (${overallPercentage.toFixed(1)}%)`);
     insights.push(`\nDomain Performance (avg items correct & percentage):`);
     insights.push(`  Domain A: ${avgA.toFixed(1)}/10 (${percentageA.toFixed(1)}%)`);
@@ -238,9 +243,9 @@ function analyzeDomainPerformance(schoolId: string) {
 
     for (const student of students) {
         for (const exam of student.exams) {
-            domainA += exam.items_correct.a;
-            domainB += exam.items_correct.b;
-            domainC += exam.items_correct.c;
+            domainA += exam.items_correct.A;
+            domainB += exam.items_correct.B;
+            domainC += exam.items_correct.C;
             studentCount++;
         }
     }
@@ -285,47 +290,48 @@ function identifyStrugglingStudents(schoolId: string, domain?: "a" | "b" | "c", 
     for (const student of school.students) {
         for (const exam of student.exams) {
             if (domain) {
-                if (exam.items_correct[domain] < threshold) {
-                    const percentage = (exam.items_correct[domain] / 10) * 100;
+                const domainKey = domain.toUpperCase() as 'A' | 'B' | 'C';
+                if (exam.items_correct[domainKey] < threshold) {
+                    const percentage = (exam.items_correct[domainKey] / 10) * 100;
                     strugglingStudents.push({
                         student_id: student.id,
                         school_id: school.id,
                         domain,
-                        score: exam.items_correct[domain],
+                        score: exam.items_correct[domainKey],
                         percentage: percentage,
                         exam_id: exam.exam_id
                     });
                 }
             } else {
-                if (exam.items_correct.a < threshold) {
-                    const percentage = (exam.items_correct.a / 10) * 100;
+                if (exam.items_correct.A < threshold) {
+                    const percentage = (exam.items_correct.A / 10) * 100;
                     strugglingStudents.push({
                         student_id: student.id,
                         school_id: school.id,
                         domain: 'a',
-                        score: exam.items_correct.a,
+                        score: exam.items_correct.A,
                         percentage: percentage,
                         exam_id: exam.exam_id
                     });
                 }
-                if (exam.items_correct.b < threshold) {
-                    const percentage = (exam.items_correct.b / 10) * 100;
+                if (exam.items_correct.B < threshold) {
+                    const percentage = (exam.items_correct.B / 10) * 100;
                     strugglingStudents.push({
                         student_id: student.id,
                         school_id: school.id,
                         domain: 'b',
-                        score: exam.items_correct.b,
+                        score: exam.items_correct.B,
                         percentage: percentage,
                         exam_id: exam.exam_id
                     });
                 }
-                if (exam.items_correct.c < threshold) {
-                    const percentage = (exam.items_correct.c / 10) * 100;
+                if (exam.items_correct.C < threshold) {
+                    const percentage = (exam.items_correct.C / 10) * 100;
                     strugglingStudents.push({
                         student_id: student.id,
                         school_id: school.id,
                         domain: 'c',
-                        score: exam.items_correct.c,
+                        score: exam.items_correct.C,
                         percentage: percentage,
                         exam_id: exam.exam_id
                     });
@@ -364,9 +370,9 @@ function getSchoolOverview(schoolId: string) {
     for (const student of school.students) {
         for (const exam of student.exams) {
             totalScore += exam.exam_score;
-            totalA += exam.items_correct.a;
-            totalB += exam.items_correct.b;
-            totalC += exam.items_correct.c;
+            totalA += exam.items_correct.A;
+            totalB += exam.items_correct.B;
+            totalC += exam.items_correct.C;
             totalExams++;
         }
     }
@@ -378,7 +384,7 @@ function getSchoolOverview(schoolId: string) {
         const avgC = (totalC / totalExams).toFixed(1);
 
         overview.push(`Total Exams: ${totalExams}`);
-        overview.push(`Average Exam Score: ${avgScore}%`);
+        overview.push(`Average Exam Score: ${avgScore}`);
         overview.push(`\nAverage Domain Performance:`);
         overview.push(`  Domain A: ${avgA}/10 (${((totalA/totalExams)/10*100).toFixed(1)}%)`);
         overview.push(`  Domain B: ${avgB}/10 (${((totalB/totalExams)/10*100).toFixed(1)}%)`);

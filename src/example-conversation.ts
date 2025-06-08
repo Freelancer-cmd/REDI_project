@@ -1,6 +1,7 @@
 import { MCPClient } from "./mcp-client";
 import * as readline from "readline";
 import OpenAI from "openai";
+import fs from "fs";
 
 async function runEducationalAnalyticsDemo() {
     const client = new MCPClient();
@@ -8,13 +9,26 @@ async function runEducationalAnalyticsDemo() {
     try {
         // Connect to MCP server
         await client.connect();
-        
+
+        // Load dataset to provide dynamic ID suggestions
+        const data = JSON.parse(fs.readFileSync("data/resp_data.json", "utf8"));
+        const studentIds = data.schools.flatMap((s: any) =>
+            s.students.map((st: any) => st.id)
+        );
+        const schoolIds = data.schools.map((s: any) => s.id);
+
         console.log("\n🎓 Educational Analytics Demo");
-        console.log("=" .repeat(50));
+        console.log("=".repeat(60));
         console.log("Ask questions about student and school performance!");
-        console.log("Example queries:");
-        console.log("- 'Analyze student performance for student_s1p1'");
-        console.log("- 'Which students in school_1 are struggling in Domain B?'");
+        console.log("You can use the following identifiers:");
+        console.log(`- Student IDs: ${studentIds.join(", ")}`);
+        console.log(`- School IDs: ${schoolIds.join(", ")}`);
+        console.log("You can specify domains (case-insensitive): a, b, c");
+        console.log("\nExample queries:");
+        console.log("- 'Analyze the performance of student_s1p1 across all domains'");
+        console.log(
+            "- 'Find students in school_1 who are struggling in domain b with threshold of 4'"
+        );
         console.log("- 'Give me an overview of school_1'");
         console.log("- 'Compare domain performance for school_1'");
         console.log("\nType 'quit' to exit\n");
@@ -28,13 +42,14 @@ async function runEducationalAnalyticsDemo() {
         const messages: OpenAI.Chat.Completions.ChatCompletionMessageParam[] = [
             {
                 role: "system",
-                content: `You are an educational data analyst assistant. You have access to powerful tools for analyzing student and school performance data.
-When users ask questions about students or schools, use these tools to provide detailed, insightful analysis. Always be specific about the data you're analyzing and provide actionable insights.
+                content: `You are an educational data analyst assistant with access to tools for analyzing student and school performance data.
+When users ask questions about students or schools, use these tools to provide detailed, actionable insights.
 
-Available student IDs in the dataset appear to follow patterns like 'student_s1p1', 'student_s1p2', etc.
-Available school IDs appear to follow patterns like 'school_1', 'school_2', etc.
+Available student IDs: ${studentIds.join(", ")}
+Available school IDs: ${schoolIds.join(", ")}
+Available domains (case-insensitive): a, b, c
 
-If a user asks for analysis but doesn't provide specific IDs, suggest they provide specific student or school IDs for more targeted analysis.`
+If a user asks for analysis without specific IDs or domains, suggest they include these identifiers for more targeted results.`,
             }
         ];
 
@@ -106,7 +121,7 @@ async function runPredefinedExamples() {
             },
             {
                 title: "Identify Struggling Students",
-                query: "Find students in school_1 who are struggling in Domain B with threshold of 4"
+                query: "Find students in school_1 who are struggling in domain b with threshold of 4"
             },
             {
                 title: "School Overview",
@@ -123,10 +138,10 @@ async function runPredefinedExamples() {
                 const messages: OpenAI.Chat.Completions.ChatCompletionMessageParam[] = [
                     {
                         role: "system",
-                        content: "You are an educational data analyst. Use the available tools to provide detailed analysis of student and school performance data."
+                        content: `You are an educational data analyst assistant. When executing tools, retrieve performance data from the provided tools and present their output directly, without omitting any details or inventing data. Format the results clearly for the user.`
                     },
                     {
-                        role: "user", 
+                        role: "user",
                         content: example.query
                     }
                 ];

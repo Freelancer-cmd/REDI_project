@@ -81,91 +81,9 @@ export class MCPClient {
             function: {
                 name: tool.name,
                 description: tool.description || `Execute ${tool.name}`,
-                parameters: this.convertZodSchemaToJsonSchema(tool.inputSchema),
+                parameters: tool.inputSchema,
             },
         }));
-    }
-
-    private convertZodSchemaToJsonSchema(zodSchema: any): any {
-        // Convert Zod schema object to JSON Schema format
-        if (!zodSchema) {
-            return { type: "object", properties: {}, required: [] };
-        }
-
-        const properties: any = {};
-        const required: string[] = [];
-
-        // Extract properties from Zod schema
-        Object.entries(zodSchema).forEach(([key, value]: [string, any]) => {
-            if (value && typeof value === 'object' && value._def) {
-                // This is a Zod type
-                const zodType = value._def.typeName;
-                
-                switch (zodType) {
-                    case 'ZodString':
-                        properties[key] = {
-                            type: "string",
-                            description: value._def.description || `${key} parameter`,
-                        };
-                        if (!value.isOptional()) {
-                            required.push(key);
-                        }
-                        break;
-                    case 'ZodNumber':
-                        properties[key] = {
-                            type: "number",
-                            description: value._def.description || `${key} parameter`,
-                        };
-                        if (value._def.defaultValue !== undefined) {
-                            properties[key].default = value._def.defaultValue;
-                        }
-                        if (!value.isOptional()) {
-                            required.push(key);
-                        }
-                        break;
-                    case 'ZodEnum':
-                        properties[key] = {
-                            type: "string",
-                            enum: value._def.values,
-                            description: value._def.description || `${key} parameter`,
-                        };
-                        break;
-                    case 'ZodOptional':
-                        // Handle optional types
-                        const innerType = value._def.innerType._def.typeName;
-                        if (innerType === 'ZodEnum') {
-                            properties[key] = {
-                                type: "string",
-                                enum: value._def.innerType._def.values,
-                                description: value._def.description || `${key} parameter`,
-                            };
-                        }
-                        break;
-                    case 'ZodDefault':
-                        // Handle default values
-                        const defaultInnerType = value._def.innerType._def.typeName;
-                        if (defaultInnerType === 'ZodNumber') {
-                            properties[key] = {
-                                type: "number",
-                                description: value._def.description || `${key} parameter`,
-                                default: value._def.defaultValue,
-                            };
-                        }
-                        break;
-                    default:
-                        properties[key] = {
-                            type: "string",
-                            description: value._def.description || `${key} parameter`,
-                        };
-                }
-            }
-        });
-
-        return {
-            type: "object",
-            properties,
-            required,
-        };
     }
 
     async callTool(name: string, args: any): Promise<any> {
