@@ -1,5 +1,5 @@
 import { z } from "zod";
-import { findStudentById, TOTAL_QUESTIONS_PER_EXAM } from "../utils/data";
+import { findStudentById, TOTAL_QUESTIONS_PER_EXAM, examStats } from "../utils/data";
 
 /**
  * Tool metadata and implementation to analyze individual student performance
@@ -7,7 +7,7 @@ import { findStudentById, TOTAL_QUESTIONS_PER_EXAM } from "../utils/data";
  */
 export const AnalyzeStudentPerformanceTool = {
   name: "analyze-student-performance" as const,
-  description: "Analyze individual student performance across domains",
+  description: "Analyze individual student performance across exams and domains, with per-exam comparison to global averages",
   inputSchema: {
     student_id: z.string().describe("ID of the student to analyze")
   },
@@ -35,7 +35,6 @@ export const AnalyzeStudentPerformanceTool = {
       avgScore += exam.exam_score;
     }
     const examCount = exams.length;
-    avgScore /= examCount;
     const avgA = totalA / examCount;
     const avgB = totalB / examCount;
     const avgC = totalC / examCount;
@@ -47,10 +46,19 @@ export const AnalyzeStudentPerformanceTool = {
 
     const insights: string[] = [];
     insights.push(`Student ${id} (School: ${school_id}) Performance Analysis:`);
-    insights.push(`Average Exam Score: ${avgScore.toFixed(1)}`);
-    insights.push(
-      `Overall Questions Correct: ${totalCorrect.toFixed(1)}/${TOTAL_QUESTIONS_PER_EXAM} (${overallPct.toFixed(1)}%)`
-    );
+    insights.push("");
+    insights.push("Per-Exam Score Comparison to Global Averages:");
+    for (const exam of exams) {
+      const stats = examStats[String(exam.exam_id)];
+      if (stats) {
+        const delta = exam.exam_score - stats.mean;
+        const direction = delta > 0 ? "above" : delta < 0 ? "below" : "at";
+        const deltaAbs = Math.abs(delta);
+        insights.push(
+          `- Exam ${exam.exam_id}: ${exam.exam_score.toFixed(1)} (global mean ${stats.mean.toFixed(1)}, stdDev ${stats.stdDev.toFixed(1)}) - ${direction} average by ${deltaAbs.toFixed(1)} points`
+        );
+      }
+    }
     insights.push("");
     insights.push("Domain Performance (avg items correct & percentage):");
     insights.push(`- Domain A: ${avgA.toFixed(1)}/10 (${pctA.toFixed(1)}%)`);
