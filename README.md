@@ -56,6 +56,15 @@ npm run server
 
 # In another terminal, run the evaluation script:
 npm run evaluate
+
+# To force regeneration of prompts and conversations:
+npm run evaluate:overwrite
+
+# To regenerate only prompts:
+npm run evaluate:overwrite-prompts
+
+# To regenerate only conversations:
+npm run evaluate:overwrite-conversations
 ```
 
 This will:

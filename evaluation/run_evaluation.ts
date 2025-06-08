@@ -7,6 +7,27 @@ import { MCPClient } from "../src/mcp-client";
 
 dotenv.config();
 
+const argv = process.argv.slice(2);
+const overwriteAll = argv.includes('--overwrite') || argv.includes('-f');
+const overwritePrompts = overwriteAll || argv.includes('--overwrite-prompts');
+const overwriteConversations = overwriteAll || overwritePrompts || argv.includes('--overwrite-conversations');
+if (argv.includes('--help') || argv.includes('-h')) {
+  console.log(`Usage: ts-node run_evaluation.ts [options]
+Options:
+  --overwrite, -f                Regenerate prompts.json and conversations.json
+  --overwrite-prompts            Regenerate prompts.json only (also regenerates conversations)
+  --overwrite-conversations      Regenerate conversations.json only
+  -h, --help                     Show this help message`);
+  process.exit(0);
+}
+
+/**
+ * Options:
+ *   --overwrite, -f                Regenerate prompts.json and conversations.json
+ *   --overwrite-prompts            Regenerate prompts.json only
+ *   --overwrite-conversations      Regenerate conversations.json only
+ *   -h, --help                     Show help message
+ */
 /**
  * Evaluation harness:
  * 1. Generates 50 diverse prompts per MCP tool (valid, invalid, incomplete).
@@ -24,6 +45,8 @@ import { CompareDomainPerformanceTool } from "../src/tools/compare-domain-perfor
 import { IdentifyStrugglingStudentsTool } from "../src/tools/identify-struggling-students";
 import { GetSchoolOverviewTool } from "../src/tools/get-school-overview";
 import { GetExamPercentileTool } from "../src/tools/get-exam-percentile";
+import { PredictNextExamScoresTool } from "../src/tools/predict-next-exam-scores";
+
 import {abbreviateIds} from "../src/utils/data";
 
 /** Definitions for each tool and exemplar valid queries to seed prompt generation */
@@ -59,6 +82,12 @@ const TOOL_DEFINITIONS: Array<{
     tool: GetExamPercentileTool,
     examples: [
       "What percentile did student_s1p1 achieve on exam 5?"
+    ],
+  },
+  {
+    tool: PredictNextExamScoresTool,
+    examples: [
+      "Predict the next two exam scores for student_s1p1"
     ],
   },
 ];
@@ -109,7 +138,7 @@ Available exam IDs: A value 1, 2, 3, ..., 8
 Available domains (case-insensitive): a, b, c
 `;
   const response = await openai.chat.completions.create({
-    model: "gpt-4",
+    model: "gpt-4o",
     messages: [{ role: "user", content: generationPrompt }],
   });
   const msg = response.choices[0].message;
@@ -130,9 +159,12 @@ async function main() {
 
   // Phase 1: generate or load prompts
   let promptsByTool: Record<string, string[]> = {};
-  if (fs.existsSync(PROMPTS_FILE)) {
+  if (!overwritePrompts && fs.existsSync(PROMPTS_FILE)) {
     promptsByTool = JSON.parse(fs.readFileSync(PROMPTS_FILE, "utf8"));
   } else {
+    if (overwritePrompts && fs.existsSync(PROMPTS_FILE)) {
+      console.log(`Overwriting existing prompts file: ${PROMPTS_FILE}`);
+    }
     for (const { tool, examples } of TOOL_DEFINITIONS) {
       console.log(`Generating prompts for ${tool.name}...`);
       promptsByTool[tool.name] = await generatePrompts(openai, tool, examples);
@@ -141,8 +173,13 @@ async function main() {
     console.log(`Saved prompts to ${PROMPTS_FILE}`);
   }
 
-  if (!fs.existsSync(CONVERSATIONS_FILE)) {
-    // Phase 2: query the MCP server via the client
+  // Phase 2: generate or load conversations
+  if (!overwriteConversations && fs.existsSync(CONVERSATIONS_FILE)) {
+    console.log(`Skipping conversations generation (use --overwrite-conversations to regenerate).`);
+  } else {
+    if (overwriteConversations && fs.existsSync(CONVERSATIONS_FILE)) {
+      console.log(`Overwriting existing conversations file: ${CONVERSATIONS_FILE}`);
+    }
     console.log("Connecting to MCP server...");
     const client = new MCPClient();
     await client.connect();
@@ -157,15 +194,15 @@ async function main() {
         const messages = [
           {
             role: "system",
-            content: `You are an educational data analyst assistant with access to tools for analyzing student and school performance data.
-When users ask questions about students or schools, use these tools to provide detailed, actionable insights.
+          content: `You are an educational data analyst assistant with access to tools for analyzing student and school performance data, and for predicting future exam scores.
+When users ask questions about students, schools, or future performance predictions, use these tools to provide detailed, actionable insights.
 
 Available student IDs (first 5, and last 5): ${studentIds.join(", ")}
 Available school IDs (first 5, and last 5): ${schoolIds.join(", ")}
 Available exam IDs: A value 1, 2, 3, ..., 8
 Available domains (case-insensitive): a, b, c
 
-If a user asks for analysis without specific IDs or domains, suggest they include these identifiers for more targeted results.\``,
+If a user asks for analysis or predictions without specific IDs or domains, suggest they include these identifiers for more targeted results.`,
           },
           {role: "user", content: prompt},
         ];
