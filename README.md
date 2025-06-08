@@ -74,6 +74,7 @@ This will:
   - `identify-struggling-students`
   - `get-school-overview`
   - `get-exam-percentile`
+  - `predict-next-exam-scores`
 
 ### MCP Client (`src/mcp-client.ts`) & Example Conversation (`src/example-conversation.ts`)
 

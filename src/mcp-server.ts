@@ -7,6 +7,7 @@ import { CompareDomainPerformanceTool } from "./tools/compare-domain-performance
 import { IdentifyStrugglingStudentsTool } from "./tools/identify-struggling-students";
 import { GetSchoolOverviewTool } from "./tools/get-school-overview";
 import { GetExamPercentileTool } from "./tools/get-exam-percentile";
+import { PredictNextExamScoresTool } from "./tools/predict-next-exam-scores";
 
 /**
  * Main MCP server configuration.
@@ -29,7 +30,8 @@ const server = new McpServer({
   CompareDomainPerformanceTool,
   IdentifyStrugglingStudentsTool,
   GetSchoolOverviewTool,
-  GetExamPercentileTool
+  GetExamPercentileTool,
+  PredictNextExamScoresTool
 ].forEach((tool) => {
   server.registerTool(
     tool.name,
