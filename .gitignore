@@ -27,6 +27,7 @@ build/
 *.sln
 *.sw?
 .DS_Store
+.claude
 
 # data
 /data
