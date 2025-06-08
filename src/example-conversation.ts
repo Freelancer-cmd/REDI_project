@@ -7,12 +7,12 @@ function abbreviateIds(ids: string[], count: number = 5): string[] {
     if (ids.length <= count * 2) {
         return ids;
     }
-    return [...ids.slice(0, count), ...ids.slice(-count)];
+    return [...ids.slice(0, count), "...", ...ids.slice(-count)];
 }
 
 async function runEducationalAnalyticsDemo() {
     const client = new MCPClient();
-    
+
     try {
         // Connect to MCP server
         await client.connect();
@@ -55,8 +55,9 @@ async function runEducationalAnalyticsDemo() {
                 content: `You are an educational data analyst assistant with access to tools for analyzing student and school performance data.
 When users ask questions about students or schools, use these tools to provide detailed, actionable insights.
 
-Available student IDs: ${studentIds.join(", ")}
-Available school IDs: ${schoolIds.join(", ")}
+Available student IDs (first 5, and last 5): ${studentIds.join(", ")}
+Available school IDs (first 5, and last 5): ${schoolIds.join(", ")}
+Available exam IDs: A value 1, 2, 3, ..., 8
 Available domains (case-insensitive): a, b, c
 
 If a user asks for analysis without specific IDs or domains, suggest they include these identifiers for more targeted results.`,
