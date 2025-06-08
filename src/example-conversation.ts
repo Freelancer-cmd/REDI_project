@@ -40,6 +40,7 @@ async function runEducationalAnalyticsDemo() {
         );
         console.log("- 'Give me an overview of school_1'");
         console.log("- 'Compare domain performance for school_1'");
+        console.log("- 'What percentile did student_s1p1 achieve on exam 5?'");
         console.log("\nType 'quit' to exit\n");
 
         // Set up interactive conversation
@@ -135,6 +136,10 @@ async function runPredefinedExamples() {
             {
                 title: "School Overview",
                 query: "Give me a comprehensive overview of school_1"
+            },
+            {
+                title: "Student Exam Percentile",
+                query: "What percentile did student_s1p1 achieve on exam 5?"
             }
         ];
 

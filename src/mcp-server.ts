@@ -37,6 +37,40 @@ try {
     schoolData = { schools: [] };
 }
 
+function erf(x: number): number {
+    const sign = x >= 0 ? 1 : -1;
+    x = Math.abs(x);
+    const a1 = 0.254829592;
+    const a2 = -0.284496736;
+    const a3 = 1.421413741;
+    const a4 = -1.453152027;
+    const a5 = 1.061405429;
+    const p = 0.3275911;
+    const t = 1 / (1 + p * x);
+    const y = 1 - (((((a5 * t + a4) * t) + a3) * t + a2) * t + a1) * t * Math.exp(-x * x);
+    return sign * y;
+}
+
+const examScoresById: Record<string, number[]> = {};
+for (const school of schoolData.schools) {
+    for (const student of school.students) {
+        for (const exam of student.exams) {
+            const eid = String(exam.exam_id);
+            if (!examScoresById[eid]) {
+                examScoresById[eid] = [];
+            }
+            examScoresById[eid].push(exam.exam_score);
+        }
+    }
+}
+
+const examStats: Record<string, { mean: number; stdDev: number }> = {};
+for (const [eid, scores] of Object.entries(examScoresById)) {
+    const mean = scores.reduce((sum, val) => sum + val, 0) / scores.length;
+    const variance = scores.reduce((sum, val) => sum + Math.pow(val - mean, 2), 0) / scores.length;
+    examStats[eid] = { mean, stdDev: Math.sqrt(variance) };
+}
+
 const server = new McpServer({
     name: "educational-insights",
     version: "1.0.0",
@@ -83,6 +117,7 @@ server.registerTool(
         };
     }
 );
+
 
 server.registerTool(
     "compare-domain-performance",
@@ -151,6 +186,40 @@ server.registerTool(
                 }
             ]
         };
+    }
+);
+
+server.registerTool(
+    "get-exam-percentile",
+    {
+        description: "Calculate the percentile rank of a student's exam score relative to the global baseline distribution",
+        inputSchema: {
+            student_id: z.string().describe("ID of the student to analyze"),
+            exam_id: z.union([z.string(), z.number()]).describe("ID of the exam to calculate percentile for"),
+        }
+    },
+    async ({ student_id, exam_id }: { student_id: string; exam_id: string | number }) => {
+        const student = findStudentById(student_id);
+        if (!student) {
+            return { content: [{ type: "text", text: `Student ${student_id} not found` }] };
+        }
+        const examEntry = student.exams.find(e => String(e.exam_id) === String(exam_id));
+        if (!examEntry) {
+            return { content: [{ type: "text", text: `Exam ${exam_id} not found for student ${student_id}` }] };
+        }
+        const stats = examStats[String(exam_id)];
+        if (!stats) {
+            return { content: [{ type: "text", text: `No baseline available for exam ${exam_id}` }] };
+        }
+        const { mean, stdDev } = stats;
+        if (stdDev === 0) {
+            return { content: [{ type: "text", text: `All students have identical scores for exam ${exam_id}. Percentile is undefined.` }] };
+        }
+        const zScore = (examEntry.exam_score - mean) / stdDev;
+        const percentile = 0.5 * (1 + erf(zScore / Math.SQRT2));
+        const percentileRounded = (percentile * 100).toFixed(1);
+        const text = `Student ${student_id} scored ${examEntry.exam_score} on exam ${exam_id}. Global average: ${mean.toFixed(1)}, standard deviation: ${stdDev.toFixed(1)}. This corresponds to approximately the ${percentileRounded}th percentile.`;
+        return { content: [{ type: "text", text }] };
     }
 );
 
