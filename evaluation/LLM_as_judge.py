@@ -52,7 +52,7 @@ def evaluate_conversations(input_file, output_file):
         prompt = build_prompt(conv_text)
 
         response = openai.chat.completions.create(
-            model="gpt-4",
+            model="gpt-4o",
             messages=[{"role": "user", "content": prompt}]
         )
 
