@@ -19,6 +19,7 @@ def build_prompt(conversation_text):
     - Relevance
     - Accuracy
     - Clarity
+    - Whether it actually answered the question with the given information.
 
     Give the assistant an **overall score from 1 to 5**, where:
     1 = Very poor  
@@ -40,15 +41,29 @@ def build_prompt(conversation_text):
 
 def evaluate_conversations(input_file, output_file):
     with open(input_file, "r") as f:
-        data = json.load(f)
+        raw = json.load(f)
+
+    # Support grouped conversations ({systemPrompt, conversations}[]) or flat list [{conversation_id, messages}]
+    convs = []
+    if isinstance(raw, list) and raw and isinstance(raw[0], dict) and "systemPrompt" in raw[0] and "conversations" in raw[0]:
+        for group in raw:
+            sp = group.get("systemPrompt")
+            for conv in group.get("conversations", []):
+                entry = conv.copy()
+                entry["systemPrompt"] = sp
+                convs.append(entry)
+    else:
+        convs = raw
 
     results = []
-    total = len(data)
+    total = len(convs)
 
-    for idx, conv in enumerate(data, start=1):
-        conv_id = conv["conversation_id"]
+    for idx, conv in enumerate(convs, start=1):
+        conv_id = conv.get("conversation_id")
+        sp = conv.get("systemPrompt")
         print(f"Evaluating conversation {idx}/{total} (conversation_id={conv_id})")
-        conv_text = format_conversation(conv["messages"])
+        # format only user–assistant messages; systemPrompt is metadata
+        conv_text = format_conversation(conv.get("messages", []))
         prompt = build_prompt(conv_text)
 
         response = openai.chat.completions.create(
@@ -57,10 +72,10 @@ def evaluate_conversations(input_file, output_file):
         )
 
         evaluation = response.choices[0].message.content
-        results.append({
-            "conversation_id": conv_id,
-            "evaluation": evaluation
-        })
+        rec = {"conversation_id": conv_id, "evaluation": evaluation}
+        if sp is not None:
+            rec["systemPrompt"] = sp
+        results.append(rec)
 
     with open(output_file, "w") as out:
         json.dump(results, out, indent=2)

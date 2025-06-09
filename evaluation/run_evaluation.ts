@@ -101,6 +101,24 @@ const allSchoolIds = data.schools.map((s: any) => s.id);
 const studentIds = abbreviateIds(allStudentIds);
 const schoolIds = abbreviateIds(allSchoolIds);
 
+/** System prompt variants to evaluate different instructional styles. */
+const SYSTEM_PROMPTS: string[] = [
+  `You are an educational data analyst assistant with access to tools for analyzing student and school performance data, and for predicting future exam scores.
+Available student IDs (first 5, and last 5): ${studentIds.join(", ")}
+Available school IDs (first 5, and last 5): ${schoolIds.join(", ")}
+In general, assume 9999 schools, with each 10 students minimum.
+Available exam IDs: A value 1, 2, 3, ..., 8
+Available domains (case-insensitive): a, b, c
+
+If a user asks for analysis or predictions without specific IDs or domains, suggest they include these identifiers for more targeted results.`,
+  `As an educational insights agent, you have access to powerful tools for analyzing academic performance and forecasting exam results.
+Available student IDs (first 5, and last 5): ${studentIds.join(", ")}
+Available school IDs (first 5, and last 5): ${schoolIds.join(", ")}
+Encourage users to clarify queries by providing specific IDs or domains for accurate results.`,
+    `As an educational insights agent, you have access to powerful tools for analyzing academic performance and forecasting exam results.
+Encourage users to clarify queries by providing specific IDs or domains for accurate results.`
+];
+
 /**
  * Generate example prompts for a given tool by asking the LLM.
  */
@@ -192,47 +210,42 @@ async function main() {
     await client.connect();
 
 
-    const conversations: Array<{ conversation_id: string; messages: any[] }> = [];
-    for (const {tool} of TOOL_DEFINITIONS) {
-      const prompts = promptsByTool[tool.name] || [];
-      for (let i = 0; i < prompts.length; i++) {
-        const prompt = prompts[i];
-        console.log(`→ [${tool.name}] (${i + 1}/${prompts.length}): ${prompt}`);
-        const messages = [
-          {
-            role: "system",
-          content: `You are an educational data analyst assistant with access to tools for analyzing student and school performance data, and for predicting future exam scores.
-When users ask questions about students, schools, or future performance predictions, use these tools to provide detailed, actionable insights.
-
-Available student IDs (first 5, and last 5): ${studentIds.join(", ")}
-Available school IDs (first 5, and last 5): ${schoolIds.join(", ")}
-In general, assume 9999 schools, with each 10 students minimum. 
-Available exam IDs: A value 1, 2, 3, ..., 8
-Available domains (case-insensitive): a, b, c
-
-If a user asks for analysis or predictions without specific IDs or domains, suggest they include these identifiers for more targeted results.`,
-          },
-          {role: "user", content: prompt},
-        ];
-        let assistantReply: string;
-        try {
-          assistantReply = await client.chat(messages as any);
-        } catch (err: any) {
-          assistantReply = `Error calling tool: ${err.message || String(err)}`;
+    const conversationGroups: Array<{
+      systemPrompt: string;
+      conversations: Array<{ conversation_id: string; messages: any[] }>;
+    }> = [];
+    for (const systemPrompt of SYSTEM_PROMPTS) {
+      const groupConversations: Array<{ conversation_id: string; messages: any[] }> = [];
+      for (const { tool } of TOOL_DEFINITIONS) {
+        const prompts = promptsByTool[tool.name] || [];
+        for (let i = 0; i < prompts.length; i++) {
+          const prompt = prompts[i];
+          console.log(`→ [${tool.name}] (${i + 1}/${prompts.length}) [System prompt #${SYSTEM_PROMPTS.indexOf(systemPrompt) + 1}]: ${prompt}`);
+          const messages = [
+            { role: "system", content: systemPrompt },
+            { role: "user", content: prompt },
+          ];
+          let assistantReply: string;
+          try {
+            assistantReply = await client.chat(messages as any);
+          } catch (err: any) {
+            assistantReply = `Error calling tool: ${err.message || String(err)}`;
+          }
+          groupConversations.push({
+            conversation_id: `${tool.name}_${i + 1}`,
+            messages: [
+              { role: "user", content: prompt },
+              { role: "assistant", content: assistantReply },
+            ],
+          });
         }
-        conversations.push({
-          conversation_id: `${tool.name}_${i + 1}`,
-          messages: [
-            {role: "user", content: prompt},
-            {role: "assistant", content: assistantReply},
-          ],
-        });
       }
+      conversationGroups.push({ systemPrompt, conversations: groupConversations });
     }
 
     await client.disconnect();
-    fs.writeFileSync(CONVERSATIONS_FILE, JSON.stringify(conversations, null, 2));
-    console.log(`Saved ${conversations.length} conversations to ${CONVERSATIONS_FILE}`);
+    fs.writeFileSync(CONVERSATIONS_FILE, JSON.stringify(conversationGroups, null, 2));
+    console.log(`Saved conversations grouped by ${SYSTEM_PROMPTS.length} system prompts to ${CONVERSATIONS_FILE}`);
   }
   // Phase 3: invoke the Python LLM-as-judge script
   console.log("Running LLM_as_judge.py...");
