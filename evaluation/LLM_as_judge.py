@@ -83,4 +83,19 @@ def evaluate_conversations(input_file, output_file):
     print(f"Saved evaluations to {output_file}")
 
 
-evaluate_conversations("conversations.json", "evaluations.json")
+if __name__ == "__main__":
+    import argparse
+
+    parser = argparse.ArgumentParser(
+        description="Evaluate assistant conversations with the LLM as judge."
+    )
+    parser.add_argument(
+        "-i", "--input", default="conversations.json",
+        help="Path to the input conversations JSON file"
+    )
+    parser.add_argument(
+        "-o", "--output", default="evaluations.json",
+        help="Path to the output evaluations JSON file"
+    )
+    args = parser.parse_args()
+    evaluate_conversations(args.input, args.output)

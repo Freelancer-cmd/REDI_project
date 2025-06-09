@@ -67,6 +67,14 @@ npm run evaluate:overwrite-prompts
 npm run evaluate:overwrite-conversations
 ```
 
+```bash
+# Run dialog-based context evaluation (25 multi-turn conversations):
+npm run evaluate:dialog
+
+# To regenerate only dialog conversations:
+npm run evaluate:dialog -- --overwrite
+```
+
 This will:
 
 1. Generate 50 diverse prompts per registered tool (valid, invalid, and incomplete questions).

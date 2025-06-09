@@ -11,7 +11,10 @@
         "evaluate": "ts-node evaluation/run_evaluation.ts",
         "evaluate:overwrite": "ts-node evaluation/run_evaluation.ts --overwrite",
         "evaluate:overwrite-prompts": "ts-node evaluation/run_evaluation.ts --overwrite-prompts",
-        "evaluate:overwrite-conversations": "ts-node evaluation/run_evaluation.ts --overwrite-conversations"
+        "evaluate:overwrite-conversations": "ts-node evaluation/run_evaluation.ts --overwrite-conversations",
+        "evaluate:dialog": "ts-node evaluation/run_dialog_evaluation.ts",
+        "stats": "python evaluation/compute_stats.py",
+        "stats:dialog": "python evaluation/compute_stats.py -i dialog_evaluations.json"
     },
     "keywords": [
         "openai",
