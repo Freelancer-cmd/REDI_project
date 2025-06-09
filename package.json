@@ -7,7 +7,11 @@
         "build": "tsc",
         "server": "npm run build && node dist/src/mcp-server.js",
         "client": "npm run build && node dist/src/example-conversation.js",
-        "client-demo": "npm run build && node dist/src/example-conversation.js examples"
+        "client-demo": "npm run build && node dist/src/example-conversation.js examples",
+        "evaluate": "ts-node evaluation/run_evaluation.ts",
+        "evaluate:overwrite": "ts-node evaluation/run_evaluation.ts --overwrite",
+        "evaluate:overwrite-prompts": "ts-node evaluation/run_evaluation.ts --overwrite-prompts",
+        "evaluate:overwrite-conversations": "ts-node evaluation/run_evaluation.ts --overwrite-conversations"
     },
     "keywords": [
         "openai",

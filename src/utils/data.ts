@@ -92,3 +92,18 @@ export const examStats: Record<string, { mean: number; stdDev: number }> = (() =
   }
   return stats;
 })();
+
+
+/**
+ * Abbreviate a list of IDs by keeping the first and last items with an ellipsis in between when truncated.
+ *
+ * @param ids - The array of string IDs to abbreviate.
+ * @param count - Number of items to retain at the start and end of the list (default is 5).
+ * @returns A new array of IDs, possibly containing '...' to indicate omitted entries.
+ */
+export function abbreviateIds(ids: string[], count: number = 5): string[] {
+  if (ids.length <= count * 2) {
+    return ids;
+  }
+  return [...ids.slice(0, count), "...", ...ids.slice(-count)];
+}

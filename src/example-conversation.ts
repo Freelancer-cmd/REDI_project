@@ -2,13 +2,7 @@ import { MCPClient } from "./mcp-client";
 import * as readline from "readline";
 import OpenAI from "openai";
 import fs from "fs";
-
-function abbreviateIds(ids: string[], count: number = 5): string[] {
-    if (ids.length <= count * 2) {
-        return ids;
-    }
-    return [...ids.slice(0, count), "...", ...ids.slice(-count)];
-}
+import {abbreviateIds} from "./utils/data";
 
 async function runEducationalAnalyticsDemo() {
     const client = new MCPClient();

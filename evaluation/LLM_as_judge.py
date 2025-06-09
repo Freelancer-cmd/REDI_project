@@ -43,18 +43,20 @@ def evaluate_conversations(input_file, output_file):
         data = json.load(f)
 
     results = []
+    total = len(data)
 
-    for conv in data:
+    for idx, conv in enumerate(data, start=1):
         conv_id = conv["conversation_id"]
+        print(f"Evaluating conversation {idx}/{total} (conversation_id={conv_id})")
         conv_text = format_conversation(conv["messages"])
         prompt = build_prompt(conv_text)
 
-        response = openai.ChatCompletion.create(
-            model="gpt-4",
+        response = openai.chat.completions.create(
+            model="gpt-4o",
             messages=[{"role": "user", "content": prompt}]
         )
 
-        evaluation = response["choices"][0]["message"]["content"]
+        evaluation = response.choices[0].message.content
         results.append({
             "conversation_id": conv_id,
             "evaluation": evaluation
