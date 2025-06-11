@@ -5,7 +5,7 @@ import OpenAI from "openai";
 
 dotenv.config();
 
-const MODELS = ["gpt-3.5-turbo", "gpt-4", "gpt-4o", "gpt-4.1", "o3", "o4-mini"];
+const MODELS = ["gpt-3.5-turbo", "gpt-4", "gpt-4o", "gpt-4.1", "gpt-4.1-nano", "o4-mini"];
 
 async function main() {
   const promptsByTool: Record<string, string[]> = JSON.parse(

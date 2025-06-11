@@ -52,3 +52,20 @@ for model, preds in model_results.items():
 
 # 4️⃣ Print the raw list of dicts
 import pprint; pprint.pprint(metrics)
+
+# Plot F1 scores for each model as a bar chart
+try:
+    import matplotlib.pyplot as plt
+except ImportError:
+    print("matplotlib is required for plotting F1 scores. Install via 'pip install matplotlib'")
+else:
+    models = [m["model"] for m in metrics]
+    f1_scores = [m["f1"] for m in metrics]
+    plt.figure()
+    plt.bar(models, f1_scores)
+    plt.xlabel("Model")
+    plt.ylabel("F1 Score")
+    plt.title("Model F1 Scores")
+    plt.xticks(rotation=45, ha="right")
+    plt.tight_layout()
+    plt.show()
