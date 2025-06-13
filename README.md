@@ -67,6 +67,14 @@ npm run evaluate:overwrite-prompts
 npm run evaluate:overwrite-conversations
 ```
 
+```bash
+# Run dialog-based context evaluation (25 multi-turn conversations):
+npm run evaluate:dialog
+
+# To regenerate only dialog conversations:
+npm run evaluate:dialog -- --overwrite
+```
+
 This will:
 
 1. Generate 50 diverse prompts per registered tool (valid, invalid, and incomplete questions).
@@ -95,4 +103,4 @@ The example conversation script provides both an interactive REPL and a predefin
 ## Learning Resources
 
 - [OpenAI Tools Documentation](https://platform.openai.com/docs/guides/function-calling)
-- [Model Context Protocol (MCP) Documentation](https://github.com/modelcontextprotocol)
+- [Model Context Protocol (MCP) Documentation](https://github.com/microsoft/modelcontextprotocol)
