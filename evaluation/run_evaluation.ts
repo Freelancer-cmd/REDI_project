@@ -144,7 +144,7 @@ Available domains (case-insensitive): a, b, c
   });
   const msg = response.choices[0].message;
   const content = msg && msg.content ? msg.content.trim() : "";
-  // Strip Markdown code fences to ensure pure JSON output
+  // Strip Markdown code fences to ensure pure JSON outp
   const cleaned = content.replace(/```(?:json)?/g, "").trim();
   try {
     return JSON.parse(cleaned);

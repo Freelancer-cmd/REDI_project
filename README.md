@@ -95,4 +95,4 @@ The example conversation script provides both an interactive REPL and a predefin
 ## Learning Resources
 
 - [OpenAI Tools Documentation](https://platform.openai.com/docs/guides/function-calling)
-- [Model Context Protocol (MCP) Documentation](https://github.com/microsoft/modelcontextprotocol)
+- [Model Context Protocol (MCP) Documentation](https://github.com/modelcontextprotocol)
